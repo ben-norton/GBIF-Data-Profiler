@@ -1,2 +1,4 @@
 # gbif-data-utils
-GBIF Data Parsing Utilities 
+GBIF Data Parsing Utilities using Python
+
+
