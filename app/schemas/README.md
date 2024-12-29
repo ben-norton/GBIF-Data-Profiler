@@ -9,4 +9,8 @@ This directory contains a set of scripts that inspects source files and generate
 1. You may need to alter the csv source path in the generator scripts
 2. Output is stored in timestamped directories in the format YYYYMMDD (day is the timestamp level of granularity)
 3. If the timestamp is unchanged (script is run twice on the same day), the scripts will overwrite existing output
+
+0049395-241126133413365/occurrence.csv Line 91976 reading wrong number of columns.
+Removed line and resaved as occurrence-b.csv
+
 Last Updated: 20241223

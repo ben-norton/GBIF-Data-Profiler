@@ -16,6 +16,8 @@ currentPath = Path().absolute()
 sourcePath = currentPath.parent.parent
 
 sourcePath = str(sourcePath) + '/data/' + archiveCode + '/'
+sourceFile = str(sourcePath) + 'occurrence-b.csv'
+
 # Timestamped output path
 targetPath = str(currentPath) + '/csvstats/' + str(ts)
 
@@ -23,10 +25,8 @@ targetPath = str(currentPath) + '/csvstats/' + str(ts)
 if not os.path.isdir(targetPath):
     os.mkdir(targetPath)
 
-# iterating over all files and generate stats
-sourceFiles = str(sourcePath) + "*.csv"
-for f in glob.glob(sourceFiles):
-    stemName = Path(f).stem
-    destFile = archiveCode + '-' + stemName + '-unique-csvstats.csv'
-    dest = str(targetPath) + '/' + destFile
-    os.system("csvstat -z 10000000 --unique " + f + " > " + dest)
+f = sourceFile
+stemName = Path(f).stem
+destFile = archiveCode + '-' + stemName + '-unique-csvstats.csv'
+dest = str(targetPath) + '/' + destFile
+os.system("csvstat -z 10000000 --unique " + f + " > " + dest)
