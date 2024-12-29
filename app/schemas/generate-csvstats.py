@@ -3,19 +3,21 @@ from datetime import date
 from pathlib import Path
 import os
 import glob
+import csv
+import sys
+
+archiveCode = '0049391-241126133413365'
 
 today = date.today()
 ts = today.strftime("%Y%m%d")
 
 # Paths
 currentPath = Path().absolute()
-projectPath = currentPath.parent.parent.parent
+sourcePath = currentPath.parent.parent
 
-# Source Files Path
-sourcePath = str(projectPath) + '/app/data/source/mids-repo/'
-
+sourcePath = str(sourcePath) + '/data/' + archiveCode + '/'
 # Timestamped output path
-targetPath = str(currentPath)+'/csvstats/'+str(ts)
+targetPath = str(currentPath) + '/csvstats/' + str(ts)
 
 # Create timestamped folder if it doesn't exist
 if not os.path.isdir(targetPath):
@@ -25,11 +27,6 @@ if not os.path.isdir(targetPath):
 sourceFiles = str(sourcePath) + "*.csv"
 for f in glob.glob(sourceFiles):
     stemName = Path(f).stem
-    if(stemName == 'mids_information_elements_draft'):
-        destFile = 'mids-information-elements-csvstats.csv'
-    elif(stemName == 'MIDS-levels-draft'):
-        destFile = 'mids-levels-csvstats.csv'
-    else:
-        destFile = stemName + '-csvstats.csv'
+    destFile = archiveCode + '-' + stemName + '-unique-csvstats.csv'
     dest = str(targetPath) + '/' + destFile
-    os.system("csvstat " + f + " > " + dest)
+    os.system("csvstat -z 10000000 --unique " + f + " > " + dest)

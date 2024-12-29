@@ -1,0 +1,223 @@
+  1. gbifID: 338094
+  2. accessRights: 1
+  3. bibliographicCitation: 1
+  4. language: 1
+  5. license: 1
+  6. modified: 10795
+  7. publisher: 1
+  8. references: 1
+  9. rightsHolder: 1
+ 10. type: 1
+ 11. institutionID: 1
+ 12. collectionID: 7
+ 13. datasetID: 1
+ 14. institutionCode: 2
+ 15. collectionCode: 7
+ 16. datasetName: 1
+ 17. ownerInstitutionCode: 1
+ 18. basisOfRecord: 1
+ 19. informationWithheld: 1
+ 20. dataGeneralizations: 1
+ 21. dynamicProperties: 1
+ 22. occurrenceID: 338094
+ 23. catalogNumber: 225832
+ 24. recordNumber: 102948
+ 25. recordedBy: 8091
+ 26. recordedByID: 1
+ 27. individualCount: 20
+ 28. organismQuantity: 1
+ 29. organismQuantityType: 1
+ 30. sex: 4
+ 31. lifeStage: 26
+ 32. reproductiveCondition: 1
+ 33. caste: 1
+ 34. behavior: 1
+ 35. vitality: 1
+ 36. establishmentMeans: 1
+ 37. degreeOfEstablishment: 1
+ 38. pathway: 1
+ 39. georeferenceVerificationStatus: 1
+ 40. occurrenceStatus: 1
+ 41. preparations: 35
+ 42. disposition: 4
+ 43. associatedOccurrences: 1
+ 44. associatedReferences: 1
+ 45. associatedSequences: 25140
+ 46. associatedTaxa: 1
+ 47. otherCatalogNumbers: 1
+ 48. occurrenceRemarks: 28685
+ 49. organismID: 1
+ 50. organismName: 2
+ 51. organismScope: 2
+ 52. associatedOrganisms: 2
+ 53. previousIdentifications: 2
+ 54. organismRemarks: 1
+ 55. materialEntityID: 1
+ 56. materialEntityRemarks: 2
+ 57. verbatimLabel: 6
+ 58. materialSampleID: 253109
+ 59. eventID: 3
+ 60. parentEventID: 2
+ 61. eventType: 2
+ 62. fieldNumber: 7066
+ 63. eventDate: 23012
+ 64. eventTime: 2
+ 65. startDayOfYear: 368
+ 66. endDayOfYear: 368
+ 67. year: 158
+ 68. month: 13
+ 69. day: 33
+ 70. verbatimEventDate: 10232
+ 71. habitat: 5075
+ 72. samplingProtocol: 1
+ 73. sampleSizeValue: 1
+ 74. sampleSizeUnit: 1
+ 75. samplingEffort: 1
+ 76. fieldNotes: 1
+ 77. eventRemarks: 1
+ 78. locationID: 4571
+ 79. higherGeographyID: 1
+ 80. higherGeography: 7780
+ 81. continent: 8
+ 82. waterBody: 218
+ 83. islandGroup: 101
+ 84. island: 567
+ 85. countryCode: 204
+ 86. stateProvince: 1647
+ 87. county: 3054
+ 88. municipality: 1
+ 89. locality: 31945
+ 90. verbatimLocality: 1
+ 91. verbatimElevation: 914
+ 92. verticalDatum: 1
+ 93. verbatimDepth: 60
+ 94. minimumDistanceAboveSurfaceInMeters: 3
+ 95. maximumDistanceAboveSurfaceInMeters: 1
+ 96. locationAccordingTo: 1
+ 97. locationRemarks: 1
+ 98. decimalLatitude: 22661
+ 99. decimalLongitude: 21515
+100. coordinateUncertaintyInMeters: 454
+101. coordinatePrecision: 1
+102. pointRadiusSpatialFit: 5
+103. verbatimCoordinateSystem: 7
+104. verbatimSRS: 1
+105. footprintWKT: 1
+106. footprintSRS: 1
+107. footprintSpatialFit: 1
+108. georeferencedBy: 5
+109. georeferencedDate: 1
+110. georeferenceProtocol: 173
+111. georeferenceSources: 1
+112. georeferenceRemarks: 225
+113. geologicalContextID: 1
+114. earliestEonOrLowestEonothem: 1
+115. latestEonOrHighestEonothem: 5
+116. earliestEraOrLowestErathem: 3
+117. latestEraOrHighestErathem: 3
+118. earliestPeriodOrLowestSystem: 3
+119. latestPeriodOrHighestSystem: 4
+120. earliestEpochOrLowestSeries: 1
+121. latestEpochOrHighestSeries: 5
+122. earliestAgeOrLowestStage: 1
+123. latestAgeOrHighestStage: 1
+124. lowestBiostratigraphicZone: 1
+125. highestBiostratigraphicZone: 5
+126. lithostratigraphicTerms: 5
+127. group: 1
+128. formation: 1
+129. member: 4
+130. bed: 1
+131. identificationID: 1
+132. verbatimIdentification: 3
+133. identificationQualifier: 17
+134. typeStatus: 11
+135. identifiedBy: 1867
+136. identifiedByID: 2
+137. dateIdentified: 1
+138. identificationReferences: 1
+139. identificationVerificationStatus: 2
+140. identificationRemarks: 2
+141. taxonID: 5
+142. scientificNameID: 3
+143. acceptedNameUsageID: 44953
+144. parentNameUsageID: 1
+145. originalNameUsageID: 1
+146. nameAccordingToID: 1
+147. namePublishedInID: 4
+148. taxonConceptID: 1
+149. scientificName: 45748
+150. acceptedNameUsage: 2
+151. parentNameUsage: 5
+152. originalNameUsage: 5
+153. nameAccordingTo: 3
+154. namePublishedIn: 3
+155. namePublishedInYear: 3
+156. higherClassification: 4819
+157. kingdom: 11
+158. phylum: 45
+159. class: 106
+160. order: 535
+161. superfamily: 4
+162. family: 3098
+163. subfamily: 5
+164. tribe: 1
+165. subtribe: 2
+166. genus: 19312
+167. genericName: 19281
+168. subgenus: 2
+169. infragenericEpithet: 1
+170. specificEpithet: 22411
+171. infraspecificEpithet: 1599
+172. cultivarEpithet: 4
+173. taxonRank: 12
+174. verbatimTaxonRank: 4
+175. vernacularName: 4
+176. nomenclaturalCode: 4
+177. taxonomicStatus: 7
+178. nomenclaturalStatus: 3
+179. taxonRemarks: 3
+180. datasetKey: 3
+181. publishingCountry: 3
+182. lastInterpreted: 31890
+183. elevation: 2735
+184. elevationAccuracy: 162
+185. depth: 2254
+186. depthAccuracy: 240
+187. distanceFromCentroidInMeters: 171
+188. issue: 173
+189. mediaType: 20
+190. hasCoordinate: 3
+191. hasGeospatialIssues: 3
+192. taxonKey: 45747
+193. acceptedTaxonKey: 44952
+194. kingdomKey: 7
+195. phylumKey: 41
+196. classKey: 106
+197. orderKey: 532
+198. familyKey: 3095
+199. genusKey: 19383
+200. subgenusKey: 1
+201. speciesKey: 37033
+202. species: 37026
+203. acceptedScientificName: 44952
+204. verbatimScientificName: 46009
+205. typifiedName: 14
+206. protocol: 2
+207. lastParsed: 31888
+208. lastCrawled: 2
+209. repatriated: 3
+210. relativeOrganismQuantity: 1
+211. projectId: 1
+212. isSequenced: 3
+213. gbifRegion: 8
+214. publishedByGbifRegion: 2
+215. level0Gid: 175
+216. level0Name: 175
+217. level1Gid: 1236
+218. level1Name: 1202
+219. level2Gid: 4285
+220. level2Name: 3707
+221. level3Gid: 1718
+222. level3Name: 1654
+223. iucnRedListCategory: 10

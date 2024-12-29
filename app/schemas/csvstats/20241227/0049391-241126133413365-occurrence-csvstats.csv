@@ -1,0 +1,2363 @@
+  1. "gbifID"
+
+	Type of data:          Number
+	Contains null values:  False
+	Non-null values:       724508
+	Unique values:         724508
+	Smallest value:        1,316,557,246
+	Largest value:         4,987,259,380
+	Sum:                   1,079,344,410,100,518
+	Mean:                  1,489,761,893.727
+	Median:                1,316,919,583.5
+	StDev:                 567,530,383.095
+	Most decimal places:   0
+	Most common values:    1,316,557,253 (1x)
+	                       2,235,727,162 (1x)
+	                       1,316,557,263 (1x)
+	                       1,316,557,258 (1x)
+	                       1,316,557,269 (1x)
+
+  2. "accessRights"
+
+	Type of data:          Boolean
+	Contains null values:  True (excluded from calculations)
+	Non-null values:       0
+	Unique values:         1
+	Most common values:    None (724508x)
+
+  3. "bibliographicCitation"
+
+	Type of data:          Boolean
+	Contains null values:  True (excluded from calculations)
+	Non-null values:       0
+	Unique values:         1
+	Most common values:    None (724508x)
+
+  4. "language"
+
+	Type of data:          Boolean
+	Contains null values:  True (excluded from calculations)
+	Non-null values:       0
+	Unique values:         1
+	Most common values:    None (724508x)
+
+  5. "license"
+
+	Type of data:          Text
+	Contains null values:  False
+	Non-null values:       724508
+	Unique values:         1
+	Longest value:         7 characters
+	Most common values:    CC0_1_0 (724508x)
+
+  6. "modified"
+
+	Type of data:          DateTime
+	Contains null values:  False
+	Non-null values:       724508
+	Unique values:         6008
+	Smallest value:        2014-11-24 09:48:00+00:00
+	Largest value:         2024-11-28 11:20:00+00:00
+	Most common values:    2024-08-03 22:06:00+00:00 (11077x)
+	                       2024-08-03 22:09:00+00:00 (9194x)
+	                       2024-08-03 22:08:00+00:00 (6946x)
+	                       2024-11-18 11:29:00+00:00 (6500x)
+	                       2024-11-18 11:28:00+00:00 (6488x)
+
+  7. "publisher"
+
+	Type of data:          Text
+	Contains null values:  False
+	Non-null values:       724508
+	Unique values:         1
+	Longest value:         59 characters
+	Most common values:    National Museum of Natural History, Smithsonian Institution (724508x)
+
+  8. "references"
+
+	Type of data:          Boolean
+	Contains null values:  True (excluded from calculations)
+	Non-null values:       0
+	Unique values:         1
+	Most common values:    None (724508x)
+
+  9. "rightsHolder"
+
+	Type of data:          Boolean
+	Contains null values:  True (excluded from calculations)
+	Non-null values:       0
+	Unique values:         1
+	Most common values:    None (724508x)
+
+ 10. "type"
+
+	Type of data:          Boolean
+	Contains null values:  True (excluded from calculations)
+	Non-null values:       0
+	Unique values:         1
+	Most common values:    None (724508x)
+
+ 11. "institutionID"
+
+	Type of data:          Text
+	Contains null values:  False
+	Non-null values:       724508
+	Unique values:         1
+	Longest value:         47 characters
+	Most common values:    http://biocol.org/urn:lsid:biocol.org:col:34871 (724508x)
+
+ 12. "collectionID"
+
+	Type of data:          Text
+	Contains null values:  False
+	Non-null values:       724508
+	Unique values:         1
+	Longest value:         44 characters
+	Most common values:    urn:uuid:ce595e88-ceba-42c0-a3ff-cd55b694fac (724508x)
+
+ 13. "datasetID"
+
+	Type of data:          Boolean
+	Contains null values:  True (excluded from calculations)
+	Non-null values:       0
+	Unique values:         1
+	Most common values:    None (724508x)
+
+ 14. "institutionCode"
+
+	Type of data:          Text
+	Contains null values:  False
+	Non-null values:       724508
+	Unique values:         1
+	Longest value:         4 characters
+	Most common values:    USNM (724508x)
+
+ 15. "collectionCode"
+
+	Type of data:          Text
+	Contains null values:  False
+	Non-null values:       724508
+	Unique values:         1
+	Longest value:         3 characters
+	Most common values:    PAL (724508x)
+
+ 16. "datasetName"
+
+	Type of data:          Text
+	Contains null values:  False
+	Non-null values:       724508
+	Unique values:         1
+	Longest value:         24 characters
+	Most common values:    NMNH Paleobiology (USNM) (724508x)
+
+ 17. "ownerInstitutionCode"
+
+	Type of data:          Boolean
+	Contains null values:  True (excluded from calculations)
+	Non-null values:       0
+	Unique values:         1
+	Most common values:    None (724508x)
+
+ 18. "basisOfRecord"
+
+	Type of data:          Text
+	Contains null values:  False
+	Non-null values:       724508
+	Unique values:         1
+	Longest value:         15 characters
+	Most common values:    FOSSIL_SPECIMEN (724508x)
+
+ 19. "informationWithheld"
+
+	Type of data:          Boolean
+	Contains null values:  True (excluded from calculations)
+	Non-null values:       0
+	Unique values:         1
+	Most common values:    None (724508x)
+
+ 20. "dataGeneralizations"
+
+	Type of data:          Boolean
+	Contains null values:  True (excluded from calculations)
+	Non-null values:       0
+	Unique values:         1
+	Most common values:    None (724508x)
+
+ 21. "dynamicProperties"
+
+	Type of data:          Boolean
+	Contains null values:  True (excluded from calculations)
+	Non-null values:       0
+	Unique values:         1
+	Most common values:    None (724508x)
+
+ 22. "occurrenceID"
+
+	Type of data:          Text
+	Contains null values:  False
+	Non-null values:       724508
+	Unique values:         724508
+	Longest value:         63 characters
+	Most common values:    http://n2t.net/ark:/65665/300009e1e-4f3e-4240-b198-9ea1352b28b5 (1x)
+	                       http://n2t.net/ark:/65665/30000a59d-34e5-42b6-837d-ad1b89b6b930 (1x)
+	                       http://n2t.net/ark:/65665/3000109b9-b6d6-4ca0-8f0c-ddde53458300 (1x)
+	                       http://n2t.net/ark:/65665/30001bcd8-61d5-492a-ad56-f8131f24bdaa (1x)
+	                       http://n2t.net/ark:/65665/300020a6b-970f-4e44-adb4-6d605be80b0d (1x)
+
+ 23. "catalogNumber"
+
+	Type of data:          Text
+	Contains null values:  True (excluded from calculations)
+	Non-null values:       673973
+	Unique values:         655082
+	Longest value:         21 characters
+	Most common values:    None (50535x)
+	                       USNM V8191 (12x)
+	                       USNM V3792 (10x)
+	                       USNM V16314 (9x)
+	                       USNM V12261 (9x)
+
+ 24. "recordNumber"
+
+	Type of data:          Text
+	Contains null values:  True (excluded from calculations)
+	Non-null values:       48557
+	Unique values:         39872
+	Longest value:         48 characters
+	Most common values:    None (675951x)
+	                       HASS C-29 (168x)
+	                       M-16 (148x)
+	                       PALMER LOC 1479 (76x)
+	                       E-WYO-71-270 (65x)
+
+ 25. "recordedBy"
+
+	Type of data:          Text
+	Contains null values:  True (excluded from calculations)
+	Non-null values:       161011
+	Unique values:         3958
+	Longest value:         119 characters
+	Most common values:    None (563497x)
+	                       James (9320x)
+	                       L. Pribyl (8943x)
+	                       W. Woodring (7194x)
+	                       A. Olsson (3024x)
+
+ 26. "recordedByID"
+
+	Type of data:          Boolean
+	Contains null values:  True (excluded from calculations)
+	Non-null values:       0
+	Unique values:         1
+	Most common values:    None (724508x)
+
+ 27. "individualCount"
+
+	Type of data:          Number
+	Contains null values:  True (excluded from calculations)
+	Non-null values:       724205
+	Unique values:         687
+	Smallest value:        0
+	Largest value:         15,000
+	Sum:                   8,576,019
+	Mean:                  11.842
+	Median:                1
+	StDev:                 133.853
+	Most decimal places:   0
+	Most common values:    1 (594864x)
+	                       2 (29629x)
+	                       3 (14673x)
+	                       4 (9858x)
+	                       5 (7420x)
+
+ 28. "organismQuantity"
+
+	Type of data:          Boolean
+	Contains null values:  True (excluded from calculations)
+	Non-null values:       0
+	Unique values:         1
+	Most common values:    None (724508x)
+
+ 29. "organismQuantityType"
+
+	Type of data:          Boolean
+	Contains null values:  True (excluded from calculations)
+	Non-null values:       0
+	Unique values:         1
+	Most common values:    None (724508x)
+
+ 30. "sex"
+
+	Type of data:          Boolean
+	Contains null values:  True (excluded from calculations)
+	Non-null values:       0
+	Unique values:         1
+	Most common values:    None (724508x)
+
+ 31. "lifeStage"
+
+	Type of data:          Boolean
+	Contains null values:  True (excluded from calculations)
+	Non-null values:       0
+	Unique values:         1
+	Most common values:    None (724508x)
+
+ 32. "reproductiveCondition"
+
+	Type of data:          Boolean
+	Contains null values:  True (excluded from calculations)
+	Non-null values:       0
+	Unique values:         1
+	Most common values:    None (724508x)
+
+ 33. "caste"
+
+	Type of data:          Boolean
+	Contains null values:  True (excluded from calculations)
+	Non-null values:       0
+	Unique values:         1
+	Most common values:    None (724508x)
+
+ 34. "behavior"
+
+	Type of data:          Boolean
+	Contains null values:  True (excluded from calculations)
+	Non-null values:       0
+	Unique values:         1
+	Most common values:    None (724508x)
+
+ 35. "vitality"
+
+	Type of data:          Boolean
+	Contains null values:  True (excluded from calculations)
+	Non-null values:       0
+	Unique values:         1
+	Most common values:    None (724508x)
+
+ 36. "establishmentMeans"
+
+	Type of data:          Boolean
+	Contains null values:  True (excluded from calculations)
+	Non-null values:       0
+	Unique values:         1
+	Most common values:    None (724508x)
+
+ 37. "degreeOfEstablishment"
+
+	Type of data:          Boolean
+	Contains null values:  True (excluded from calculations)
+	Non-null values:       0
+	Unique values:         1
+	Most common values:    None (724508x)
+
+ 38. "pathway"
+
+	Type of data:          Boolean
+	Contains null values:  True (excluded from calculations)
+	Non-null values:       0
+	Unique values:         1
+	Most common values:    None (724508x)
+
+ 39. "georeferenceVerificationStatus"
+
+	Type of data:          Boolean
+	Contains null values:  True (excluded from calculations)
+	Non-null values:       0
+	Unique values:         1
+	Most common values:    None (724508x)
+
+ 40. "occurrenceStatus"
+
+	Type of data:          Text
+	Contains null values:  False
+	Non-null values:       724508
+	Unique values:         1
+	Longest value:         7 characters
+	Most common values:    PRESENT (724508x)
+
+ 41. "preparations"
+
+	Type of data:          Text
+	Contains null values:  True (excluded from calculations)
+	Non-null values:       132908
+	Unique values:         382
+	Longest value:         94 characters
+	Most common values:    None (591600x)
+	                       Microslide (44071x)
+	                       Secondary microslides (33224x)
+	                       Thin sections no remnants (13007x)
+	                       Unsectioned (8142x)
+
+ 42. "disposition"
+
+	Type of data:          Boolean
+	Contains null values:  True (excluded from calculations)
+	Non-null values:       0
+	Unique values:         1
+	Most common values:    None (724508x)
+
+ 43. "associatedOccurrences"
+
+	Type of data:          Boolean
+	Contains null values:  True (excluded from calculations)
+	Non-null values:       0
+	Unique values:         1
+	Most common values:    None (724508x)
+
+ 44. "associatedReferences"
+
+	Type of data:          Boolean
+	Contains null values:  True (excluded from calculations)
+	Non-null values:       0
+	Unique values:         1
+	Most common values:    None (724508x)
+
+ 45. "associatedSequences"
+
+	Type of data:          Boolean
+	Contains null values:  True (excluded from calculations)
+	Non-null values:       0
+	Unique values:         1
+	Most common values:    None (724508x)
+
+ 46. "associatedTaxa"
+
+	Type of data:          Boolean
+	Contains null values:  True (excluded from calculations)
+	Non-null values:       0
+	Unique values:         1
+	Most common values:    None (724508x)
+
+ 47. "otherCatalogNumbers"
+
+	Type of data:          Boolean
+	Contains null values:  True (excluded from calculations)
+	Non-null values:       0
+	Unique values:         1
+	Most common values:    None (724508x)
+
+ 48. "occurrenceRemarks"
+
+	Type of data:          Text
+	Contains null values:  True (excluded from calculations)
+	Non-null values:       86249
+	Unique values:         38196
+	Longest value:         1,257 characters
+	Most common values:    None (638259x)
+	                       EMu record was created as part of the Smithsonian Institution Digitization Program Office (SI DPO) mass digitization project to support the National Science Foundation Advancing Digitization of Biodiversity Collections Eastern Pacific Invertebrates of the Cenozoic Collaborative Thematic Collections Network (NSF ADBC EPICC TCN). (24357x)
+	                       EMu record was created as part of the Smithsonian Institution Digitization Program Office (SI DPO) mass digitization pilot project to support the National Science Foundation Advancing Digitization of Biodiversity Collections Eastern Pacific Invertebrates of the Cenozoic Collaborative Thematic Collections Network (NSF ADBC EPICC TCN). The SI DPO mass digitization pilot workflow includes crowdsourced label transcription through the SI Transcription Center. (4907x)
+	                       EMu record was created as part of the Smithsonian Institution Digitization Program Office (SI DPO) mass digitization pilot project to support the National Science Foundation Advancing Digitization of Biodiversity Collections Eastern Pacific Invertebrates of the Cenozoic Collaborative Thematic Collections Network (NSF ADBC EPICC TCN). The SI DPO mass digitization pilot workflow includes crowdsourced label transcription through the SI Transcription Center.; Information generated by NMNH Department of Paleobiology volunteers: Specimen count and preliminary identification to class. (4174x)
+	                       EMu record was created as part of the Smithsonian Institution Digitization Program Office (SI DPO) mass digitization pilot project to support the National Science Foundation Advancing Digitization of Biodiversity Collections Eastern Pacific Invertebrates of the Cenozoic Collaborative Thematic Collections Network (NSF ADBC EPICC TCN). The SI DPO mass digitization pilot workflow includes crowdsourced label transcription through the SI Transcription Center.; Information generated by NMNH Department of Paleobiology volunteers: Specimen count and preliminary identification to class. Specimen count is currently listed as 1 lot(s) until the provided estimate is reviewed. (529x)
+
+ 49. "organismID"
+
+	Type of data:          Boolean
+	Contains null values:  True (excluded from calculations)
+	Non-null values:       0
+	Unique values:         1
+	Most common values:    None (724508x)
+
+ 50. "organismName"
+
+	Type of data:          Boolean
+	Contains null values:  True (excluded from calculations)
+	Non-null values:       0
+	Unique values:         1
+	Most common values:    None (724508x)
+
+ 51. "organismScope"
+
+	Type of data:          Boolean
+	Contains null values:  True (excluded from calculations)
+	Non-null values:       0
+	Unique values:         1
+	Most common values:    None (724508x)
+
+ 52. "associatedOrganisms"
+
+	Type of data:          Boolean
+	Contains null values:  True (excluded from calculations)
+	Non-null values:       0
+	Unique values:         1
+	Most common values:    None (724508x)
+
+ 53. "previousIdentifications"
+
+	Type of data:          Boolean
+	Contains null values:  True (excluded from calculations)
+	Non-null values:       0
+	Unique values:         1
+	Most common values:    None (724508x)
+
+ 54. "organismRemarks"
+
+	Type of data:          Boolean
+	Contains null values:  True (excluded from calculations)
+	Non-null values:       0
+	Unique values:         1
+	Most common values:    None (724508x)
+
+ 55. "materialEntityID"
+
+	Type of data:          Boolean
+	Contains null values:  True (excluded from calculations)
+	Non-null values:       0
+	Unique values:         1
+	Most common values:    None (724508x)
+
+ 56. "materialEntityRemarks"
+
+	Type of data:          Boolean
+	Contains null values:  True (excluded from calculations)
+	Non-null values:       0
+	Unique values:         1
+	Most common values:    None (724508x)
+
+ 57. "verbatimLabel"
+
+	Type of data:          Boolean
+	Contains null values:  True (excluded from calculations)
+	Non-null values:       0
+	Unique values:         1
+	Most common values:    None (724508x)
+
+ 58. "materialSampleID"
+
+	Type of data:          Boolean
+	Contains null values:  True (excluded from calculations)
+	Non-null values:       0
+	Unique values:         1
+	Most common values:    None (724508x)
+
+ 59. "eventID"
+
+	Type of data:          Boolean
+	Contains null values:  True (excluded from calculations)
+	Non-null values:       0
+	Unique values:         1
+	Most common values:    None (724508x)
+
+ 60. "parentEventID"
+
+	Type of data:          Boolean
+	Contains null values:  True (excluded from calculations)
+	Non-null values:       0
+	Unique values:         1
+	Most common values:    None (724508x)
+
+ 61. "eventType"
+
+	Type of data:          Boolean
+	Contains null values:  True (excluded from calculations)
+	Non-null values:       0
+	Unique values:         1
+	Most common values:    None (724508x)
+
+ 62. "fieldNumber"
+
+	Type of data:          Text
+	Contains null values:  True (excluded from calculations)
+	Non-null values:       4464
+	Unique values:         1517
+	Longest value:         209 characters
+	Most common values:    None (720044x)
+	                       82-10; 82-19; 82-21; 82-22; 82-4; 82-6; 82-7 (767x)
+	                       MTC-04028; MTC-04028A; MTC-04028AA; MTC-04028B; MTC-04028BB; MTC-04028C; MTC-04028CC; MTC-04028D; MTC-04028DD; MTC-04028E; MTC-04028EE; MTC-04028F; MTC-04028FF; MTC-04028G; MTC-04028GG; MTC-04028H; MTC-04028HH (329x)
+	                       MTC-05013; MTC-05013A; MTC-05013B; MTC-05013D; MTC-05013E; MTC-05013G; MTC-05013I; MTC-05013J; MTC-05013K; MTC-05013L; MTC-05013M; MTC-05013N; MTC-05013-S (205x)
+	                       W63c (153x)
+
+ 63. "eventDate"
+
+	Type of data:          Text
+	Contains null values:  True (excluded from calculations)
+	Non-null values:       249947
+	Unique values:         17206
+	Longest value:         21 characters
+	Most common values:    None (474561x)
+	                       1999 (3773x)
+	                       1980 (3743x)
+	                       1982 (3572x)
+	                       1984-02 (3350x)
+
+ 64. "eventTime"
+
+	Type of data:          Boolean
+	Contains null values:  True (excluded from calculations)
+	Non-null values:       0
+	Unique values:         1
+	Most common values:    None (724508x)
+
+ 65. "startDayOfYear"
+
+	Type of data:          Number
+	Contains null values:  True (excluded from calculations)
+	Non-null values:       130585
+	Unique values:         367
+	Smallest value:        1
+	Largest value:         366
+	Sum:                   25,108,513
+	Mean:                  192.277
+	Median:                201
+	StDev:                 78.764
+	Most decimal places:   0
+	Most common values:    None (593923x)
+	                       198 (1192x)
+	                       191 (1146x)
+	                       195 (1139x)
+	                       223 (1099x)
+
+ 66. "endDayOfYear"
+
+	Type of data:          Number
+	Contains null values:  True (excluded from calculations)
+	Non-null values:       130585
+	Unique values:         367
+	Smallest value:        1
+	Largest value:         366
+	Sum:                   25,127,686
+	Mean:                  192.424
+	Median:                201
+	StDev:                 78.669
+	Most decimal places:   0
+	Most common values:    None (593923x)
+	                       198 (1191x)
+	                       191 (1141x)
+	                       195 (1132x)
+	                       196 (1085x)
+
+ 67. "year"
+
+	Type of data:          Number
+	Contains null values:  True (excluded from calculations)
+	Non-null values:       249824
+	Unique values:         191
+	Smallest value:        1,805
+	Largest value:         2,023
+	Sum:                   489,789,697
+	Mean:                  1,960.539
+	Median:                1,970
+	StDev:                 30.377
+	Most decimal places:   0
+	Most common values:    None (474684x)
+	                       1,980 (7356x)
+	                       1,981 (7186x)
+	                       1,982 (7123x)
+	                       1,976 (6483x)
+
+ 68. "month"
+
+	Type of data:          Number
+	Contains null values:  True (excluded from calculations)
+	Non-null values:       151768
+	Unique values:         13
+	Smallest value:        1
+	Largest value:         12
+	Sum:                   1,019,666
+	Mean:                  6.719
+	Median:                7
+	StDev:                 2.662
+	Most decimal places:   0
+	Most common values:    None (572740x)
+	                       8 (25644x)
+	                       7 (25351x)
+	                       6 (14941x)
+	                       5 (14611x)
+
+ 69. "day"
+
+	Type of data:          Number
+	Contains null values:  True (excluded from calculations)
+	Non-null values:       128064
+	Unique values:         32
+	Smallest value:        1
+	Largest value:         31
+	Sum:                   2,026,450
+	Mean:                  15.824
+	Median:                16
+	StDev:                 8.581
+	Most decimal places:   0
+	Most common values:    None (596444x)
+	                       17 (5139x)
+	                       16 (4975x)
+	                       18 (4960x)
+	                       13 (4630x)
+
+ 70. "verbatimEventDate"
+
+	Type of data:          Text
+	Contains null values:  True (excluded from calculations)
+	Non-null values:       278694
+	Unique values:         17806
+	Longest value:         61 characters
+	Most common values:    None (445814x)
+	                       -- --- ---- (16499x)
+	                       -- --- 1910 TO -- --- 1917 (6616x)
+	                       Summer 1999 (3559x)
+	                       -- --- 1980 (3498x)
+
+ 71. "habitat"
+
+	Type of data:          Boolean
+	Contains null values:  True (excluded from calculations)
+	Non-null values:       0
+	Unique values:         1
+	Most common values:    None (724508x)
+
+ 72. "samplingProtocol"
+
+	Type of data:          Boolean
+	Contains null values:  True (excluded from calculations)
+	Non-null values:       0
+	Unique values:         1
+	Most common values:    None (724508x)
+
+ 73. "sampleSizeValue"
+
+	Type of data:          Boolean
+	Contains null values:  True (excluded from calculations)
+	Non-null values:       0
+	Unique values:         1
+	Most common values:    None (724508x)
+
+ 74. "sampleSizeUnit"
+
+	Type of data:          Boolean
+	Contains null values:  True (excluded from calculations)
+	Non-null values:       0
+	Unique values:         1
+	Most common values:    None (724508x)
+
+ 75. "samplingEffort"
+
+	Type of data:          Boolean
+	Contains null values:  True (excluded from calculations)
+	Non-null values:       0
+	Unique values:         1
+	Most common values:    None (724508x)
+
+ 76. "fieldNotes"
+
+	Type of data:          Boolean
+	Contains null values:  True (excluded from calculations)
+	Non-null values:       0
+	Unique values:         1
+	Most common values:    None (724508x)
+
+ 77. "eventRemarks"
+
+	Type of data:          Boolean
+	Contains null values:  True (excluded from calculations)
+	Non-null values:       0
+	Unique values:         1
+	Most common values:    None (724508x)
+
+ 78. "locationID"
+
+	Type of data:          Text
+	Contains null values:  True (excluded from calculations)
+	Non-null values:       389097
+	Unique values:         66560
+	Longest value:         61 characters
+	Most common values:    None (335411x)
+	                       42246 (30863x)
+	                       35K (30551x)
+	                       40193 (3269x)
+	                       41142 (2897x)
+
+ 79. "higherGeographyID"
+
+	Type of data:          Boolean
+	Contains null values:  True (excluded from calculations)
+	Non-null values:       0
+	Unique values:         1
+	Most common values:    None (724508x)
+
+ 80. "higherGeography"
+
+	Type of data:          Text
+	Contains null values:  True (excluded from calculations)
+	Non-null values:       576091
+	Unique values:         4709
+	Longest value:         111 characters
+	Most common values:    None (148417x)
+	                       North America, United States, North Carolina, Beaufort County (33410x)
+	                       North America, Canada, British Columbia (31869x)
+	                       North America, United States, Colorado (31829x)
+	                       North America, United States, Alaska (26436x)
+
+ 81. "continent"
+
+	Type of data:          Text
+	Contains null values:  True (excluded from calculations)
+	Non-null values:       529340
+	Unique values:         8
+	Longest value:         13 characters
+	Most common values:    NORTH_AMERICA (480938x)
+	                       None (195168x)
+	                       SOUTH_AMERICA (11223x)
+	                       EUROPE (9975x)
+	                       ASIA (9042x)
+
+ 82. "waterBody"
+
+	Type of data:          Text
+	Contains null values:  True (excluded from calculations)
+	Non-null values:       27657
+	Unique values:         173
+	Longest value:         61 characters
+	Most common values:    None (696851x)
+	                       North Atlantic Ocean (7890x)
+	                       North Pacific Ocean (6959x)
+	                       Indian Ocean, Timor Sea (2475x)
+	                       North Atlantic Ocean, Gulf of Mexico (1692x)
+
+ 83. "islandGroup"
+
+	Type of data:          Text
+	Contains null values:  True (excluded from calculations)
+	Non-null values:       798
+	Unique values:         34
+	Longest value:         25 characters
+	Most common values:    None (723710x)
+	                       Marshall Islands (241x)
+	                       Mariana Islands (141x)
+	                       Gilbert Islands (135x)
+	                       Northern Marianas Islands (120x)
+
+ 84. "island"
+
+	Type of data:          Text
+	Contains null values:  True (excluded from calculations)
+	Non-null values:       10107
+	Unique values:         88
+	Longest value:         21 characters
+	Most common values:    None (714401x)
+	                       Oahu (5926x)
+	                       Molokai (2218x)
+	                       Saint Helena (938x)
+	                       Saipan (132x)
+
+ 85. "countryCode"
+
+	Type of data:          Text
+	Contains null values:  True (excluded from calculations)
+	Non-null values:       566086
+	Unique values:         186
+	Longest value:         2 characters
+	Most common values:    US (428942x)
+	                       None (158422x)
+	                       CA (39076x)
+	                       PA (8629x)
+	                       DO (6290x)
+
+ 86. "stateProvince"
+
+	Type of data:          Text
+	Contains null values:  True (excluded from calculations)
+	Non-null values:       498046
+	Unique values:         893
+	Longest value:         25 characters
+	Most common values:    None (226462x)
+	                       North Carolina (43580x)
+	                       Texas (38253x)
+	                       Colorado (35917x)
+	                       British Columbia (32085x)
+
+ 87. "county"
+
+	Type of data:          Text
+	Contains null values:  True (excluded from calculations)
+	Non-null values:       270075
+	Unique values:         1998
+	Longest value:         34 characters
+	Most common values:    None (454433x)
+	                       Beaufort County (33437x)
+	                       Brewster County (15677x)
+	                       Maui County (10401x)
+	                       Los Angeles County (8851x)
+
+ 88. "municipality"
+
+	Type of data:          Boolean
+	Contains null values:  True (excluded from calculations)
+	Non-null values:       0
+	Unique values:         1
+	Most common values:    None (724508x)
+
+ 89. "locality"
+
+	Type of data:          Text
+	Contains null values:  True (excluded from calculations)
+	Non-null values:       163636
+	Unique values:         31755
+	Longest value:         471 characters
+	Most common values:    None (560872x)
+	                       Coast (3193x)
+	                       Delaware Bay (1386x)
+	                       Gulf Of Mexico (1336x)
+	                       Puerto Rico, South Coast (894x)
+
+ 90. "verbatimLocality"
+
+	Type of data:          Boolean
+	Contains null values:  True (excluded from calculations)
+	Non-null values:       0
+	Unique values:         1
+	Most common values:    None (724508x)
+
+ 91. "verbatimElevation"
+
+	Type of data:          Text
+	Contains null values:  True (excluded from calculations)
+	Non-null values:       197
+	Unique values:         8
+	Longest value:         88 characters
+	Most common values:    None (724311x)
+	                       Elevation for Rampart Cave derived from Google Earth by Dr. Jim Mead on 4 Decemeber 2023 (161x)
+	                       Approx. 220ft Above Top Of C+B Unit A, Mound Horizon, Subunit B, C+B Interval 15 (14x)
+	                       Approx.450-500ft Above Base Of Fm (11x)
+	                       116 feet below Kanab Canyon Mbr. of Muav Ls. (5x)
+
+ 92. "verticalDatum"
+
+	Type of data:          Boolean
+	Contains null values:  True (excluded from calculations)
+	Non-null values:       0
+	Unique values:         1
+	Most common values:    None (724508x)
+
+ 93. "verbatimDepth"
+
+	Type of data:          Text
+	Contains null values:  True (excluded from calculations)
+	Non-null values:       84
+	Unique values:         18
+	Longest value:         14 characters
+	Most common values:    None (724424x)
+	                       reef (30x)
+	                       beach (15x)
+	                       Beach (10x)
+	                       Low Water (7x)
+
+ 94. "minimumDistanceAboveSurfaceInMeters"
+
+	Type of data:          Boolean
+	Contains null values:  True (excluded from calculations)
+	Non-null values:       0
+	Unique values:         1
+	Most common values:    None (724508x)
+
+ 95. "maximumDistanceAboveSurfaceInMeters"
+
+	Type of data:          Boolean
+	Contains null values:  True (excluded from calculations)
+	Non-null values:       0
+	Unique values:         1
+	Most common values:    None (724508x)
+
+ 96. "locationAccordingTo"
+
+	Type of data:          Boolean
+	Contains null values:  True (excluded from calculations)
+	Non-null values:       0
+	Unique values:         1
+	Most common values:    None (724508x)
+
+ 97. "locationRemarks"
+
+	Type of data:          Boolean
+	Contains null values:  True (excluded from calculations)
+	Non-null values:       0
+	Unique values:         1
+	Most common values:    None (724508x)
+
+ 98. "decimalLatitude"
+
+	Type of data:          Number
+	Contains null values:  True (excluded from calculations)
+	Non-null values:       103938
+	Unique values:         34310
+	Smallest value:        -77.903
+	Largest value:         89.13
+	Sum:                   3,760,229.028
+	Mean:                  36.178
+	Median:                37.547
+	StDev:                 18.982
+	Most decimal places:   5
+	Most common values:    None (620570x)
+	                       44.646 (1686x)
+	                       17.5 (673x)
+	                       29.812 (329x)
+	                       33.177 (323x)
+
+ 99. "decimalLongitude"
+
+	Type of data:          Number
+	Contains null values:  True (excluded from calculations)
+	Non-null values:       103938
+	Unique values:         35344
+	Smallest value:        -179.57
+	Largest value:         179.8
+	Sum:                   -8,778,138.477
+	Mean:                  -84.456
+	Median:                -87.307
+	StDev:                 63.088
+	Most decimal places:   6
+	Most common values:    None (620570x)
+	                       -123.908 (1686x)
+	                       -95.083 (673x)
+	                       -103.252 (329x)
+	                       -98.688 (321x)
+
+100. "coordinateUncertaintyInMeters"
+
+	Type of data:          Boolean
+	Contains null values:  True (excluded from calculations)
+	Non-null values:       0
+	Unique values:         1
+	Most common values:    None (724508x)
+
+101. "coordinatePrecision"
+
+	Type of data:          Boolean
+	Contains null values:  True (excluded from calculations)
+	Non-null values:       0
+	Unique values:         1
+	Most common values:    None (724508x)
+
+102. "pointRadiusSpatialFit"
+
+	Type of data:          Boolean
+	Contains null values:  True (excluded from calculations)
+	Non-null values:       0
+	Unique values:         1
+	Most common values:    None (724508x)
+
+103. "verbatimCoordinateSystem"
+
+	Type of data:          Text
+	Contains null values:  True (excluded from calculations)
+	Non-null values:       70243
+	Unique values:         2
+	Longest value:         23 characters
+	Most common values:    None (654265x)
+	                       Degrees Minutes Seconds (70243x)
+
+104. "verbatimSRS"
+
+	Type of data:          Boolean
+	Contains null values:  True (excluded from calculations)
+	Non-null values:       0
+	Unique values:         1
+	Most common values:    None (724508x)
+
+105. "footprintWKT"
+
+	Type of data:          Boolean
+	Contains null values:  True (excluded from calculations)
+	Non-null values:       0
+	Unique values:         1
+	Most common values:    None (724508x)
+
+106. "footprintSRS"
+
+	Type of data:          Boolean
+	Contains null values:  True (excluded from calculations)
+	Non-null values:       0
+	Unique values:         1
+	Most common values:    None (724508x)
+
+107. "footprintSpatialFit"
+
+	Type of data:          Boolean
+	Contains null values:  True (excluded from calculations)
+	Non-null values:       0
+	Unique values:         1
+	Most common values:    None (724508x)
+
+108. "georeferencedBy"
+
+	Type of data:          Boolean
+	Contains null values:  True (excluded from calculations)
+	Non-null values:       0
+	Unique values:         1
+	Most common values:    None (724508x)
+
+109. "georeferencedDate"
+
+	Type of data:          Boolean
+	Contains null values:  True (excluded from calculations)
+	Non-null values:       0
+	Unique values:         1
+	Most common values:    None (724508x)
+
+110. "georeferenceProtocol"
+
+	Type of data:          Text
+	Contains null values:  True (excluded from calculations)
+	Non-null values:       29496
+	Unique values:         20
+	Longest value:         81 characters
+	Most common values:    None (695012x)
+	                       Georeferencing Quick Reference Guide (2020) (24162x)
+	                       Guide to Best Practices for Georeferencing. BioGeomancer Consortium, August 2006 (1481x)
+	                       Loran A (1284x)
+	                       Quad Map (955x)
+
+111. "georeferenceSources"
+
+	Type of data:          Boolean
+	Contains null values:  True (excluded from calculations)
+	Non-null values:       0
+	Unique values:         1
+	Most common values:    None (724508x)
+
+112. "georeferenceRemarks"
+
+	Type of data:          Text
+	Contains null values:  True (excluded from calculations)
+	Non-null values:       5
+	Unique values:         3
+	Longest value:         70 characters
+	Most common values:    None (724503x)
+	                       included in Jennifer Jett's Foram Bulk DB but not included in F Ledger (4x)
+	                       A; B; C; D (1x)
+
+113. "geologicalContextID"
+
+	Type of data:          Boolean
+	Contains null values:  True (excluded from calculations)
+	Non-null values:       0
+	Unique values:         1
+	Most common values:    None (724508x)
+
+114. "earliestEonOrLowestEonothem"
+
+	Type of data:          Boolean
+	Contains null values:  True (excluded from calculations)
+	Non-null values:       0
+	Unique values:         1
+	Most common values:    None (724508x)
+
+115. "latestEonOrHighestEonothem"
+
+	Type of data:          Boolean
+	Contains null values:  True (excluded from calculations)
+	Non-null values:       0
+	Unique values:         1
+	Most common values:    None (724508x)
+
+116. "earliestEraOrLowestErathem"
+
+	Type of data:          Text
+	Contains null values:  True (excluded from calculations)
+	Non-null values:       504472
+	Unique values:         11
+	Longest value:         16 characters
+	Most common values:    Cenozoic (261752x)
+	                       None (220036x)
+	                       Paleozoic (194022x)
+	                       Mesozoic (48343x)
+	                       Precambrian (298x)
+
+117. "latestEraOrHighestErathem"
+
+	Type of data:          Text
+	Contains null values:  True (excluded from calculations)
+	Non-null values:       6345
+	Unique values:         6
+	Longest value:         15 characters
+	Most common values:    None (718163x)
+	                       Cenozoic (5229x)
+	                       Paleozoic (826x)
+	                       Mesozoic (286x)
+	                       Neoproterozoic (3x)
+
+118. "earliestPeriodOrLowestSystem"
+
+	Type of data:          Text
+	Contains null values:  True (excluded from calculations)
+	Non-null values:       478758
+	Unique values:         28
+	Longest value:         13 characters
+	Most common values:    None (245750x)
+	                       Paleogene (90464x)
+	                       Neogene (72075x)
+	                       Cambrian (48805x)
+	                       Recent (41336x)
+
+119. "latestPeriodOrHighestSystem"
+
+	Type of data:          Text
+	Contains null values:  True (excluded from calculations)
+	Non-null values:       6341
+	Unique values:         16
+	Longest value:         13 characters
+	Most common values:    None (718167x)
+	                       Neogene (3161x)
+	                       Paleogene (1404x)
+	                       Quaternary (668x)
+	                       Devonian (416x)
+
+120. "earliestEpochOrLowestSeries"
+
+	Type of data:          Text
+	Contains null values:  True (excluded from calculations)
+	Non-null values:       347594
+	Unique values:         25
+	Longest value:         13 characters
+	Most common values:    None (376914x)
+	                       Middle (68575x)
+	                       Eocene (66979x)
+	                       Late (57993x)
+	                       Miocene (39410x)
+
+121. "latestEpochOrHighestSeries"
+
+	Type of data:          Text
+	Contains null values:  True (excluded from calculations)
+	Non-null values:       6218
+	Unique values:         13
+	Longest value:         11 characters
+	Most common values:    None (718290x)
+	                       Pliocene (2384x)
+	                       Eocene (1075x)
+	                       Miocene (759x)
+	                       Late (645x)
+
+122. "earliestAgeOrLowestStage"
+
+	Type of data:          Text
+	Contains null values:  True (excluded from calculations)
+	Non-null values:       162036
+	Unique values:         367
+	Longest value:         23 characters
+	Most common values:    None (562472x)
+	                       Hemphillian (19681x)
+	                       Middle (17379x)
+	                       Wasatchian (7037x)
+	                       Early (5428x)
+
+123. "latestAgeOrHighestStage"
+
+	Type of data:          Text
+	Contains null values:  True (excluded from calculations)
+	Non-null values:       2375
+	Unique values:         36
+	Longest value:         13 characters
+	Most common values:    None (722133x)
+	                       Lutetian (829x)
+	                       Zanclean (319x)
+	                       Tortonian (217x)
+	                       Gelasian (200x)
+
+124. "lowestBiostratigraphicZone"
+
+	Type of data:          Boolean
+	Contains null values:  True (excluded from calculations)
+	Non-null values:       0
+	Unique values:         1
+	Most common values:    None (724508x)
+
+125. "highestBiostratigraphicZone"
+
+	Type of data:          Boolean
+	Contains null values:  True (excluded from calculations)
+	Non-null values:       0
+	Unique values:         1
+	Most common values:    None (724508x)
+
+126. "lithostratigraphicTerms"
+
+	Type of data:          Boolean
+	Contains null values:  True (excluded from calculations)
+	Non-null values:       0
+	Unique values:         1
+	Most common values:    None (724508x)
+
+127. "group"
+
+	Type of data:          Text
+	Contains null values:  True (excluded from calculations)
+	Non-null values:       91290
+	Unique values:         558
+	Longest value:         29 characters
+	Most common values:    None (633218x)
+	                       Chesapeake Group (38410x)
+	                       White River Group (5749x)
+	                       Selma Group (3439x)
+	                       Kewanee Group (2702x)
+
+128. "formation"
+
+	Type of data:          Text
+	Contains null values:  True (excluded from calculations)
+	Non-null values:       358802
+	Unique values:         5420
+	Longest value:         46 characters
+	Most common values:    None (365706x)
+	                       Stephen Fm (31376x)
+	                       Green River Fm (29184x)
+	                       Yorktown Fm (23463x)
+	                       Unknown (18762x)
+
+129. "member"
+
+	Type of data:          Text
+	Contains null values:  True (excluded from calculations)
+	Non-null values:       81317
+	Unique values:         1627
+	Longest value:         31 characters
+	Most common values:    None (643191x)
+	                       Burgess Sh Mbr (30811x)
+	                       Sunken Meadow Mbr (3525x)
+	                       Francis Creek Sh Mbr (2603x)
+	                       B Mbr (2488x)
+
+130. "bed"
+
+	Type of data:          Boolean
+	Contains null values:  True (excluded from calculations)
+	Non-null values:       0
+	Unique values:         1
+	Most common values:    None (724508x)
+
+131. "identificationID"
+
+	Type of data:          Boolean
+	Contains null values:  True (excluded from calculations)
+	Non-null values:       0
+	Unique values:         1
+	Most common values:    None (724508x)
+
+132. "verbatimIdentification"
+
+	Type of data:          Boolean
+	Contains null values:  True (excluded from calculations)
+	Non-null values:       0
+	Unique values:         1
+	Most common values:    None (724508x)
+
+133. "identificationQualifier"
+
+	Type of data:          Boolean
+	Contains null values:  True (excluded from calculations)
+	Non-null values:       0
+	Unique values:         1
+	Most common values:    None (724508x)
+
+134. "typeStatus"
+
+	Type of data:          Text
+	Contains null values:  True (excluded from calculations)
+	Non-null values:       142422
+	Unique values:         16
+	Longest value:         15 characters
+	Most common values:    None (582086x)
+	                       PARATYPE (74612x)
+	                       HOLOTYPE (34645x)
+	                       SYNTYPE (19534x)
+	                       TYPE (7903x)
+
+135. "identifiedBy"
+
+	Type of data:          Text
+	Contains null values:  True (excluded from calculations)
+	Non-null values:       202527
+	Unique values:         2464
+	Longest value:         147 characters
+	Most common values:    None (521981x)
+	                       Walcott (10697x)
+	                       Olson, Storrs L.; James, Helen F. (7298x)
+	                       Smith (5322x)
+	                       Cushman, Joseph Augustine (5049x)
+
+136. "identifiedByID"
+
+	Type of data:          Boolean
+	Contains null values:  True (excluded from calculations)
+	Non-null values:       0
+	Unique values:         1
+	Most common values:    None (724508x)
+
+137. "dateIdentified"
+
+	Type of data:          Boolean
+	Contains null values:  True (excluded from calculations)
+	Non-null values:       0
+	Unique values:         1
+	Most common values:    None (724508x)
+
+138. "identificationReferences"
+
+	Type of data:          Boolean
+	Contains null values:  True (excluded from calculations)
+	Non-null values:       0
+	Unique values:         1
+	Most common values:    None (724508x)
+
+139. "identificationVerificationStatus"
+
+	Type of data:          Boolean
+	Contains null values:  True (excluded from calculations)
+	Non-null values:       0
+	Unique values:         1
+	Most common values:    None (724508x)
+
+140. "identificationRemarks"
+
+	Type of data:          Boolean
+	Contains null values:  True (excluded from calculations)
+	Non-null values:       0
+	Unique values:         1
+	Most common values:    None (724508x)
+
+141. "taxonID"
+
+	Type of data:          Boolean
+	Contains null values:  True (excluded from calculations)
+	Non-null values:       0
+	Unique values:         1
+	Most common values:    None (724508x)
+
+142. "scientificNameID"
+
+	Type of data:          Boolean
+	Contains null values:  True (excluded from calculations)
+	Non-null values:       0
+	Unique values:         1
+	Most common values:    None (724508x)
+
+143. "acceptedNameUsageID"
+
+	Type of data:          Number
+	Contains null values:  True (excluded from calculations)
+	Non-null values:       552719
+	Unique values:         58336
+	Smallest value:        1
+	Largest value:         12,385,426
+	Sum:                   3,048,292,404,219
+	Mean:                  5,515,085.25
+	Median:                4,941,659
+	StDev:                 3,184,869.125
+	Most decimal places:   0
+	Most common values:    None (171789x)
+	                       216 (16872x)
+	                       8,513,230 (13693x)
+	                       4,806,028 (12281x)
+	                       6 (11457x)
+
+144. "parentNameUsageID"
+
+	Type of data:          Boolean
+	Contains null values:  True (excluded from calculations)
+	Non-null values:       0
+	Unique values:         1
+	Most common values:    None (724508x)
+
+145. "originalNameUsageID"
+
+	Type of data:          Boolean
+	Contains null values:  True (excluded from calculations)
+	Non-null values:       0
+	Unique values:         1
+	Most common values:    None (724508x)
+
+146. "nameAccordingToID"
+
+	Type of data:          Boolean
+	Contains null values:  True (excluded from calculations)
+	Non-null values:       0
+	Unique values:         1
+	Most common values:    None (724508x)
+
+147. "namePublishedInID"
+
+	Type of data:          Boolean
+	Contains null values:  True (excluded from calculations)
+	Non-null values:       0
+	Unique values:         1
+	Most common values:    None (724508x)
+
+148. "taxonConceptID"
+
+	Type of data:          Boolean
+	Contains null values:  True (excluded from calculations)
+	Non-null values:       0
+	Unique values:         1
+	Most common values:    None (724508x)
+
+149. "scientificName"
+
+	Type of data:          Text
+	Contains null values:  False
+	Non-null values:       724508
+	Unique values:         65364
+	Longest value:         124 characters
+	Most common values:    incertae sedis (171789x)
+	                       Insecta (16872x)
+	                       Genus B JS (13693x)
+	                       Marrella Walcott, 1912 (12281x)
+	                       Plantae (11457x)
+
+150. "acceptedNameUsage"
+
+	Type of data:          Boolean
+	Contains null values:  True (excluded from calculations)
+	Non-null values:       0
+	Unique values:         1
+	Most common values:    None (724508x)
+
+151. "parentNameUsage"
+
+	Type of data:          Boolean
+	Contains null values:  True (excluded from calculations)
+	Non-null values:       0
+	Unique values:         1
+	Most common values:    None (724508x)
+
+152. "originalNameUsage"
+
+	Type of data:          Boolean
+	Contains null values:  True (excluded from calculations)
+	Non-null values:       0
+	Unique values:         1
+	Most common values:    None (724508x)
+
+153. "nameAccordingTo"
+
+	Type of data:          Boolean
+	Contains null values:  True (excluded from calculations)
+	Non-null values:       0
+	Unique values:         1
+	Most common values:    None (724508x)
+
+154. "namePublishedIn"
+
+	Type of data:          Boolean
+	Contains null values:  True (excluded from calculations)
+	Non-null values:       0
+	Unique values:         1
+	Most common values:    None (724508x)
+
+155. "namePublishedInYear"
+
+	Type of data:          Boolean
+	Contains null values:  True (excluded from calculations)
+	Non-null values:       0
+	Unique values:         1
+	Most common values:    None (724508x)
+
+156. "higherClassification"
+
+	Type of data:          Text
+	Contains null values:  True (excluded from calculations)
+	Non-null values:       551865
+	Unique values:         3845
+	Longest value:         141 characters
+	Most common values:    None (172643x)
+	                       Plantae (33803x)
+	                       Animalia, Mollusca, Cyrtosoma, Gastropoda (21447x)
+	                       Animalia, Arthropoda, Trilobita (20977x)
+	                       Animalia, Mollusca, Conchifera, Bivalvia (18583x)
+
+157. "kingdom"
+
+	Type of data:          Text
+	Contains null values:  False
+	Non-null values:       724508
+	Unique values:         7
+	Longest value:         14 characters
+	Most common values:    Animalia (446288x)
+	                       incertae sedis (171929x)
+	                       Chromista (69124x)
+	                       Plantae (36324x)
+	                       Bacteria (502x)
+
+158. "phylum"
+
+	Type of data:          Text
+	Contains null values:  True (excluded from calculations)
+	Non-null values:       531666
+	Unique values:         41
+	Longest value:         17 characters
+	Most common values:    None (192842x)
+	                       Chordata (148527x)
+	                       Arthropoda (101505x)
+	                       Mollusca (66708x)
+	                       Foraminifera (66099x)
+
+159. "class"
+
+	Type of data:          Text
+	Contains null values:  True (excluded from calculations)
+	Non-null values:       451942
+	Unique values:         93
+	Longest value:         18 characters
+	Most common values:    None (272566x)
+	                       Mammalia (59795x)
+	                       Globothalamea (42882x)
+	                       Rhynchonellata (39551x)
+	                       Aves (34584x)
+
+160. "order"
+
+	Type of data:          Text
+	Contains null values:  True (excluded from calculations)
+	Non-null values:       355212
+	Unique values:         485
+	Longest value:         21 characters
+	Most common values:    None (369296x)
+	                       Rotaliida (32460x)
+	                       Diptera (14185x)
+	                       Porocephalida (14086x)
+	                       Podocopida (12424x)
+
+161. "superfamily"
+
+	Type of data:          Boolean
+	Contains null values:  True (excluded from calculations)
+	Non-null values:       0
+	Unique values:         1
+	Most common values:    None (724508x)
+
+162. "family"
+
+	Type of data:          Text
+	Contains null values:  True (excluded from calculations)
+	Non-null values:       465743
+	Unique values:         4831
+	Longest value:         25 characters
+	Most common values:    None (258765x)
+	                       Subtriquetridae (14086x)
+	                       Milichiidae (13693x)
+	                       Procellariidae (9409x)
+	                       Lamnidae (7013x)
+
+163. "subfamily"
+
+	Type of data:          Boolean
+	Contains null values:  True (excluded from calculations)
+	Non-null values:       0
+	Unique values:         1
+	Most common values:    None (724508x)
+
+164. "tribe"
+
+	Type of data:          Boolean
+	Contains null values:  True (excluded from calculations)
+	Non-null values:       0
+	Unique values:         1
+	Most common values:    None (724508x)
+
+165. "subtribe"
+
+	Type of data:          Boolean
+	Contains null values:  True (excluded from calculations)
+	Non-null values:       0
+	Unique values:         1
+	Most common values:    None (724508x)
+
+166. "genus"
+
+	Type of data:          Text
+	Contains null values:  True (excluded from calculations)
+	Non-null values:       479438
+	Unique values:         20049
+	Longest value:         23 characters
+	Most common values:    None (245070x)
+	                       Genus (13850x)
+	                       Marrella (12281x)
+	                       Pterodroma (6789x)
+	                       Callophoca (3770x)
+
+167. "genericName"
+
+	Type of data:          Text
+	Contains null values:  True (excluded from calculations)
+	Non-null values:       479611
+	Unique values:         19255
+	Longest value:         22 characters
+	Most common values:    None (244897x)
+	                       Genus (13850x)
+	                       Marrella (12281x)
+	                       Pterodroma (7305x)
+	                       Callophoca (3770x)
+
+168. "subgenus"
+
+	Type of data:          Boolean
+	Contains null values:  True (excluded from calculations)
+	Non-null values:       0
+	Unique values:         1
+	Most common values:    None (724508x)
+
+169. "infragenericEpithet"
+
+	Type of data:          Boolean
+	Contains null values:  True (excluded from calculations)
+	Non-null values:       0
+	Unique values:         1
+	Most common values:    None (724508x)
+
+170. "specificEpithet"
+
+	Type of data:          Text
+	Contains null values:  True (excluded from calculations)
+	Non-null values:       274790
+	Unique values:         21988
+	Longest value:         20 characters
+	Most common values:    None (449718x)
+	                       phaeopygia (3232x)
+	                       alba (2027x)
+	                       megalodon (1648x)
+	                       confluens (1438x)
+
+171. "infraspecificEpithet"
+
+	Type of data:          Text
+	Contains null values:  True (excluded from calculations)
+	Non-null values:       6301
+	Unique values:         1470
+	Longest value:         18 characters
+	Most common values:    None (718207x)
+	                       burchellii (494x)
+	                       antarctica (104x)
+	                       inflata (67x)
+	                       vancouveriensis (64x)
+
+172. "cultivarEpithet"
+
+	Type of data:          Boolean
+	Contains null values:  True (excluded from calculations)
+	Non-null values:       0
+	Unique values:         1
+	Most common values:    None (724508x)
+
+173. "taxonRank"
+
+	Type of data:          Text
+	Contains null values:  False
+	Non-null values:       724508
+	Unique values:         10
+	Longest value:         10 characters
+	Most common values:    SPECIES (268489x)
+	                       GENUS (204821x)
+	                       KINGDOM (184360x)
+	                       CLASS (34827x)
+	                       FAMILY (11500x)
+
+174. "verbatimTaxonRank"
+
+	Type of data:          Boolean
+	Contains null values:  True (excluded from calculations)
+	Non-null values:       0
+	Unique values:         1
+	Most common values:    None (724508x)
+
+175. "vernacularName"
+
+	Type of data:          Boolean
+	Contains null values:  True (excluded from calculations)
+	Non-null values:       0
+	Unique values:         1
+	Most common values:    None (724508x)
+
+176. "nomenclaturalCode"
+
+	Type of data:          Boolean
+	Contains null values:  True (excluded from calculations)
+	Non-null values:       0
+	Unique values:         1
+	Most common values:    None (724508x)
+
+177. "taxonomicStatus"
+
+	Type of data:          Text
+	Contains null values:  True (excluded from calculations)
+	Non-null values:       552719
+	Unique values:         4
+	Longest value:         8 characters
+	Most common values:    ACCEPTED (431194x)
+	                       None (171789x)
+	                       SYNONYM (79261x)
+	                       DOUBTFUL (42264x)
+
+178. "nomenclaturalStatus"
+
+	Type of data:          Boolean
+	Contains null values:  True (excluded from calculations)
+	Non-null values:       0
+	Unique values:         1
+	Most common values:    None (724508x)
+
+179. "taxonRemarks"
+
+	Type of data:          Boolean
+	Contains null values:  True (excluded from calculations)
+	Non-null values:       0
+	Unique values:         1
+	Most common values:    None (724508x)
+
+180. "datasetKey"
+
+	Type of data:          Text
+	Contains null values:  False
+	Non-null values:       724508
+	Unique values:         1
+	Longest value:         36 characters
+	Most common values:    c8681cc2-9d0a-4c5f-b620-5c753abfe2bc (724508x)
+
+181. "publishingCountry"
+
+	Type of data:          Text
+	Contains null values:  False
+	Non-null values:       724508
+	Unique values:         1
+	Longest value:         2 characters
+	Most common values:    US (724508x)
+
+182. "lastInterpreted"
+
+	Type of data:          DateTime
+	Contains null values:  False
+	Non-null values:       724508
+	Unique values:         37858
+	Smallest value:        2024-12-02 10:16:26.062000+00:00
+	Largest value:         2024-12-02 10:17:10.862000+00:00
+	Most common values:    2024-12-02 10:17:03.880000+00:00 (100x)
+	                       2024-12-02 10:17:08.512000+00:00 (92x)
+	                       2024-12-02 10:17:04.870000+00:00 (87x)
+	                       2024-12-02 10:17:05.654000+00:00 (87x)
+	                       2024-12-02 10:16:52.136000+00:00 (85x)
+
+183. "elevation"
+
+	Type of data:          Boolean
+	Contains null values:  True (excluded from calculations)
+	Non-null values:       0
+	Unique values:         1
+	Most common values:    None (724508x)
+
+184. "elevationAccuracy"
+
+	Type of data:          Boolean
+	Contains null values:  True (excluded from calculations)
+	Non-null values:       0
+	Unique values:         1
+	Most common values:    None (724508x)
+
+185. "depth"
+
+	Type of data:          Boolean
+	Contains null values:  True (excluded from calculations)
+	Non-null values:       0
+	Unique values:         1
+	Most common values:    None (724508x)
+
+186. "depthAccuracy"
+
+	Type of data:          Boolean
+	Contains null values:  True (excluded from calculations)
+	Non-null values:       0
+	Unique values:         1
+	Most common values:    None (724508x)
+
+187. "distanceFromCentroidInMeters"
+
+	Type of data:          Number
+	Contains null values:  True (excluded from calculations)
+	Non-null values:       644
+	Unique values:         150
+	Smallest value:        0
+	Largest value:         4,992.371
+	Sum:                   1,453,406.098
+	Mean:                  2,256.842
+	Median:                2,818.631
+	StDev:                 1,312.822
+	Most decimal places:   14
+	Most common values:    None (723864x)
+	                       857.254 (226x)
+	                       2,818.631 (202x)
+	                       4,618.527 (27x)
+	                       3,800.284 (12x)
+
+188. "issue"
+
+	Type of data:          Text
+	Contains null values:  True (excluded from calculations)
+	Non-null values:       724315
+	Unique values:         155
+	Longest value:         186 characters
+	Most common values:    OCCURRENCE_STATUS_INFERRED_FROM_INDIVIDUAL_COUNT (288609x)
+	                       OCCURRENCE_STATUS_INFERRED_FROM_INDIVIDUAL_COUNT;TAXON_MATCH_HIGHERRANK (165166x)
+	                       OCCURRENCE_STATUS_INFERRED_FROM_INDIVIDUAL_COUNT;TAXON_MATCH_NONE (89011x)
+	                       OCCURRENCE_STATUS_INFERRED_FROM_INDIVIDUAL_COUNT;GEODETIC_DATUM_ASSUMED_WGS84;TAXON_MATCH_NONE (34505x)
+	                       OCCURRENCE_STATUS_INFERRED_FROM_INDIVIDUAL_COUNT;CONTINENT_DERIVED_FROM_COUNTRY (25422x)
+
+189. "mediaType"
+
+	Type of data:          Text
+	Contains null values:  True (excluded from calculations)
+	Non-null values:       86626
+	Unique values:         59
+	Longest value:         1,110 characters
+	Most common values:    None (637882x)
+	                       StillImage (36835x)
+	                       StillImage;StillImage (35396x)
+	                       StillImage;StillImage;StillImage;StillImage (5461x)
+	                       StillImage;StillImage;StillImage (5225x)
+
+190. "hasCoordinate"
+
+	Type of data:          Boolean
+	Contains null values:  False
+	Non-null values:       724508
+	Unique values:         2
+	Most common values:    False (620570x)
+	                       True (103938x)
+
+191. "hasGeospatialIssues"
+
+	Type of data:          Boolean
+	Contains null values:  False
+	Non-null values:       724508
+	Unique values:         2
+	Most common values:    False (723170x)
+	                       True (1338x)
+
+192. "taxonKey"
+
+	Type of data:          Number
+	Contains null values:  False
+	Non-null values:       724508
+	Unique values:         65365
+	Smallest value:        0
+	Largest value:         12,387,090
+	Sum:                   3,011,249,703,759
+	Mean:                  4,156,268.397
+	Median:                4,806,932
+	StDev:                 3,563,951.427
+	Most decimal places:   0
+	Most common values:    0 (171789x)
+	                       216 (16872x)
+	                       8,513,230 (13693x)
+	                       4,806,028 (12281x)
+	                       6 (11457x)
+
+193. "acceptedTaxonKey"
+
+	Type of data:          Number
+	Contains null values:  True (excluded from calculations)
+	Non-null values:       552719
+	Unique values:         58336
+	Smallest value:        1
+	Largest value:         12,385,426
+	Sum:                   3,048,292,404,219
+	Mean:                  5,515,085.25
+	Median:                4,941,659
+	StDev:                 3,184,869.125
+	Most decimal places:   0
+	Most common values:    None (171789x)
+	                       216 (16872x)
+	                       8,513,230 (13693x)
+	                       4,806,028 (12281x)
+	                       6 (11457x)
+
+194. "kingdomKey"
+
+	Type of data:          Number
+	Contains null values:  False
+	Non-null values:       724508
+	Unique values:         7
+	Smallest value:        0
+	Largest value:         7
+	Sum:                   944,513
+	Mean:                  1.304
+	Median:                1
+	StDev:                 1.508
+	Most decimal places:   0
+	Most common values:    1 (446288x)
+	                       0 (171929x)
+	                       4 (69124x)
+	                       6 (36324x)
+	                       3 (502x)
+
+195. "phylumKey"
+
+	Type of data:          Number
+	Contains null values:  True (excluded from calculations)
+	Non-null values:       531666
+	Unique values:         41
+	Smallest value:        9
+	Largest value:         12,228,025
+	Sum:                   730,248,957,731
+	Mean:                  1,373,510.734
+	Median:                53
+	StDev:                 3,060,656.412
+	Most decimal places:   0
+	Most common values:    None (192842x)
+	                       44 (148527x)
+	                       54 (101505x)
+	                       52 (66708x)
+	                       8,376,456 (66099x)
+
+196. "classKey"
+
+	Type of data:          Number
+	Contains null values:  True (excluded from calculations)
+	Non-null values:       451942
+	Unique values:         93
+	Smallest value:        116
+	Largest value:         12,259,753
+	Sum:                   662,742,549,834
+	Mean:                  1,466,432.75
+	Median:                220
+	StDev:                 3,184,973.092
+	Most decimal places:   0
+	Most common values:    None (272566x)
+	                       359 (59795x)
+	                       7,434,778 (42882x)
+	                       210 (39551x)
+	                       212 (34584x)
+
+197. "orderKey"
+
+	Type of data:          Number
+	Contains null values:  True (excluded from calculations)
+	Non-null values:       355212
+	Unique values:         485
+	Smallest value:        370
+	Largest value:         12,263,124
+	Sum:                   1,247,714,359,097
+	Mean:                  3,512,590.676
+	Median:                1,436
+	StDev:                 4,380,254.677
+	Most decimal places:   0
+	Most common values:    None (369296x)
+	                       7,692,889 (32460x)
+	                       811 (14185x)
+	                       1,419 (14086x)
+	                       1,438 (12424x)
+
+198. "familyKey"
+
+	Type of data:          Number
+	Contains null values:  True (excluded from calculations)
+	Non-null values:       465743
+	Unique values:         4833
+	Smallest value:        1,895
+	Largest value:         12,262,968
+	Sum:                   1,414,219,411,799
+	Mean:                  3,036,480.23
+	Median:                3,252,093
+	StDev:                 2,821,037.453
+	Most decimal places:   0
+	Most common values:    None (258765x)
+	                       3,255,384 (14086x)
+	                       9,496 (13693x)
+	                       9,339 (9409x)
+	                       5,888 (7013x)
+
+199. "genusKey"
+
+	Type of data:          Number
+	Contains null values:  True (excluded from calculations)
+	Non-null values:       479438
+	Unique values:         20312
+	Smallest value:        1,000,424
+	Largest value:         12,385,426
+	Sum:                   2,366,446,636,881
+	Mean:                  4,935,876.249
+	Median:                4,830,391
+	StDev:                 2,083,699.037
+	Most decimal places:   0
+	Most common values:    None (245070x)
+	                       8,513,230 (13693x)
+	                       4,806,028 (12281x)
+	                       2,481,443 (6789x)
+	                       4,833,150 (3770x)
+
+200. "subgenusKey"
+
+	Type of data:          Boolean
+	Contains null values:  True (excluded from calculations)
+	Non-null values:       0
+	Unique values:         1
+	Most common values:    None (724508x)
+
+201. "speciesKey"
+
+	Type of data:          Number
+	Contains null values:  True (excluded from calculations)
+	Non-null values:       274343
+	Unique values:         45067
+	Smallest value:        1,003,615
+	Largest value:         12,353,765
+	Sum:                   2,013,777,042,708
+	Mean:                  7,340,362.403
+	Median:                8,423,909
+	StDev:                 2,477,246.806
+	Most decimal places:   0
+	Most common values:    None (450165x)
+	                       2,481,460 (3232x)
+	                       2,481,469 (1833x)
+	                       9,413,495 (1648x)
+	                       8,819,428 (1401x)
+
+202. "species"
+
+	Type of data:          Text
+	Contains null values:  True (excluded from calculations)
+	Non-null values:       274343
+	Unique values:         45046
+	Longest value:         40 characters
+	Most common values:    None (450165x)
+	                       Pterodroma phaeopygia (3232x)
+	                       Pterodroma alba (1833x)
+	                       Carcharias megalodon (1648x)
+	                       Morania confluens (1401x)
+
+203. "acceptedScientificName"
+
+	Type of data:          Text
+	Contains null values:  True (excluded from calculations)
+	Non-null values:       552719
+	Unique values:         58336
+	Longest value:         124 characters
+	Most common values:    None (171789x)
+	                       Insecta (16872x)
+	                       Genus B JS (13693x)
+	                       Marrella Walcott, 1912 (12281x)
+	                       Plantae (11457x)
+
+204. "verbatimScientificName"
+
+	Type of data:          Text
+	Contains null values:  True (excluded from calculations)
+	Non-null values:       553176
+	Unique values:         97402
+	Longest value:         62 characters
+	Most common values:    None (171332x)
+	                       Genus sp (52758x)
+	                       Insecta (16841x)
+	                       Marrella splendens (12278x)
+	                       Ostracoda (3391x)
+
+205. "typifiedName"
+
+	Type of data:          Text
+	Contains null values:  True (excluded from calculations)
+	Non-null values:       7
+	Unique values:         2
+	Longest value:         4 characters
+	Most common values:    None (724501x)
+	                       Type (7x)
+
+206. "protocol"
+
+	Type of data:          Text
+	Contains null values:  False
+	Non-null values:       724508
+	Unique values:         1
+	Longest value:         3 characters
+	Most common values:    EML (724508x)
+
+207. "lastParsed"
+
+	Type of data:          DateTime
+	Contains null values:  False
+	Non-null values:       724508
+	Unique values:         37858
+	Smallest value:        2024-12-02 10:16:26.062000+00:00
+	Largest value:         2024-12-02 10:17:10.862000+00:00
+	Most common values:    2024-12-02 10:17:03.880000+00:00 (100x)
+	                       2024-12-02 10:17:08.512000+00:00 (92x)
+	                       2024-12-02 10:17:04.870000+00:00 (87x)
+	                       2024-12-02 10:17:05.654000+00:00 (87x)
+	                       2024-12-02 10:16:52.136000+00:00 (85x)
+
+208. "lastCrawled"
+
+	Type of data:          DateTime
+	Contains null values:  False
+	Non-null values:       724508
+	Unique values:         1
+	Smallest value:        2024-12-02 10:02:33.848000+00:00
+	Largest value:         2024-12-02 10:02:33.848000+00:00
+	Most common values:    2024-12-02 10:02:33.848000+00:00 (724508x)
+
+209. "repatriated"
+
+	Type of data:          Boolean
+	Contains null values:  True (excluded from calculations)
+	Non-null values:       566191
+	Unique values:         3
+	Most common values:    False (428942x)
+	                       None (158317x)
+	                       True (137249x)
+
+210. "relativeOrganismQuantity"
+
+	Type of data:          Boolean
+	Contains null values:  True (excluded from calculations)
+	Non-null values:       0
+	Unique values:         1
+	Most common values:    None (724508x)
+
+211. "projectId"
+
+	Type of data:          Boolean
+	Contains null values:  True (excluded from calculations)
+	Non-null values:       0
+	Unique values:         1
+	Most common values:    None (724508x)
+
+212. "isSequenced"
+
+	Type of data:          Boolean
+	Contains null values:  False
+	Non-null values:       724508
+	Unique values:         1
+	Most common values:    False (724508x)
+
+213. "gbifRegion"
+
+	Type of data:          Text
+	Contains null values:  True (excluded from calculations)
+	Non-null values:       563896
+	Unique values:         8
+	Longest value:         13 characters
+	Most common values:    NORTH_AMERICA (468544x)
+	                       None (160612x)
+	                       LATIN_AMERICA (47663x)
+	                       EUROPE (16154x)
+	                       ASIA (10382x)
+
+214. "publishedByGbifRegion"
+
+	Type of data:          Text
+	Contains null values:  False
+	Non-null values:       724508
+	Unique values:         1
+	Longest value:         13 characters
+	Most common values:    NORTH_AMERICA (724508x)
+
+215. "level0Gid"
+
+	Type of data:          Text
+	Contains null values:  True (excluded from calculations)
+	Non-null values:       38268
+	Unique values:         89
+	Longest value:         3 characters
+	Most common values:    None (686240x)
+	                       USA (33578x)
+	                       MEX (743x)
+	                       CAN (398x)
+	                       GUM (255x)
+
+216. "level0Name"
+
+	Type of data:          Text
+	Contains null values:  True (excluded from calculations)
+	Non-null values:       38268
+	Unique values:         89
+	Longest value:         32 characters
+	Most common values:    None (686240x)
+	                       United States (33578x)
+	                       México (743x)
+	                       Canada (398x)
+	                       Guam (255x)
+
+217. "level1Gid"
+
+	Type of data:          Text
+	Contains null values:  True (excluded from calculations)
+	Non-null values:       38265
+	Unique values:         354
+	Longest value:         8 characters
+	Most common values:    None (686243x)
+	                       USA.44_1 (3802x)
+	                       USA.38_1 (2959x)
+	                       USA.23_1 (2129x)
+	                       USA.34_1 (2095x)
+
+218. "level1Name"
+
+	Type of data:          Text
+	Contains null values:  True (excluded from calculations)
+	Non-null values:       38265
+	Unique values:         354
+	Longest value:         32 characters
+	Most common values:    None (686243x)
+	                       Texas (3802x)
+	                       Oregon (2959x)
+	                       Michigan (2129x)
+	                       North Carolina (2095x)
+
+219. "level2Gid"
+
+	Type of data:          Text
+	Contains null values:  True (excluded from calculations)
+	Non-null values:       37188
+	Unique values:         1563
+	Longest value:         12 characters
+	Most common values:    None (687320x)
+	                       USA.23.44_1 (1758x)
+	                       USA.38.21_1 (1751x)
+	                       MEX.30.91_2 (673x)
+	                       USA.36.44_1 (428x)
+
+220. "level2Name"
+
+	Type of data:          Text
+	Contains null values:  True (excluded from calculations)
+	Non-null values:       37188
+	Unique values:         1255
+	Longest value:         32 characters
+	Most common values:    None (687320x)
+	                       Lake Hurron (1795x)
+	                       Lincoln (1776x)
+	                       Lake Superior (694x)
+	                       Jesús Carranza (673x)
+
+221. "level3Gid"
+
+	Type of data:          Text
+	Contains null values:  True (excluded from calculations)
+	Non-null values:       2002
+	Unique values:         341
+	Longest value:         14 characters
+	Most common values:    None (722506x)
+	                       PAN.4.2.2_1 (216x)
+	                       IDN.34.7.16_1 (162x)
+	                       ECU.9.2.2_1 (82x)
+	                       CAN.9.24.1_1 (79x)
+
+222. "level3Name"
+
+	Type of data:          Text
+	Contains null values:  True (excluded from calculations)
+	Non-null values:       2002
+	Unique values:         341
+	Longest value:         32 characters
+	Most common values:    None (722506x)
+	                       Barrio Sur (216x)
+	                       Sangkulirang (162x)
+	                       Isla Santa Mara (Floreana) (Cab. (82x)
+	                       Lake Superior (79x)
+
+223. "iucnRedListCategory"
+
+	Type of data:          Text
+	Contains null values:  True (excluded from calculations)
+	Non-null values:       358699
+	Unique values:         10
+	Longest value:         2 characters
+	Most common values:    None (365809x)
+	                       NE (340013x)
+	                       LC (7458x)
+	                       CR (3457x)
+	                       VU (3162x)
+
+Row count: 724508

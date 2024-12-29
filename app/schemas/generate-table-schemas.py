@@ -7,7 +7,7 @@ import os
 from datetime import date
 from pathlib import Path
 
-archiveCode = '0049391-241126133413365'
+archiveCode = '0049394-241126133413365'
 analysisType = 'column-lengths'
 
 today = date.today()
@@ -17,10 +17,7 @@ currentPath = Path().absolute()
 sourcePath = currentPath.parent.parent
 
 # Source Files Path
-
 sourcePath = str(sourcePath) + '/data/' + archiveCode + '/'
-
-
 # Timestamped output path
 targetPath = str(currentPath) + '/tableschemas/' + str(ts)
 
@@ -60,9 +57,9 @@ for f in glob.glob(sourceFiles):
         columns_json = json.dumps(columns_dict, indent=4)
 
         # Output (File + Path)
-        outputSchema = os.path.join(f, targetPath + '/' + stemName + "-schema.json")
-        columnsSchema = os.path.join(f, targetPath + '/' + stemName + "-columns.json")
-        templateCsv = os.path.join(f, targetPath + '/' + stemName + "-template.csv")
+        outputSchema = os.path.join(f, targetPath + '/' + stemName + '-' + archiveCode + "-schema.json")
+        columnsSchema = os.path.join(f, targetPath + '/' + stemName + '-' + archiveCode + "-columns.json")
+        templateCsv = os.path.join(f, targetPath + '/' + stemName + '-' + archiveCode + "-template.csv")
 
         # Write Tableschema JSON
         with open(outputSchema, "w") as outfile:

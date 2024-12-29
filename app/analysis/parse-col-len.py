@@ -13,9 +13,8 @@ ts = today.strftime("%Y%m%d")
 currentPath = Path().absolute()
 sourcePath = currentPath.parent.parent
 
-
 # Source Files Path
-filename = str(sourcePath) + '/data/' + archiveCode + '/occurrence.txt'
+filename = str(sourcePath) + '/data/' + archiveCode + '/occurrence.csv'
 
 # Timestamped output path
 targetPath = str(currentPath) + '/output/' + analysisType + '/' + str(ts)
@@ -27,6 +26,7 @@ if not os.path.isdir(targetPath):
 data = []
 
 with open(filename, newline='') as csvfile:
+    csv.field_size_limit(100000000)
     reader = csv.reader(csvfile)
     for row in reader:
         data.append([float(value) for value in row])  # Convert to float
