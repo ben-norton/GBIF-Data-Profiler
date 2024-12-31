@@ -1,0 +1,1122 @@
+{
+    "fields": [
+        {
+            "name": "gbifID",
+            "type": "integer",
+            "format": "default"
+        },
+        {
+            "name": "accessRights",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "bibliographicCitation",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "language",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "license",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "modified",
+            "type": "datetime",
+            "format": "default"
+        },
+        {
+            "name": "publisher",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "references",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "rightsHolder",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "type",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "institutionID",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "collectionID",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "datasetID",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "institutionCode",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "collectionCode",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "datasetName",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "ownerInstitutionCode",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "basisOfRecord",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "informationWithheld",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "dataGeneralizations",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "dynamicProperties",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "occurrenceID",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "catalogNumber",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "recordNumber",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "recordedBy",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "recordedByID",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "individualCount",
+            "type": "integer",
+            "format": "default"
+        },
+        {
+            "name": "organismQuantity",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "organismQuantityType",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "sex",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "lifeStage",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "reproductiveCondition",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "caste",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "behavior",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "vitality",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "establishmentMeans",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "degreeOfEstablishment",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "pathway",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "georeferenceVerificationStatus",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "occurrenceStatus",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "preparations",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "disposition",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "associatedOccurrences",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "associatedReferences",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "associatedSequences",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "associatedTaxa",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "otherCatalogNumbers",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "occurrenceRemarks",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "organismID",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "organismName",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "organismScope",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "associatedOrganisms",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "previousIdentifications",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "organismRemarks",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "materialEntityID",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "materialEntityRemarks",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "verbatimLabel",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "materialSampleID",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "eventID",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "parentEventID",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "eventType",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "fieldNumber",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "eventDate",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "eventTime",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "startDayOfYear",
+            "type": "integer",
+            "format": "default"
+        },
+        {
+            "name": "endDayOfYear",
+            "type": "integer",
+            "format": "default"
+        },
+        {
+            "name": "year",
+            "type": "date",
+            "format": "%d%m%y"
+        },
+        {
+            "name": "month",
+            "type": "integer",
+            "format": "default"
+        },
+        {
+            "name": "day",
+            "type": "integer",
+            "format": "default"
+        },
+        {
+            "name": "verbatimEventDate",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "habitat",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "samplingProtocol",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "sampleSizeValue",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "sampleSizeUnit",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "samplingEffort",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "fieldNotes",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "eventRemarks",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "locationID",
+            "type": "integer",
+            "format": "default"
+        },
+        {
+            "name": "higherGeographyID",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "higherGeography",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "continent",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "waterBody",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "islandGroup",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "island",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "countryCode",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "stateProvince",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "county",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "municipality",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "locality",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "verbatimLocality",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "verbatimElevation",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "verticalDatum",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "verbatimDepth",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "minimumDistanceAboveSurfaceInMeters",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "maximumDistanceAboveSurfaceInMeters",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "locationAccordingTo",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "locationRemarks",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "decimalLatitude",
+            "type": "number",
+            "format": "default"
+        },
+        {
+            "name": "decimalLongitude",
+            "type": "number",
+            "format": "default"
+        },
+        {
+            "name": "coordinateUncertaintyInMeters",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "coordinatePrecision",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "pointRadiusSpatialFit",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "verbatimCoordinateSystem",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "verbatimSRS",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "footprintWKT",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "footprintSRS",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "footprintSpatialFit",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "georeferencedBy",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "georeferencedDate",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "georeferenceProtocol",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "georeferenceSources",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "georeferenceRemarks",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "geologicalContextID",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "earliestEonOrLowestEonothem",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "latestEonOrHighestEonothem",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "earliestEraOrLowestErathem",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "latestEraOrHighestErathem",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "earliestPeriodOrLowestSystem",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "latestPeriodOrHighestSystem",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "earliestEpochOrLowestSeries",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "latestEpochOrHighestSeries",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "earliestAgeOrLowestStage",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "latestAgeOrHighestStage",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "lowestBiostratigraphicZone",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "highestBiostratigraphicZone",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "lithostratigraphicTerms",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "group",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "formation",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "member",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "bed",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "identificationID",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "verbatimIdentification",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "identificationQualifier",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "typeStatus",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "identifiedBy",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "identifiedByID",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "dateIdentified",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "identificationReferences",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "identificationVerificationStatus",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "identificationRemarks",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "taxonID",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "scientificNameID",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "acceptedNameUsageID",
+            "type": "integer",
+            "format": "default"
+        },
+        {
+            "name": "parentNameUsageID",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "originalNameUsageID",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "nameAccordingToID",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "namePublishedInID",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "taxonConceptID",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "scientificName",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "acceptedNameUsage",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "parentNameUsage",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "originalNameUsage",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "nameAccordingTo",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "namePublishedIn",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "namePublishedInYear",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "higherClassification",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "kingdom",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "phylum",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "class",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "order",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "superfamily",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "family",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "subfamily",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "tribe",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "subtribe",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "genus",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "genericName",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "subgenus",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "infragenericEpithet",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "specificEpithet",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "infraspecificEpithet",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "cultivarEpithet",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "taxonRank",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "verbatimTaxonRank",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "vernacularName",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "nomenclaturalCode",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "taxonomicStatus",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "nomenclaturalStatus",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "taxonRemarks",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "datasetKey",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "publishingCountry",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "lastInterpreted",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "elevation",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "elevationAccuracy",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "depth",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "depthAccuracy",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "distanceFromCentroidInMeters",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "issue",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "mediaType",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "hasCoordinate",
+            "type": "boolean",
+            "format": "default"
+        },
+        {
+            "name": "hasGeospatialIssues",
+            "type": "boolean",
+            "format": "default"
+        },
+        {
+            "name": "taxonKey",
+            "type": "integer",
+            "format": "default"
+        },
+        {
+            "name": "acceptedTaxonKey",
+            "type": "integer",
+            "format": "default"
+        },
+        {
+            "name": "kingdomKey",
+            "type": "integer",
+            "format": "default"
+        },
+        {
+            "name": "phylumKey",
+            "type": "integer",
+            "format": "default"
+        },
+        {
+            "name": "classKey",
+            "type": "integer",
+            "format": "default"
+        },
+        {
+            "name": "orderKey",
+            "type": "integer",
+            "format": "default"
+        },
+        {
+            "name": "familyKey",
+            "type": "integer",
+            "format": "default"
+        },
+        {
+            "name": "genusKey",
+            "type": "integer",
+            "format": "default"
+        },
+        {
+            "name": "subgenusKey",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "speciesKey",
+            "type": "integer",
+            "format": "default"
+        },
+        {
+            "name": "species",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "acceptedScientificName",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "verbatimScientificName",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "typifiedName",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "protocol",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "lastParsed",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "lastCrawled",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "repatriated",
+            "type": "boolean",
+            "format": "default"
+        },
+        {
+            "name": "relativeOrganismQuantity",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "projectId",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "isSequenced",
+            "type": "boolean",
+            "format": "default"
+        },
+        {
+            "name": "gbifRegion",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "publishedByGbifRegion",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "level0Gid",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "level0Name",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "level1Gid",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "level1Name",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "level2Gid",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "level2Name",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "level3Gid",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "level3Name",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "iucnRedListCategory",
+            "type": "string",
+            "format": "default"
+        }
+    ],
+    "missingValues": [
+        ""
+    ]
+}
