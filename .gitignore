@@ -1,4 +1,5 @@
 
 /data
 /.data-utils-venv
-/source-data
+source-data/*/
+!/source_datasets.yml

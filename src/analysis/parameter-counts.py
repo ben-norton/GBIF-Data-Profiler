@@ -2,10 +2,9 @@ import pandas as pd
 import config as cfg
 from datetime import date
 import os
-import numpy as np
 
 root_dir = cfg.get_project_root()
-archive_code = '0049395-241126133413365'
+archive_code = '0055081-241126133413365'
 
 today = date.today()
 ts = today.strftime("%Y%m%d")
@@ -19,7 +18,8 @@ if not os.path.isdir(target_path):
 target_file = str(target_path) + '/' + archive_code + '-counts.txt'
 template_file = str(target_path) + '/' + archive_code + '-template.txt'
 
-df = pd.read_csv(source_file, sep='\t', lineterminator='\n', on_bad_lines='skip')
+#df = pd.read_csv(source_file, sep='\t', lineterminator='\n', on_bad_lines='skip')
+df = pd.read_csv(source_file, sep='\t', lineterminator='\n', encoding='utf-8', low_memory=False)
 
 # Write Output
 output = []
