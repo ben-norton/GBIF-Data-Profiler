@@ -32,7 +32,8 @@ if not os.path.isdir(target_path):
     os.mkdir(target_path)
 target_report = str(target_path) + '/' + archive_code + '-' + str(ts) + '-output.html'
 
-df = pd.read_csv(source_file, sep='\t', lineterminator='\n', on_bad_lines='skip')
+df = pd.read_csv(source_file, sep='\t', lineterminator='\n', encoding='utf-8')
+
 title = archive_code + ' Occurrence Data Profile'
 ydata_config_file = str(current_path) + '/configs/nmnh_gbif_config_minimal.yaml'
 
