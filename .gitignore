@@ -5,3 +5,4 @@ source-data/*/
 !/source_datasets.yml
 /__pycache__
 src/profiler/output/output.zip
+*.zip
