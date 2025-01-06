@@ -1,0 +1,141 @@
+column_name,unique_count
+gbifID,1926393
+modified,113487
+basisOfRecord,3
+occurrenceID,1926393
+catalogNumber,1355393
+recordNumber,119495
+recordedBy,37540
+individualCount,1067
+sex,3
+lifeStage,19
+occurrenceStatus,4
+preparations,527
+disposition,2
+associatedOccurrences,2
+associatedReferences,2
+associatedSequences,5098
+associatedTaxa,2
+occurrenceRemarks,384906
+verbatimLabel,2
+fieldNumber,62652
+eventDate,45561
+startDayOfYear,366
+endDayOfYear,368
+year,207
+month,12
+day,31
+verbatimEventDate,47776
+habitat,18961
+locationID,94703
+higherGeography,12370
+continent,7
+waterBody,1655
+islandGroup,20
+island,58
+countryCode,239
+stateProvince,1326
+county,2594
+locality,204742
+verbatimElevation,126
+verbatimDepth,1530
+decimalLatitude,70087
+decimalLongitude,74625
+verbatimCoordinateSystem,9
+verbatimSRS,2
+footprintSRS,2
+footprintSpatialFit,2
+georeferencedBy,2
+georeferenceProtocol,115
+georeferenceSources,2
+georeferenceRemarks,4822
+earliestEpochOrLowestSeries,2
+latestEpochOrHighestSeries,3
+lithostratigraphicTerms,4
+group,2
+identificationQualifier,7
+typeStatus,11
+identifiedBy,13461
+identifiedByID,2
+dateIdentified,2
+identificationVerificationStatus,3
+acceptedNameUsageID,94526
+parentNameUsageID,2
+namePublishedInID,2
+scientificName,113079
+higherClassification,4354
+kingdom,6
+phylum,52
+class,116
+order,414
+family,3522
+subtribe,2
+genus,20787
+genericName,21084
+infragenericEpithet,2
+specificEpithet,39412
+infraspecificEpithet,3653
+taxonRank,14
+verbatimTaxonRank,2
+vernacularName,2
+nomenclaturalCode,4
+taxonomicStatus,3
+nomenclaturalStatus,2
+taxonRemarks,3
+datasetKey,3
+publishingCountry,3
+lastInterpreted,209948
+elevation,1093
+elevationAccuracy,71
+depth,8763
+depthAccuracy,1589
+distanceFromCentroidInMeters,603
+issue,402
+mediaType,73
+hasCoordinate,7
+hasGeospatialIssues,3
+taxonKey,113080
+acceptedTaxonKey,94525
+kingdomKey,6
+phylumKey,52
+classKey,115
+orderKey,418
+familyKey,3525
+genusKey,20902
+subgenusKey,4
+speciesKey,81482
+species,81449
+acceptedScientificName,94525
+verbatimScientificName,133993
+lastParsed,209952
+lastCrawled,4
+repatriated,2
+projectId,3
+isSequenced,3
+gbifRegion,7
+publishedByGbifRegion,3
+level0Gid,226
+level0Name,226
+level1Gid,1804
+level1Name,1737
+level2Gid,7611
+level2Name,6184
+level3Gid,3021
+level3Name,2871
+iucnRedListCategory,13
+Unnamed: 228,3
+Unnamed: 230,2
+Unnamed: 232,4
+Unnamed: 233,3
+Unnamed: 235,4
+Unnamed: 236,4
+Unnamed: 237,4
+Unnamed: 238,4
+Unnamed: 239,3
+Unnamed: 241,3
+Unnamed: 242,3
+Unnamed: 243,4
+Unnamed: 244,3
+Unnamed: 247,3
+Unnamed: 249,2
+"",2

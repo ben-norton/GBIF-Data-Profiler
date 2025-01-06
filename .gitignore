@@ -3,3 +3,4 @@
 /.data-utils-venv
 source-data/*/
 !/source_datasets.yml
+/__pycache__

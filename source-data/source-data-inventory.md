@@ -17,3 +17,9 @@ All datasets are occurrence-based and defined at the collection dataset level
 | 0054887-241126133413365 | Bird Specimen Records                 | 584,677   | 20250102 | collectionCode | birds | https://doi.org/10.15468/dl.2en7ue |
 | 0054921-241126133413365 | Herpetology Specimen Records          | 584,297   | 20250102 | collectionCode | herp  | https://doi.org/10.15468/dl.rf2che |
 | 0055081-241126133413365 | Fish Specimen Records                 | 457,427   | 20250102 | collectionCode | fish  | https://doi.org/10.15468/dl.34mb2x |
+
+## Shapes
+
+| Dataset                 | Shape |
+|-------------------------| -- |
+| 0052487-241126133413365 | (988402, 264) |

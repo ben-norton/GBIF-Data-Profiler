@@ -1,0 +1,116 @@
+column_name,unique_count
+gbifID,988403
+modified,103380
+basisOfRecord,2
+occurrenceID,988403
+catalogNumber,843686
+recordNumber,163294
+recordedBy,71729
+individualCount,18
+lifeStage,3
+preparations,77
+associatedSequences,73
+occurrenceRemarks,7579
+fieldNumber,5
+eventDate,66958
+startDayOfYear,366
+endDayOfYear,366
+year,250
+month,12
+day,31
+verbatimEventDate,83121
+habitat,54569
+locationID,667
+higherGeography,17498
+continent,7
+waterBody,75
+islandGroup,362
+island,2614
+countryCode,233
+stateProvince,3164
+county,7486
+locality,617493
+verbatimDepth,9
+decimalLatitude,30965
+decimalLongitude,32806
+coordinateUncertaintyInMeters,20
+verbatimCoordinateSystem,5
+verbatimSRS,2
+footprintSpatialFit,2
+georeferenceProtocol,20
+georeferenceRemarks,38
+bed,2
+identificationQualifier,16
+typeStatus,13
+identifiedBy,4879
+acceptedNameUsageID,141149
+scientificName,171484
+higherClassification,1871
+kingdom,7
+phylum,24
+class,68
+order,357
+superfamily,2
+family,1293
+genus,14195
+genericName,15151
+specificEpithet,44923
+infraspecificEpithet,6984
+taxonRank,11
+verbatimTaxonRank,2
+vernacularName,3
+nomenclaturalCode,2
+taxonomicStatus,5
+nomenclaturalStatus,2
+datasetKey,3
+lastInterpreted,200353
+elevation,4953
+elevationAccuracy,859
+depth,139
+depthAccuracy,38
+distanceFromCentroidInMeters,268
+issue,229
+mediaType,46
+hasCoordinate,3
+hasGeospatialIssues,3
+taxonKey,171484
+acceptedTaxonKey,141149
+kingdomKey,8
+phylumKey,25
+classKey,68
+orderKey,358
+familyKey,1294
+genusKey,14326
+subgenusKey,2
+speciesKey,126813
+species,126534
+acceptedScientificName,141148
+verbatimScientificName,177770
+protocol,2
+lastParsed,200354
+lastCrawled,3
+repatriated,2
+projectId,2
+isSequenced,4
+gbifRegion,8
+publishedByGbifRegion,3
+level0Gid,196
+level0Name,196
+level1Gid,1704
+level1Name,1634
+level2Gid,7918
+level2Name,7282
+level3Gid,4059
+level3Name,3832
+iucnRedListCategory,10
+Unnamed: 223,2
+Unnamed: 224,2
+Unnamed: 229,2
+Unnamed: 230,2
+Unnamed: 231,2
+Unnamed: 232,2
+Unnamed: 233,2
+Unnamed: 234,2
+Unnamed: 235,2
+Unnamed: 236,2
+Unnamed: 237,2

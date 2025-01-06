@@ -10,12 +10,43 @@ def get_project_root() -> Path:
 def get_data_root() -> Path:
     return Path(get_project_root(), "data")
 
-source_datasets = [
-    "0049391-241126133413365/occurrence.txt",
-    "0049394-241126133413365/occurrence.txt",
-    "0049395-241126133413365/occurrence.txt",
-    "0051851-241126133413365/occurrence.txt",
-]
+# Get Datasets partitioned from full datasets (see meta.yml)
+def get_datasets():
+    datasets = [
+        '0052484-241126133413365',
+        '0052487-241126133413365',
+        '0052489-241126133413365',
+        '0054884-241126133413365',
+        '0054887-241126133413365',
+        '0054921-241126133413365',
+        '0055081-241126133413365'
+    ]
+    return datasets
+
+# Get Full Datasets (without paarameter-based partitioning
+def get_full_datasets():
+    full_datasets = [
+        '0049391-241126133413365',
+        '0049394-241126133413365',
+        '0049395-241126133413365'
+    ]
+    return full_datasets
+
+def get_all_datasets():
+    all_datasets = [
+        '0049391-241126133413365',
+        '0049394-241126133413365',
+        '0049395-241126133413365',
+        '0051851-241126133413365',
+        '0052484-241126133413365',
+        '0052487-241126133413365',
+        '0052489-241126133413365',
+        '0054884-241126133413365',
+        '0054887-241126133413365',
+        '0054921-241126133413365',
+        '0055081-241126133413365'
+    ]
+    return all_datasets
 
 def get_today():
     today = date.today()

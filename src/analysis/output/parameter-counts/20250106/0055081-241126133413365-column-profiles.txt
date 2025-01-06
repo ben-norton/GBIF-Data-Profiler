@@ -1,0 +1,269 @@
+,column_name,non_null,unique_count,dtype
+0,gbifID,455212,455212,int64
+1,accessRights,0,0,float64
+2,bibliographicCitation,0,0,float64
+3,language,0,0,float64
+4,license,455212,1,object
+5,modified,455212,55507,object
+6,publisher,455212,1,object
+7,references,0,0,float64
+8,rightsHolder,0,0,float64
+9,type,0,0,float64
+10,institutionID,455212,1,object
+11,collectionID,455212,1,object
+12,datasetID,0,0,float64
+13,institutionCode,455212,1,object
+14,collectionCode,455212,1,object
+15,datasetName,455212,1,object
+16,ownerInstitutionCode,0,0,float64
+17,basisOfRecord,455212,2,object
+18,informationWithheld,0,0,float64
+19,dataGeneralizations,0,0,float64
+20,dynamicProperties,0,0,float64
+21,occurrenceID,455212,455212,object
+22,catalogNumber,455209,455204,object
+23,recordNumber,20826,20814,object
+24,recordedBy,167900,7883,object
+25,recordedByID,0,0,float64
+26,individualCount,455197,619,float64
+27,organismQuantity,0,0,float64
+28,organismQuantityType,0,0,float64
+29,sex,3,1,object
+30,lifeStage,0,0,float64
+31,reproductiveCondition,0,0,float64
+32,caste,0,0,float64
+33,behavior,0,0,float64
+34,vitality,0,0,float64
+35,establishmentMeans,0,0,float64
+36,degreeOfEstablishment,0,0,float64
+37,pathway,0,0,float64
+38,georeferenceVerificationStatus,0,0,float64
+39,occurrenceStatus,455212,2,object
+40,preparations,109028,325,object
+41,disposition,0,0,float64
+42,associatedOccurrences,0,0,float64
+43,associatedReferences,0,0,float64
+44,associatedSequences,450,447,object
+45,associatedTaxa,0,0,float64
+46,otherCatalogNumbers,0,0,float64
+47,occurrenceRemarks,164727,80318,object
+48,organismID,0,0,float64
+49,organismName,0,0,float64
+50,organismScope,0,0,float64
+51,associatedOrganisms,0,0,float64
+52,previousIdentifications,0,0,float64
+53,organismRemarks,0,0,float64
+54,materialEntityID,0,0,float64
+55,materialEntityRemarks,0,0,float64
+56,verbatimLabel,3,3,float64
+57,materialSampleID,3,3,float64
+58,eventID,1,1,float64
+59,parentEventID,0,0,float64
+60,eventType,0,0,float64
+61,fieldNumber,181001,25291,object
+62,eventDate,394971,30514,object
+63,eventTime,0,0,float64
+64,startDayOfYear,363712,366,float64
+65,endDayOfYear,363712,366,float64
+66,year,394712,191,float64
+67,month,372455,12,float64
+68,day,346509,32,object
+69,verbatimEventDate,362740,34047,object
+70,habitat,0,0,float64
+71,samplingProtocol,0,0,float64
+72,sampleSizeValue,0,0,float64
+73,sampleSizeUnit,0,0,float64
+74,samplingEffort,0,0,float64
+75,fieldNotes,0,0,float64
+76,eventRemarks,0,0,float64
+77,locationID,103200,16404,object
+78,higherGeographyID,0,0,float64
+79,higherGeography,434720,13756,object
+80,continent,292565,7,object
+81,waterBody,321937,1776,object
+82,islandGroup,64401,323,object
+83,island,184616,2224,object
+84,countryCode,424778,217,object
+85,stateProvince,280911,1486,object
+86,county,97679,2317,object
+87,municipality,0,0,float64
+88,locality,410128,63950,object
+89,verbatimLocality,0,0,float64
+90,verbatimElevation,2204,76,object
+91,verticalDatum,0,0,float64
+92,verbatimDepth,8576,230,object
+93,minimumDistanceAboveSurfaceInMeters,1,1,object
+94,maximumDistanceAboveSurfaceInMeters,0,0,float64
+95,locationAccordingTo,0,0,float64
+96,locationRemarks,0,0,float64
+97,decimalLatitude,200955,15632,float64
+98,decimalLongitude,200955,17148,float64
+99,coordinateUncertaintyInMeters,5153,220,float64
+100,coordinatePrecision,0,0,float64
+101,pointRadiusSpatialFit,7,7,float64
+102,verbatimCoordinateSystem,146273,3,object
+103,verbatimSRS,0,0,float64
+104,footprintWKT,0,0,float64
+105,footprintSRS,0,0,float64
+106,footprintSpatialFit,0,0,float64
+107,georeferencedBy,7,7,object
+108,georeferencedDate,0,0,float64
+109,georeferenceProtocol,17380,16,object
+110,georeferenceSources,0,0,float64
+111,georeferenceRemarks,23015,135,object
+112,geologicalContextID,0,0,float64
+113,earliestEonOrLowestEonothem,0,0,float64
+114,latestEonOrHighestEonothem,7,7,object
+115,earliestEraOrLowestErathem,7,1,object
+116,latestEraOrHighestErathem,7,1,object
+117,earliestPeriodOrLowestSystem,0,0,float64
+118,latestPeriodOrHighestSystem,7,5,object
+119,earliestEpochOrLowestSeries,0,0,float64
+120,latestEpochOrHighestSeries,7,7,object
+121,earliestAgeOrLowestStage,0,0,float64
+122,latestAgeOrHighestStage,0,0,float64
+123,lowestBiostratigraphicZone,0,0,float64
+124,highestBiostratigraphicZone,7,7,object
+125,lithostratigraphicTerms,7,7,object
+126,group,0,0,float64
+127,formation,0,0,float64
+128,member,7,7,object
+129,bed,0,0,float64
+130,identificationID,0,0,float64
+131,verbatimIdentification,7,1,object
+132,identificationQualifier,1696,5,object
+133,typeStatus,18764,9,object
+134,identifiedBy,34139,572,object
+135,identifiedByID,7,1,object
+136,dateIdentified,0,0,float64
+137,identificationReferences,0,0,float64
+138,identificationVerificationStatus,7,1,object
+139,identificationRemarks,7,1,object
+140,taxonID,7,7,object
+141,scientificNameID,0,0,float64
+142,acceptedNameUsageID,455001,22054,float64
+143,parentNameUsageID,3,3,float64
+144,originalNameUsageID,3,2,float64
+145,nameAccordingToID,0,0,float64
+146,namePublishedInID,7,3,object
+147,taxonConceptID,2,1,object
+148,scientificName,455212,28366,object
+149,acceptedNameUsage,7,1,object
+150,parentNameUsage,7,7,float64
+151,originalNameUsage,7,7,float64
+152,nameAccordingTo,7,1,float64
+153,namePublishedIn,7,1,float64
+154,namePublishedInYear,0,0,float64
+155,higherClassification,454981,868,object
+156,kingdom,455212,9,object
+157,phylum,454927,9,object
+158,class,10466,9,object
+159,order,454211,71,object
+160,superfamily,7,7,object
+161,family,454379,561,object
+162,subfamily,7,7,object
+163,tribe,0,0,float64
+164,subtribe,7,1,object
+165,genus,431626,4427,object
+166,genericName,431633,5329,object
+167,subgenus,6,2,object
+168,infragenericEpithet,0,0,float64
+169,specificEpithet,384953,12528,object
+170,infraspecificEpithet,8194,681,object
+171,cultivarEpithet,6,5,object
+172,taxonRank,455212,10,object
+173,verbatimTaxonRank,2,2,object
+174,vernacularName,2,2,object
+175,nomenclaturalCode,2,2,object
+176,taxonomicStatus,455003,5,object
+177,nomenclaturalStatus,1,1,object
+178,taxonRemarks,1,1,object
+179,datasetKey,455206,2,object
+180,publishingCountry,455206,2,object
+181,lastInterpreted,455212,173327,object
+182,elevation,0,0,float64
+183,elevationAccuracy,0,0,float64
+184,depth,209038,3043,float64
+185,depthAccuracy,188346,1170,float64
+186,distanceFromCentroidInMeters,906,43,float64
+187,issue,455197,224,object
+188,mediaType,91393,34,object
+189,hasCoordinate,455205,2,object
+190,hasGeospatialIssues,455205,2,object
+191,taxonKey,455205,28364,float64
+192,acceptedTaxonKey,455001,22054,float64
+193,kingdomKey,455205,2,float64
+194,phylumKey,454920,2,float64
+195,classKey,10466,9,float64
+196,orderKey,454204,64,float64
+197,familyKey,454372,554,float64
+198,genusKey,431619,4426,float64
+199,subgenusKey,0,0,float64
+200,speciesKey,384952,19431,float64
+201,species,384952,19429,object
+202,acceptedScientificName,455001,22054,object
+203,verbatimScientificName,455198,30202,object
+204,typifiedName,0,0,float64
+205,protocol,455205,1,object
+206,lastParsed,455205,173323,object
+207,lastCrawled,455205,1,object
+208,repatriated,424815,2,object
+209,relativeOrganismQuantity,0,0,float64
+210,projectId,0,0,float64
+211,isSequenced,455205,2,object
+212,gbifRegion,423017,7,object
+213,publishedByGbifRegion,455205,1,object
+214,level0Gid,47917,139,object
+215,level0Name,47917,139,object
+216,level1Gid,46810,629,object
+217,level1Name,46810,611,object
+218,level2Gid,43189,1834,object
+219,level2Name,43186,1707,object
+220,level3Gid,13835,763,object
+221,level3Name,13770,731,object
+222,iucnRedListCategory,443711,9,object
+223,Unnamed: 223,0,0,float64
+224,Unnamed: 224,0,0,float64
+225,Unnamed: 225,0,0,float64
+226,Unnamed: 226,0,0,float64
+227,Unnamed: 227,0,0,float64
+228,Unnamed: 228,0,0,float64
+229,Unnamed: 229,0,0,float64
+230,Unnamed: 230,0,0,float64
+231,Unnamed: 231,0,0,float64
+232,Unnamed: 232,0,0,float64
+233,Unnamed: 233,0,0,float64
+234,Unnamed: 234,0,0,float64
+235,Unnamed: 235,0,0,float64
+236,Unnamed: 236,0,0,float64
+237,Unnamed: 237,0,0,float64
+238,Unnamed: 238,0,0,float64
+239,Unnamed: 239,0,0,float64
+240,Unnamed: 240,0,0,float64
+241,Unnamed: 241,0,0,float64
+242,Unnamed: 242,0,0,float64
+243,Unnamed: 243,0,0,float64
+244,Unnamed: 244,0,0,float64
+245,Unnamed: 245,0,0,float64
+246,Unnamed: 246,0,0,float64
+247,Unnamed: 247,0,0,float64
+248,Unnamed: 248,0,0,float64
+249,Unnamed: 249,0,0,float64
+250,Unnamed: 250,0,0,float64
+251,Unnamed: 251,0,0,float64
+252,Unnamed: 252,0,0,float64
+253,Unnamed: 253,0,0,float64
+254,Unnamed: 254,0,0,float64
+255,Unnamed: 255,0,0,float64
+256,Unnamed: 256,0,0,float64
+257,Unnamed: 257,0,0,float64
+258,Unnamed: 258,0,0,float64
+259,Unnamed: 259,0,0,float64
+260,Unnamed: 260,0,0,float64
+261,Unnamed: 261,0,0,float64
+262,Unnamed: 262,0,0,float64
+263,Unnamed: 263,0,0,float64
+264,Unnamed: 264,0,0,float64
+265,Unnamed: 265,0,0,float64
+266,Unnamed: 266,0,0,float64
+267,Unnamed: 267,0,0,float64

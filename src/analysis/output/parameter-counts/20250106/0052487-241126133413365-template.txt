@@ -1,0 +1,116 @@
+column_name
+gbifID
+modified
+basisOfRecord
+occurrenceID
+catalogNumber
+recordNumber
+recordedBy
+individualCount
+lifeStage
+preparations
+associatedSequences
+occurrenceRemarks
+fieldNumber
+eventDate
+startDayOfYear
+endDayOfYear
+year
+month
+day
+verbatimEventDate
+habitat
+locationID
+higherGeography
+continent
+waterBody
+islandGroup
+island
+countryCode
+stateProvince
+county
+locality
+verbatimDepth
+decimalLatitude
+decimalLongitude
+coordinateUncertaintyInMeters
+verbatimCoordinateSystem
+verbatimSRS
+footprintSpatialFit
+georeferenceProtocol
+georeferenceRemarks
+bed
+identificationQualifier
+typeStatus
+identifiedBy
+acceptedNameUsageID
+scientificName
+higherClassification
+kingdom
+phylum
+class
+order
+superfamily
+family
+genus
+genericName
+specificEpithet
+infraspecificEpithet
+taxonRank
+verbatimTaxonRank
+vernacularName
+nomenclaturalCode
+taxonomicStatus
+nomenclaturalStatus
+datasetKey
+lastInterpreted
+elevation
+elevationAccuracy
+depth
+depthAccuracy
+distanceFromCentroidInMeters
+issue
+mediaType
+hasCoordinate
+hasGeospatialIssues
+taxonKey
+acceptedTaxonKey
+kingdomKey
+phylumKey
+classKey
+orderKey
+familyKey
+genusKey
+subgenusKey
+speciesKey
+species
+acceptedScientificName
+verbatimScientificName
+protocol
+lastParsed
+lastCrawled
+repatriated
+projectId
+isSequenced
+gbifRegion
+publishedByGbifRegion
+level0Gid
+level0Name
+level1Gid
+level1Name
+level2Gid
+level2Name
+level3Gid
+level3Name
+iucnRedListCategory
+Unnamed: 223
+Unnamed: 224
+Unnamed: 229
+Unnamed: 230
+Unnamed: 231
+Unnamed: 232
+Unnamed: 233
+Unnamed: 234
+Unnamed: 235
+Unnamed: 236
+Unnamed: 237

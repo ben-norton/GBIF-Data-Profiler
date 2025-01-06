@@ -1,0 +1,141 @@
+column_name
+gbifID
+modified
+basisOfRecord
+occurrenceID
+catalogNumber
+recordNumber
+recordedBy
+individualCount
+sex
+lifeStage
+occurrenceStatus
+preparations
+disposition
+associatedOccurrences
+associatedReferences
+associatedSequences
+associatedTaxa
+occurrenceRemarks
+verbatimLabel
+fieldNumber
+eventDate
+startDayOfYear
+endDayOfYear
+year
+month
+day
+verbatimEventDate
+habitat
+locationID
+higherGeography
+continent
+waterBody
+islandGroup
+island
+countryCode
+stateProvince
+county
+locality
+verbatimElevation
+verbatimDepth
+decimalLatitude
+decimalLongitude
+verbatimCoordinateSystem
+verbatimSRS
+footprintSRS
+footprintSpatialFit
+georeferencedBy
+georeferenceProtocol
+georeferenceSources
+georeferenceRemarks
+earliestEpochOrLowestSeries
+latestEpochOrHighestSeries
+lithostratigraphicTerms
+group
+identificationQualifier
+typeStatus
+identifiedBy
+identifiedByID
+dateIdentified
+identificationVerificationStatus
+acceptedNameUsageID
+parentNameUsageID
+namePublishedInID
+scientificName
+higherClassification
+kingdom
+phylum
+class
+order
+family
+subtribe
+genus
+genericName
+infragenericEpithet
+specificEpithet
+infraspecificEpithet
+taxonRank
+verbatimTaxonRank
+vernacularName
+nomenclaturalCode
+taxonomicStatus
+nomenclaturalStatus
+taxonRemarks
+datasetKey
+publishingCountry
+lastInterpreted
+elevation
+elevationAccuracy
+depth
+depthAccuracy
+distanceFromCentroidInMeters
+issue
+mediaType
+hasCoordinate
+hasGeospatialIssues
+taxonKey
+acceptedTaxonKey
+kingdomKey
+phylumKey
+classKey
+orderKey
+familyKey
+genusKey
+subgenusKey
+speciesKey
+species
+acceptedScientificName
+verbatimScientificName
+lastParsed
+lastCrawled
+repatriated
+projectId
+isSequenced
+gbifRegion
+publishedByGbifRegion
+level0Gid
+level0Name
+level1Gid
+level1Name
+level2Gid
+level2Name
+level3Gid
+level3Name
+iucnRedListCategory
+Unnamed: 228
+Unnamed: 230
+Unnamed: 232
+Unnamed: 233
+Unnamed: 235
+Unnamed: 236
+Unnamed: 237
+Unnamed: 238
+Unnamed: 239
+Unnamed: 241
+Unnamed: 242
+Unnamed: 243
+Unnamed: 244
+Unnamed: 247
+Unnamed: 249
+""

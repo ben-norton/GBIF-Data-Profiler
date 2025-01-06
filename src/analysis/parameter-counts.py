@@ -3,43 +3,57 @@ import config as cfg
 from datetime import date
 import os
 
-root_dir = cfg.get_project_root()
-archive_code = '0055081-241126133413365'
-
 today = date.today()
 ts = today.strftime("%Y%m%d")
 
-source_file = str(root_dir) + '/source-data/' + archive_code + '/occurrence.txt'
-target_path = str(root_dir) + '/src/analysis/output/parameter-counts/' + str(ts)
+datasets = cfg.get_datasets()
 
-if not os.path.isdir(target_path):
-    os.mkdir(target_path)
+for dataset in datasets:
+    archive_code = dataset
+    print(archive_code)
+    root_dir = cfg.get_project_root()
+    source_file = str(root_dir) + '/source-data/' + archive_code + '/occurrence.txt'
+    target_path = str(root_dir) + '/src/analysis/output/parameter-counts/' + str(ts)
 
-target_file = str(target_path) + '/' + archive_code + '-counts.txt'
-template_file = str(target_path) + '/' + archive_code + '-template.txt'
+    if not os.path.isdir(target_path):
+        os.mkdir(target_path)
 
-#df = pd.read_csv(source_file, sep='\t', lineterminator='\n', on_bad_lines='skip')
-df = pd.read_csv(source_file, sep='\t', lineterminator='\n', encoding='utf-8', low_memory=False)
+    # Create file contain unique value counts where more than one unique values
+    unique_counts_file = str(target_path) + '/' + archive_code + '-unique-counts.txt'
+    # Create file containing columns with unique and non-null counts and detected dtype
+    column_profile_file = str(target_path) + '/' + archive_code + '-column-profiles.txt'
+    # Create template of columns with more than one unique value
+    template_file = str(target_path) + '/' + archive_code + '-template.txt'
 
-# Write Output
-output = []
-for col in df.columns:
-    nonNull = df[col].count()
-    unique = df[col].nunique()
-    dataType = str(df[col].dtype)
-    output.append([col, nonNull, unique, dataType])
+    #df = pd.read_csv(source_file, sep='\t', lineterminator='\n', on_bad_lines='skip')
+    df = pd.read_csv(source_file, sep='\t', lineterminator='\n', encoding='utf-8', low_memory=False)
 
-output_df = pd.DataFrame(output)
-output_df.columns = ['column_name','non_null', 'unique_count', 'dtype']
-output_df.to_csv(target_file)
+    # Write Output of Column Profiles
+    output = []
+    counts = []
+    for col in df.columns:
+        nonNull = df[col].count()
+        unique = df[col].nunique()
+        dataType = str(df[col].dtype)
+        output.append([col, nonNull, unique, dataType])
+        if unique > 1:
+            counts.append([col, unique])
 
-# Write Template
-template = []
-for col in df.columns:
-    unique = df[col].nunique()
-    if unique > 0:
-        template.append([col])
+    output_df = pd.DataFrame(output)
+    output_df.columns = ['column_name','non_null', 'unique_count', 'dtype']
+    output_df.to_csv(column_profile_file, index=False)
 
-template_df = pd.DataFrame(template)
-template_df.columns = ['column_name']
-template_df.to_csv(template_file)
+    unique_counts_df = pd.DataFrame(counts)
+    unique_counts_df.columns = ['column_name','unique_count']
+    unique_counts_df.to_csv(unique_counts_file, index=False)
+
+    # Write Template
+    template = []
+    for col in df.columns:
+        unique = df[col].nunique()
+        if unique > 1:
+            template.append([col])
+
+    template_df = pd.DataFrame(template)
+    template_df.columns = ['column_name']
+    template_df.to_csv(template_file, index=False)
