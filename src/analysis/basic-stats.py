@@ -16,4 +16,7 @@ for dataset in datasets:
 
     source_file = str(root_dir) + '/source-data/' + archive_code + '/occurrence.txt'
     df = pd.read_csv(source_file, sep='\t', lineterminator='\n', encoding='utf-8')
-    print(df.shape)
+    shape_dict[archive_code] = df.shape
+    #print(df.shape)
+
+print(shape_dict)

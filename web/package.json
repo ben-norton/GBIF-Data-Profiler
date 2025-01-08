@@ -1,0 +1,18 @@
+{
+  "name": "gbif-dataset-profiles",
+  "version": "1.0.0",
+  "description": "Profiles and various analyses of GBIF Darwin Core occurrence datasets",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "docs:dev": "vitepress dev docs",
+    "docs:build": "vitepress build docs",
+    "docs:preview": "vitepress preview docs"
+  },
+  "author": "Ben Norton",
+  "license": "ISC",
+  "devDependencies": {
+    "vitepress": "^1.5.0",
+    "vue": "^3.5.13"
+  }
+}

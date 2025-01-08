@@ -8,8 +8,10 @@ import yaml
 today = date.today()
 ts = today.strftime("%Y%m%d")
 
-datasets = cfg.get_datasets()
+datasets = cfg.get_full_datasets()
 root_dir = cfg.get_project_root()
+cols = cfg.get_gbif_columns()
+col_dtypes = cfg.get_gbif_columns_dtypes()
 sv_config = str(root_dir) + '/src/profiler/configs/sweetviz_gbif.ini'
 sv.config_parser.read(sv_config)
 
@@ -34,34 +36,9 @@ for dataset in datasets:
 
     # Load file (CSV should be automatically identified)
     source_file = str(source_path) + '/' + source_filename
-    df = pd.read_csv(source_file, sep='\t', lineterminator='\n', encoding='utf-8')
-    # Fix datatypes - Sweetviz can't parse mixed data types
-    df['day'] = df['day'].astype(str)
-    df['recordNumber'] = df['recordNumber'].astype(str)
-    df['locationID'] = df['locationID'].astype(str)
-    df['georeferencedBy'] = df['georeferencedBy'].astype(str)
-    df['identificationVerificationStatus'] = df['identificationVerificationStatus'].astype(str)
-    df['identificationRemarks'] = df['identificationRemarks'].astype(str)
-    df['parentNameUsage'] = df['parentNameUsage'].astype(str)
-    df['hasCoordinate'] = df['hasCoordinate'].astype(str)
-    df['kingdomKey'] = pd.to_numeric(df['kingdomKey'], errors='coerce')
-    df['phylumKey'] = pd.to_numeric(df['phylumKey'], errors='coerce')
-    df['classKey'] = pd.to_numeric(df['classKey'], errors='coerce')
-    df['orderKey'] = pd.to_numeric(df['orderKey'], errors='coerce')
-    df['familyKey'] = pd.to_numeric(df['familyKey'], errors='coerce')
-    df['genusKey'] = pd.to_numeric(df['genusKey'], errors='coerce')
-    df['speciesKey'] = pd.to_numeric(df['speciesKey'], errors='coerce')
-    df['acceptedNameUsageID'] = df['acceptedNameUsageID'].astype(str)
-    df['vernacularName'] = df['vernacularName'].astype(str)
-    df['elevation'] = df['elevation'].astype(str)
-    df['elevationAccuracy'] = df['elevationAccuracy'].astype(str)
-    df['depth'] = df['depth'].astype(str)
-    df['distanceFromCentroidInMeters'] = df['distanceFromCentroidInMeters'].astype(str)
-    df['acceptedTaxonKey'] = pd.to_numeric(df['acceptedTaxonKey'], errors='coerce')
-    df['isSequenced'] = df['isSequenced'].astype(str)
-    df['endDayOfYear'] = df['endDayOfYear'].astype(str)
-    df['verbatimElevation'] = df['verbatimElevation'].astype(str)
-    df['nomenclaturalCode'] = df['nomenclaturalCode'].astype(str)
+
+    # Use pre-defined columns to eliminate the trailing columns and set to all to object to allow parsing by sweetviz
+    df = pd.read_csv(source_file, sep='\t', lineterminator='\n', encoding='utf-8', usecols=cols, dtype=object)
 
     # Drop columnns with no values
     df.dropna(how='all', axis=1, inplace=True)
