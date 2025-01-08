@@ -9,12 +9,12 @@ All datasets are occurrence-based and defined at the collection dataset level
 | 0051851-241126133413365 | Vertebrate Zoology Division - Mammalogy, Yale Peabody Museum | 18866     | 20241230 | https://doi.org/10.15468/dl.4fnm8g                                       | https://www.gbif.org/occurrence/download/0051851-241126133413365  |
 
 | Dataset                 | Title                                 | Count     | Date     | Filter         | Value | DOI                                |
-| ----------------------- | ------------------------------------- | --------- | -------- | -------------- | ----- | ---------------------------------- |
+| ----------------------- | ------------------------------------- |-----------| -------- | -------------- | ----- | ---------------------------------- |
 | 0052484-241126133413365 | Entomology Extant Specimen Records    | 606,772   | 20241231 | collectionCode | ent   | https://doi.org/10.15468/dl.ptewed |
 | 0052487-241126133413365 | US Specimen Records                   | 4,517,197 | 20241231 | collectionCode | us    | https://doi.org/10.15468/dl.wttrju |
 | 0052489-241126133413365 | Invertebrate Zoology Specimen Records | 1,926,624 | 20241231 | collectionCode | iz    | https://doi.org/10.15468/dl.fya67r |
 | 0054884-241126133413365 | Mammal Specimen Records               | 601,451   | 20250102 | collectionCode | mamm  | https://doi.org/10.15468/dl.dys66y |
-| 0054887-241126133413365 | Bird Specimen Records                 | 584,677   | 20250102 | collectionCode | birds | https://doi.org/10.15468/dl.2en7ue |
+| 0054887-241126133413365 | Bird Specimen Records                 | 584,592   | 20250102 | collectionCode | birds | https://doi.org/10.15468/dl.2en7ue |
 | 0054921-241126133413365 | Herpetology Specimen Records          | 584,297   | 20250102 | collectionCode | herp  | https://doi.org/10.15468/dl.rf2che |
 | 0055081-241126133413365 | Fish Specimen Records                 | 457,427   | 20250102 | collectionCode | fish  | https://doi.org/10.15468/dl.34mb2x |
 

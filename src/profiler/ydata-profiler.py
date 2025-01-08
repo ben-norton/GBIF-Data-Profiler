@@ -1,59 +1,60 @@
 from ydata_profiling import ProfileReport
 import pandas as pd
 from datetime import date
-from pathlib import Path
 import os
 import config as cfg
 import yaml
 
-root_dir = cfg.get_project_root()
-archive_code = '0052487-241126133413365'
-source_filename = 'occurrence.txt'
-
 today = date.today()
 ts = today.strftime("%Y%m%d")
 
-# Paths
-current_path = Path().absolute()
-root_path = current_path.parent.parent
-source_path = str(root_path) + '/source-data/' + archive_code + '/'
+datasets = cfg.get_all_datasets()
 
-# Metadata
-meta_yaml = str(source_path) + '/meta.yml'
-with open(meta_yaml, 'r') as f:
-    meta = yaml.safe_load(f)
+for dataset in datasets:
+    archive_code = dataset
+    print(archive_code)
+    root_dir = cfg.get_project_root()
+    source_filename = 'occurrence.txt'
 
-# Load file (CSV should be automatically identified)
-source_file = str(source_path) + '/' + source_filename
+    # Paths
+    source_path = str(root_dir) + '/source-data/' + archive_code
+    source_file = str(source_path ) + '/occurrence.txt'
+    target_path = str(root_dir) + '/src/profiler/output/ydata/' + str(ts)
 
-# Target Files
-target_path = str(current_path) + '/output/'
-if not os.path.isdir(target_path):
-    os.mkdir(target_path)
-target_report = str(target_path) + '/' + archive_code + '-' + str(ts) + '-output.html'
+    # Metadata
+    meta_yaml = str(source_path) + '/meta.yml'
+    with open(meta_yaml, 'r') as f:
+        meta = yaml.safe_load(f)
 
-df = pd.read_csv(source_file, sep='\t', lineterminator='\n', encoding='utf-8')
+    # Load file (CSV should be automatically identified)
+    source_file = str(source_path) + '/' + source_filename
 
-title = archive_code + ' Occurrence Data Profile'
-ydata_config_file = str(current_path) + '/configs/nmnh_gbif_config_minimal.yaml'
+    # Target Files
+    if not os.path.isdir(target_path):
+        os.mkdir(target_path)
+    target_report = str(target_path) + '/' + archive_code + '-' + str(ts) + '-output.html'
 
-if 'title' in meta.keys():
-    title = meta['title']
-else:
-    title = archive_code
-if 'doi' in meta.keys():
-    doi = meta['doi']
-else:
-    doi = None
+    df = pd.read_csv(source_file, sep='\t', lineterminator='\n', encoding='utf-8')
+    # Drop columnns with no values
+    df.dropna(how='all', axis=1, inplace=True)
 
-dataset_dict = {
-    "description": title,
-    "url": doi
-}
+    if 'title' in meta.keys():
+        title = meta['title']
+    else:
+        title = archive_code
+    if 'doi' in meta.keys():
+        doi = meta['doi']
+    else:
+        doi = None
 
-profile = ProfileReport(df,
-                        title=title,
-                        dataset=dataset_dict,
-                        minimal=True
-                        )
-profile.to_file(target_report)
+    dataset_dict = {
+        "description": title + ' ' + archive_code,
+        "url": doi
+    }
+
+    profile = ProfileReport(df,
+                            title=title,
+                            dataset=dataset_dict,
+                            minimal=True
+                            )
+    profile.to_file(target_report)
