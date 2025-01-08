@@ -8,7 +8,9 @@ import yaml
 today = date.today()
 ts = today.strftime("%Y%m%d")
 
-datasets = cfg.get_target_datasets()
+datasets = cfg.get_all_datasets()
+cols = cfg.get_gbif_columns()
+col_dtypes = cfg.get_gbif_columns_dtypes()
 
 for dataset in datasets:
     archive_code = dataset
@@ -34,7 +36,7 @@ for dataset in datasets:
         os.mkdir(target_path)
     target_report = str(target_path) + '/' + archive_code + '-' + str(ts) + '-output.html'
 
-    df = pd.read_csv(source_file, sep='\t', lineterminator='\n', encoding='utf-8')
+    df = pd.read_csv(source_file, sep='\t', lineterminator='\n', encoding='utf-8', usecols=cols, dtype=object)
 
     # Drop columnns with no values
     df.dropna(how='all', axis=1, inplace=True)

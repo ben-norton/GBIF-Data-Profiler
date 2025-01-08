@@ -6,3 +6,4 @@ source-data/*/
 /__pycache__
 src/profiler/output/output.zip
 *.zip
+/web/node_modules/

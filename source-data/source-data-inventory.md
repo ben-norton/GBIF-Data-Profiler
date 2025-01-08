@@ -7,10 +7,10 @@ All datasets are occurrence-based and defined at the collection dataset level
 | 0049394-241126133413365 | NMNH Material Samples (USNM)                                 | 338,887   | 20241226 | [https://doi.org/10.15468/dl.ycwxgd](https://doi.org/10.15468/dl.ycwxgd) | https://www.gbif.org/dataset/26098c25-8f7f-4c71-97ac-1d3db181c65e |
 | 0049395-241126133413365 | NMNH Extant Specimen Records (USNM, US)                      | 9,277,970 | 20241226 | [https://doi.org/10.15468/dl.42mnjx](https://doi.org/10.15468/dl.42mnjx) | https://www.gbif.org/dataset/821cc27a-e3bb-4bc5-ac34-89ada245069d |
 |                         | Naturalis Biodiversity Center (NL) - Aves                    |           | 20240108 |                                                                          |
-|                         | Botany Division, Yale Peabody Museum                         | | 20250108 | https://doi.org/10.15468/dl.twf535                                       |
-| 0061684-241126133413365 | Vertebrate Zoology Division - Mammalogy, Yale Peabody Museum | 18,866 | 20250108 | https://doi.org/10.15468/dl.shrths                                       |
+|                         | Botany Division, Yale Peabody Museum                         |           | 20250108 | https://doi.org/10.15468/dl.twf535                                       |
+| 0061684-241126133413365 | Vertebrate Zoology Division - Mammalogy, Yale Peabody Museum | 18,866    | 20250108 | https://doi.org/10.15468/dl.shrths                                       |
 |                         | Naturalis Biodiversity Center (NL) - Botany                  | 5,030,692 | 20240108 |  https://doi.org/10.15468/dl.4ze7ns                                                                          |
-| | Botany Division, Yale Peabody Museum | | 20250108 |  https://doi.org/10.15468/dl.twf535  |
+|                         | Botany Division, Yale Peabody Museum                         |           | 20250108 |  https://doi.org/10.15468/dl.twf535  |
 
 
 | Dataset                 | Title                                 | Count     | Date     | Filter         | Value | DOI                                |
