@@ -6,7 +6,9 @@ from datetime import date
 today = date.today()
 ts = today.strftime("%Y%m%d")
 
-datasets = cfg.get_all_datasets()
+dataset_code = 'all'
+datasets = cfg.get_datasets(dataset_code)
+
 
 shape_dict = {}
 for dataset in datasets:

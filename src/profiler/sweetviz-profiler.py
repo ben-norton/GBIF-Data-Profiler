@@ -8,7 +8,8 @@ import yaml
 today = date.today()
 ts = today.strftime("%Y%m%d")
 
-datasets = cfg.get_full_datasets()
+dataset_code = 'nl'
+datasets = cfg.get_datasets(dataset_code)
 root_dir = cfg.get_project_root()
 cols = cfg.get_gbif_columns()
 col_dtypes = cfg.get_gbif_columns_dtypes()
@@ -27,7 +28,7 @@ for dataset in datasets:
     target_path = str(root_dir) + '/src/profiler/output/sweetviz/' + str(ts)
     if not os.path.isdir(target_path):
         os.mkdir(target_path)
-    target_report = str(target_path) + '/' + archive_code + '-report.html'
+    target_report = str(target_path) + '/' + archive_code + '-' + dataset_code + '-report.html'
 
     # Metadata
     meta_yaml = str(source_path) + '/meta.yml'

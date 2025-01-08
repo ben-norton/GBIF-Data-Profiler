@@ -8,9 +8,10 @@ import yaml
 today = date.today()
 ts = today.strftime("%Y%m%d")
 
-datasets = cfg.get_all_datasets()
+dataset_code = 'nl'
+datasets = cfg.get_datasets(dataset_code)
 cols = cfg.get_gbif_columns()
-col_dtypes = cfg.get_gbif_columns_dtypes()
+#col_dtypes = cfg.get_gbif_columns_dtypes()
 
 for dataset in datasets:
     archive_code = dataset
@@ -34,7 +35,7 @@ for dataset in datasets:
     # Target Files
     if not os.path.isdir(target_path):
         os.mkdir(target_path)
-    target_report = str(target_path) + '/' + archive_code + '-' + str(ts) + '-output.html'
+    target_report = str(target_path) + '/' + archive_code + '-' + str(ts) + '-' + dataset_code + '-output.html'
 
     df = pd.read_csv(source_file, sep='\t', lineterminator='\n', encoding='utf-8', usecols=cols, dtype=object)
 
