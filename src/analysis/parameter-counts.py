@@ -6,7 +6,11 @@ import os
 today = date.today()
 ts = today.strftime("%Y%m%d")
 
-datasets = cfg.get_datasets()
+dataset_code = 'all'
+datasets = cfg.get_datasets(dataset_code)
+root_dir = cfg.get_project_root()
+cols = cfg.get_gbif_columns()
+col_dtypes = cfg.get_gbif_columns_dtypes()
 
 for dataset in datasets:
     archive_code = dataset
@@ -26,7 +30,7 @@ for dataset in datasets:
     template_file = str(target_path) + '/' + archive_code + '-template.txt'
 
     #df = pd.read_csv(source_file, sep='\t', lineterminator='\n', on_bad_lines='skip')
-    df = pd.read_csv(source_file, sep='\t', lineterminator='\n', encoding='utf-8', low_memory=False)
+    df = pd.read_csv(source_file, sep='\t', lineterminator='\n', encoding='utf-8', usecols=cols, low_memory=False)
 
     # Write Output of Column Profiles
     output = []

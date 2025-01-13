@@ -1,8 +1,11 @@
 import csv
 import config as cfg
 
+dataset_code = 'all'
+datasets = cfg.get_datasets(dataset_code)
 root_dir = cfg.get_project_root()
-datasets = cfg.get_all_datasets()
+cols = cfg.get_gbif_columns()
+col_dtypes = cfg.get_gbif_columns_dtypes()
 
 for dataset in datasets:
     archive_code = dataset

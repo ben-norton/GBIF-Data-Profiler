@@ -22,7 +22,7 @@ for dataset in datasets:
     # Paths
     source_path = str(root_dir) + '/source-data/' + archive_code
     source_file = str(source_path ) + '/occurrence.txt'
-    target_path = str(root_dir) + '/src/profiler/output/ydata/' + str(ts)
+    target_path = str(root_dir) + '/src/profiler/output/ydata/'
 
     # Metadata
     meta_yaml = str(source_path) + '/meta.yml'
@@ -35,7 +35,7 @@ for dataset in datasets:
     # Target Files
     if not os.path.isdir(target_path):
         os.mkdir(target_path)
-    target_report = str(target_path) + '/' + archive_code + '-' + str(ts) + '-' + dataset_code + '-output.html'
+    target_report = str(target_path) + '/' + str(ts) + '-' + archive_code + '-' + dataset_code + '-yd.html'
 
     df = pd.read_csv(source_file, sep='\t', lineterminator='\n', encoding='utf-8', usecols=cols, dtype=object)
 

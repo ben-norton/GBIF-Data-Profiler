@@ -8,7 +8,7 @@ import yaml
 today = date.today()
 ts = today.strftime("%Y%m%d")
 
-dataset_code = 'nl'
+dataset_code = 'usnm'
 datasets = cfg.get_datasets(dataset_code)
 root_dir = cfg.get_project_root()
 cols = cfg.get_gbif_columns()
@@ -25,10 +25,8 @@ for dataset in datasets:
     source_path = str(root_dir) + '/source-data/' + archive_code
     source_file = str(source_path) + '/occurrence.txt'
     # Target
-    target_path = str(root_dir) + '/src/profiler/output/sweetviz/' + str(ts)
-    if not os.path.isdir(target_path):
-        os.mkdir(target_path)
-    target_report = str(target_path) + '/' + archive_code + '-' + dataset_code + '-report.html'
+    target_path = str(root_dir) + '/src/profiler/output/sweetviz/'
+    target_report = str(target_path) + '/' + str(ts) + '-' + archive_code + '-' + dataset_code + '-sv.html'
 
     # Metadata
     meta_yaml = str(source_path) + '/meta.yml'

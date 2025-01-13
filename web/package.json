@@ -12,6 +12,7 @@
   "author": "Ben Norton",
   "license": "ISC",
   "devDependencies": {
+    "vite-plugin-static-copy": "^2.2.0",
     "vitepress": "^1.5.0",
     "vue": "^3.5.13"
   }

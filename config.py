@@ -13,7 +13,7 @@ def get_data_root() -> Path:
 # Get Datasets partitioned from full datasets (see meta.yml)
 # Datasets commented out were successfully parsed by sweetviz
 def get_datasets(str):
-    if(str == 'nmnh'):
+    if(str == 'usnm'):
         datasets = [
             '0049391-241126133413365',
             '0049394-241126133413365',
@@ -26,7 +26,7 @@ def get_datasets(str):
             '0054921-241126133413365',
             '0055081-241126133413365'
         ]
-    if(str == 'nl'):
+    if(str == 'naturalis'):
         datasets = [
             '0061690-241126133413365',
             '0061686-241126133413365'
