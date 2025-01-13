@@ -7,3 +7,6 @@ source-data/*/
 src/profiler/output/output.zip
 *.zip
 /web/node_modules/
+/deprecated/
+/__pycache__
+/node_modules/
