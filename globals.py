@@ -30,8 +30,6 @@ def get_datasets(str):
         datasets = [
             '0061690-241126133413365',
             '0061686-241126133413365'
-
-
         ]
     if (str == 'ypm'):
         datasets = [

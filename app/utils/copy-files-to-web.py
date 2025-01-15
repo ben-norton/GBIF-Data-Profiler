@@ -8,7 +8,7 @@ import pandas as pd
 
 root_dir = cfg.get_project_root()
 
-source_dir = str(root_dir) + '/app/profiler/output'
+source_dir = str(root_dir) + '/app/profilers/output'
 target_dir = str(root_dir) + '/web/docs/static-html/data-profiles'
 source_data_dir = str(root_dir) + '/source-data'
 md_file = str(root_dir) + '/web/docs/dataset-markdown-table.md'

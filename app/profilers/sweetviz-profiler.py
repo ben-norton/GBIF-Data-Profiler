@@ -14,7 +14,7 @@ root_dir = cfg.get_project_root()
 occurrence_cols = sch.get_gbif_columns()
 verbatim_cols = sch.get_verbatim_gbif_columns()
 
-sv_config = str(root_dir) + '/app/profiler/configs/sweetviz_gbif.ini'
+sv_config = str(root_dir) + '/app/profilers/configs/sweetviz_gbif.ini'
 sv.config_parser.read(sv_config)
 
 for dataset in datasets:
@@ -27,16 +27,13 @@ for dataset in datasets:
     source_path = str(root_dir) + '/source-data/' + archive_code
     source_file = str(source_path) + '/' + source_filename
     # Target
-    target_path = str(root_dir) + '/app/profilers/output/verbatim'
-    target_report = str(target_path) + '/' + str(ts) + '-' + archive_code + '-' + source_filename + '-' + dataset_code + '-' + source_type + '-sv.html'
+    target_path = str(root_dir) + '/app/profilers/output'
+    target_report = str(target_path) + '/' + str(ts) + '-' + archive_code + '-' + source_type + '-' + dataset_code + '-sv.html'
 
     # Metadata
     meta_yaml = str(source_path) + '/meta.yml'
     with open(meta_yaml, 'r') as f:
         meta = yaml.safe_load(f)
-
-    # Load file (CSV should be automatically identified)
-    source_file = str(source_path) + '/' + source_filename
 
     # Use pre-defined columns to eliminate the trailing columns and set to all to object to allow parsing by sweetviz
     if(source_type == 'occurrence'):
