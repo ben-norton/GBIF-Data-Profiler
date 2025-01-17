@@ -652,3 +652,4 @@ def get_gbif_columns_dtypes():
         'level3Name': 'object',
         'iucnRedListCategory': 'object'
     }
+    return gbif_source_cols_dtypes

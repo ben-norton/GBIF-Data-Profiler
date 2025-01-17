@@ -82,7 +82,7 @@ Datasets are organized by package ID, the identifier assigned by GBIF when a dat
                 - [**data-profiles**](web/docs/public/static-html/data-profiles)
         - [Dataset Corrections](web/docs/dataset-corrections.md)
         - [Source Datasets](web/docs/dataset-profiles-table.md)
-        - [GBIF Dataset Profiles](web/docs/index.md)
+        - [GBIF Dataset Profiles](web/docs/README)
         - [Markdown Extension Examples](web/docs/markdown-examples.md)
         - [{{ $frontmatter.title }}](web/docs/source-data-inventory.md)
 
