@@ -4,6 +4,8 @@ from pathlib import Path
 import globals as cfg
 import schemas as sch
 
+# This file detects column datatype for a specific file.
+# Files are selected by package_id (archive_code) and package file name (e.g. occurrence.txt)
 # Source: https://gist.github.com/mubbashar/adf2d373d73bf191706778f03757a972
 
 root_dir = cfg.get_project_root()

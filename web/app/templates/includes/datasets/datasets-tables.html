@@ -1,0 +1,60 @@
+    <div class="dataset-table-wrapper">
+        <div class="table-responsive print-avoid">
+        {% for k,v in datasets.iterrows() %}
+            <table class="table table-compact table-terms table-bordered table-dataset" id="{{ v['package_id'] }}">
+                <tbody>
+                    <tr>
+                        <th class="table-title">Title:</th>
+                        <td class="table-title">{{ v['title'] }}</td>
+                    </tr>
+                    <tr>
+                        <th>Package ID:</th>
+                        <td>{{ v['package_id'] }}</td>
+                    </tr>
+                    <tr>
+                        <th>Institution Code:</th>
+                        <td>{{ v['institution_code_x'] }}</td>
+                    </tr>
+                    <tr>
+                        <th>Record Count</th>
+                        <td>{{ v['record_count'] }}</td>
+                    </tr>
+                    <tr>
+                        <th>Download Date</th>
+                        <td>{{ v['download_date'] }}</td>
+                    </tr>
+
+                    {% if v['filter_parameter'] is number %}
+                    {% else %}
+                        <tr>
+                            <th>Filter Parameter</th>
+                            <td>{{ v['filter_parameter'] }}</td>
+                        </tr>
+                    {% endif %}
+
+                    {% if v['filter_value'] is number %}
+                    {% else %}
+                        <tr>
+                            <th>Filter Value</th>
+                            <td>{{ v['filter_value'] }}</td>
+                        </tr>
+                    {% endif %}
+
+                    <tr>
+                        <th>DOI</th>
+                        <td>{{ v['doi']|urlize }}</td>
+                    </tr>
+                    <tr>
+                        <th>Profile Library</th>
+                        <td>{{ v['profile_library'] }}</td>
+                    </tr>
+                    <tr>
+                        <th>Profile Link</th>
+                        <td><a href="{{ url_for('static', filename= v['profile_link']) }}">{{ v['profile_link'] }}</a></td>
+                    </tr>
+
+                </tbody>
+            </table>
+                        {% endfor %}
+        </div>
+    </div>

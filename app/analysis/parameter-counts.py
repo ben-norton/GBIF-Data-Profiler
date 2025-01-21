@@ -8,6 +8,8 @@ today = date.today()
 ts = today.strftime("%Y%m%d")
 
 dataset_code = 'all'
+package_file_stem = 'verbtaim'
+
 datasets = cfg.get_datasets(dataset_code)
 root_dir = cfg.get_project_root()
 cols = sch.get_gbif_columns()
@@ -17,18 +19,18 @@ for dataset in datasets:
     archive_code = dataset
     print(archive_code)
     root_dir = cfg.get_project_root()
-    source_file = str(root_dir) + '/source-data/' + archive_code + '/occurrence.txt'
-    target_path = str(root_dir) + '/app/analysis/output/parameter-counts/' + str(ts)
+    source_file = str(root_dir) + '/source-data/' + archive_code + package_file_stem + '.txt'
+    target_path = str(root_dir) + '/app/analysis/output/parameter-counts'
 
     if not os.path.isdir(target_path):
         os.mkdir(target_path)
 
     # Create file contain unique value counts where more than one unique values
-    unique_counts_file = str(target_path) + '/' + archive_code + '-unique-counts.txt'
+    unique_counts_file = str(target_path) + '/' + archive_code + '-' + package_file_stem + '-unique-counts.txt'
     # Create file containing columns with unique and non-null counts and detected dtype
-    column_profile_file = str(target_path) + '/' + archive_code + '-column-profiles.txt'
+    column_profile_file = str(target_path) + '/' + archive_code + package_file_stem +  '-column-profiles.txt'
     # Create template of columns with more than one unique value
-    template_file = str(target_path) + '/' + archive_code + '-template.txt'
+    template_file = str(target_path) + '/' + archive_code + package_file_stem +  '-column-template.txt'
 
     #df = pd.read_csv(source_file, sep='\t', lineterminator='\n', on_bad_lines='skip')
     df = pd.read_csv(source_file, sep='\t', lineterminator='\n', encoding='utf-8', usecols=cols, low_memory=False)

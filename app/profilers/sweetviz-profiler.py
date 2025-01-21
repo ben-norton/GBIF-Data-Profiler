@@ -5,10 +5,17 @@ import schemas as sch
 import globals as cfg
 import yaml
 
+# This script generates Sweetviz interactive profiles of source datasets
+# Datasets are specified by dataset_code (see globals.py) and package filename (without the extension)
+# Output is placed in the output directory, which is copied to the flask application using a script under utils
+# Sweetviz allows for customized configuration files. The configuration for this project is sweetviz_gbif.ini located under configs
+
+package_file_stem = 'verbatim'
+dataset_code = 'all'
+
 today = date.today()
 ts = today.strftime("%Y%m%d")
 
-dataset_code = 'all'
 datasets = cfg.get_datasets(dataset_code)
 root_dir = cfg.get_project_root()
 occurrence_cols = sch.get_gbif_columns()
@@ -20,15 +27,14 @@ sv.config_parser.read(sv_config)
 for dataset in datasets:
     archive_code = dataset
     print(archive_code)
-    source_filename = 'verbatim.txt'
-    source_type = 'verbatim'
+    source_filename = package_file_stem + '.txt'
 
     # Paths
     source_path = str(root_dir) + '/source-data/' + archive_code
     source_file = str(source_path) + '/' + source_filename
     # Target
     target_path = str(root_dir) + '/app/profilers/output'
-    target_report = str(target_path) + '/' + str(ts) + '-' + archive_code + '-' + source_type + '-' + dataset_code + '-sv.html'
+    target_report = str(target_path) + '/' + str(ts) + '-' + archive_code + '-' + package_file_stem + '-' + dataset_code + '-sv.html'
 
     # Metadata
     meta_yaml = str(source_path) + '/meta.yml'
@@ -36,9 +42,9 @@ for dataset in datasets:
         meta = yaml.safe_load(f)
 
     # Use pre-defined columns to eliminate the trailing columns and set to all to object to allow parsing by sweetviz
-    if(source_type == 'occurrence'):
+    if(package_file_stem == 'occurrence'):
         cols = occurrence_cols
-    elif(source_type == 'verbatim'):
+    elif(package_file_stem == 'verbatim'):
         cols = verbatim_cols
     else:
         cols = sch.get_gbif_columns()

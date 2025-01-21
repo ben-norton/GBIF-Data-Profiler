@@ -4,6 +4,8 @@ import os
 import schemas as sch
 import globals as cfg
 
+# This script generates column lists of source datasets, which are specific by filename and package id
+
 today = date.today()
 ts = today.strftime("%Y%m%d")
 
@@ -11,7 +13,6 @@ dataset_code = 'all'
 datasets = cfg.get_datasets(dataset_code)
 root_dir = cfg.get_project_root()
 cols = sch.get_gbif_columns()
-
 
 archive_code = '0052489-241126133413365'
 source_filename = 'verbatim.txt'
