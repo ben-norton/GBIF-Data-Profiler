@@ -3,12 +3,17 @@ import os
 from datetime import date
 import schemas as sch
 import globals as cfg
+from py_markdown_table.markdown_table import markdown_table
+
+# Get Source Datasets Dataframe Shapes
 
 today = date.today()
 ts = today.strftime("%Y%m%d")
 
-dataset_code = 'all'
+
+dataset_code = 'new'
 datasets = cfg.get_datasets(dataset_code)
+md_file = 'dataset_shapes.md'
 
 shape_dict = {}
 for dataset in datasets:
@@ -21,4 +26,9 @@ for dataset in datasets:
     shape_dict[archive_code] = df.shape
     #print(df.shape)
 
-print(shape_dict)
+df_shapes = pd.DataFrame.from_dict(shape_dict,orient='columns')
+data = df_shapes.to_dict()
+md = markdown_table(data).get_markdown()
+print(df_shapes)
+with open(md_file, 'w') as f:
+    f.write(md)

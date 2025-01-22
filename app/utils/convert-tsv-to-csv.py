@@ -1,13 +1,14 @@
 import csv
 import globals as cfg
 import schemas as sch
-
+import os
 # Convert Tab-delimited data files to comma-separated in the source datasets directory
 # Convereted files are specified by base file name (e.g., verbatim, occurrence) in each data package
 # Source datasets are filtered by datasetCode variable which corresponds to dictionaries in the root globals config
 
 dataset_code = 'all'        # Dataset Filter. See globals.py
 file_name = 'occurrence'    # Base file name in data package
+overwrite =  'false'
 
 datasets = cfg.get_datasets(dataset_code)
 root_dir = cfg.get_project_root()
@@ -15,7 +16,7 @@ cols = sch.get_gbif_columns()
 col_dtypes = sch.get_gbif_columns_dtypes()
 
 for dataset in datasets:
-    file_name = 'occurrence'
+    file_name = 'verbatim'
     archive_code = dataset
     print(archive_code)
     source_filename = file_name + '.txt'
@@ -28,10 +29,20 @@ for dataset in datasets:
         csv.field_size_limit(100000000)
         with open(tsv_file, 'r', newline='', encoding='utf-8') as tsvfile:
             tsvreader = csv.reader(tsvfile, delimiter='\t')
+            if(overwrite == 'true'):
+                os.remove(csv_file)
+                with open(csv_file, 'w', newline='', encoding='utf-8') as csvfile:
+                    csvwriter = csv.writer(csvfile)
+                    csvwriter.writerows(tsvreader)
+                    print(archive_code + ' successfully converted')
+            else:
+                if not os.path.exists(csv_file):
+                    with open(csv_file, 'w', newline='', encoding='utf-8') as csvfile:
+                        csvwriter = csv.writer(csvfile)
+                        csvwriter.writerows(tsvreader)
+                        print(archive_code + ' successfully converted')
+                else:
+                    print('csv_file already exists.')
 
-            with open(csv_file, 'w', newline='', encoding='utf-8') as csvfile:
-                csvwriter = csv.writer(csvfile)
-                csvwriter.writerows(tsvreader)
 
     tsv_to_csv(source_file, target_file)
-    print(archive_code + ' successfully converted')

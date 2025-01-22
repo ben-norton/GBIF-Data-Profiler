@@ -11,7 +11,7 @@ import yaml
 # Sweetviz allows for customized configuration files. The configuration for this project is sweetviz_gbif.ini located under configs
 
 package_file_stem = 'verbatim'
-dataset_code = 'all'
+dataset_code = 'new'
 
 today = date.today()
 ts = today.strftime("%Y%m%d")
