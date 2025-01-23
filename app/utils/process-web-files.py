@@ -12,6 +12,9 @@ import yaml
     This script serves two purposes, both associated with the web-based documentation
     1. Copies datasets profiles to web documentation for publication
     2. Generates master yaml file to populate jinja templates
+    
+    The functions are designed to be run in sequence. To do so, uncomment the appropriate function call and make sure the other calls are commented out. Not ideal, but works for now.
+    Sequence: copy, generate_yaml, generate_web_sources
 """
 
 root_dir = cfg.get_project_root()
@@ -34,7 +37,7 @@ def copy(src, dest):
         else:
             copy(pathname, dest)
 
-#copy(source_dir, target_dir)
+
 
 
 def generate_yaml(target):
@@ -55,7 +58,7 @@ def generate_yaml(target):
     # meta.yml dataframe
     df_yml = pd.DataFrame.from_dict(yml_dict)
 
-#generate_yaml(source_data_dir)
+
 
 # Generate Web Source Data
 def generate_web_sources(target, source):
@@ -125,6 +128,9 @@ def generate_web_sources(target, source):
     # Write merged to new YAML file
     df_merged.to_csv(web_source_csv, index=False, encoding='utf-8')
 
+# Function Calls
+#copy(source_dir, target_dir)
+#generate_yaml(source_data_dir)
 generate_web_sources(target_dir, source_data_dir)
 
 
