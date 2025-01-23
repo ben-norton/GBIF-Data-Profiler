@@ -1,7 +1,10 @@
-# gbif-data-utils
+# GBIF Data Profiler
 GBIF Data Parsing Utilities, Profilers, and Web-based publishing site
 
-# Project Directory Structure
+## Website
+You can explore an existing inventory of interactive profiles by visiting the repository website: [https://ben-norton.github.io/GBIF-Data-Profiling/](https://ben-norton.github.io/GBIF-Data-Profiling/)
+
+## Project Directory Structure
 ```
 ├───app
 |   ├───analysis    | A collection of scripts for running basic structural analysis of source data files
@@ -13,7 +16,7 @@ GBIF Data Parsing Utilities, Profilers, and Web-based publishing site
 ├───web             | Static site generator for publishing interactive profiles using VitePress
 ```
 
-# Source Data
+## Source Data
 All source datasets downloaded from [Dataset Search](https://www.gbif.org/dataset/search) in the GBIF Portal are extracted and stored in the source-datasets folder. Many occurrence datasets
 are very large > 1GB, which can exceed the allocation provided by certain GitHub plans. Therefore, a simple example is included with the repo. Except for the example dataset, the contents of 
 the source-datasets are set to ignore in order to prevent exceeding the GitHub limitations.
