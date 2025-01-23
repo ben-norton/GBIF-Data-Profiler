@@ -188,6 +188,7 @@ table.table-dataset {
 table.table-dataset tbody th {
     font-weight: 600;
 }
+table.table-dataset thead th,
 table.table-dataset tbody th.table-title,
 table.table-dataset tbody td.table-title {
     font-weight: 900;
@@ -195,15 +196,52 @@ table.table-dataset tbody td.table-title {
 table.table-dataset td, th {
     font-size: .9em;
 }
+table thead th {
+    cursor: pointer;
+}
+table thead th:hover {
+    background-color: var(--light-gray-color);
+}
+table thead tr:hover {
+    background-color: var(--light-gray-color);
+}
+
+thead tr span.show-message {
+    font-style: italic;
+    color: var(--dark-gray-color);
+    opacity: 0.8;
+    font-weight: 300;
+}
+
+.tr-collapse-trigger[aria-expanded=true] {
+    background-color: var(--light-gray-color);
+}
+.tr-collapse-trigger[aria-expanded=true] .show-message {
+  display: none;
+}
+table thead th span,
+table thead th i {
+    line-height: 2;
+}
+table thead th i {
+    display: inline-block;
+    line-height: 2;
+    width: 20px;
+    height: 20px;
+    font-size: 20px;
+    padding-top: 4px;
+    color: #2C2E4D;
+}
 
 /* Datsset Index -------------------- */
 ul.dataset-index-list {
     list-style-type: none;
-    margin-right: 0;
+    margin-left:0;
+    padding-left: 0;
 }
 ul.list-2-col {
     columns: 2;
 }
 ul.dataset-index-list li {
-    line-height: 1.4;
+    line-height: 1.6;
 }

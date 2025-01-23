@@ -10,3 +10,5 @@ src/profiler/output/output.zip
 /deprecated/
 /__pycache__
 /node_modules/
+/web/deprecated/
+/web/app/build/*
