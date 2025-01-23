@@ -7,4 +7,4 @@ record_count: 26789 # can be found on the webpage linked with the doi
 download_date: 2024-01-21 # yyyy-mm-dd
 filter_parameter: # For filtered results, enter the filter parameter here
 filter_value: # For filtered results, enter the value that corresponds to the filter paramter
-doi: https://doi.org/10.15468/dl.82s5sq # Found in the xml file under dataset in the package directory
+doi: https://doi.org/10.15468/emivh3 # Found in the xml file under dataset in the package directory

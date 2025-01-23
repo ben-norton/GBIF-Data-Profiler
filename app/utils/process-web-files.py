@@ -49,7 +49,9 @@ def generate_yaml(target):
             yml_dict.append(meta_dict)
 
     # Write merged yaml to file
-    yaml.dump(yml_dict, output_yaml, default_flow_style=False)
+    with open(output_yaml, 'w') as of:
+        yaml.dump(yml_dict, of, default_flow_style=False)
+
     # meta.yml dataframe
     df_yml = pd.DataFrame.from_dict(yml_dict)
 
@@ -86,9 +88,16 @@ def generate_web_sources(target, source):
                     profiler = 'Unknown'
                 data_dict['profile_library'] = profiler
                 master_list.append(data_dict)
+                print(data_dict['package_id'])
 
     df_profiles = pd.DataFrame.from_dict(master_list)
-    print(df_profiles.columns)
+    df_profiles = df_profiles[['package_id','profile_link','last_modified','source_file','profile_library']]
+    df_profiles = df_profiles.sort_values(by=['package_id'])
+    print(df_profiles)
+    md_file = 'dataset_profiles.md'
+    md = df_profiles.to_markdown()
+    with open(md_file, 'w') as f:
+        f.write(md)
 
     # Create meta.yml dataframe from meta.yml files in source-datasets directory
     yml_dict = []
@@ -98,10 +107,14 @@ def generate_web_sources(target, source):
             yml_dict.append(meta_dict)
     df_yml = pd.DataFrame.from_dict(yml_dict)
 
+    mdyml_file = 'dataset_yml.md'
+    md_yml = df_yml.to_markdown()
+    with open(mdyml_file, 'w') as f:
+        f.write(md_yml)
+
 
     # Merge Dataframes on package_id
-    df_merged = pd.merge(df_yml,df_profiles['package_id','profile_link','last_modified','source_file','profile_library'],
-                         left_on=['package_id'],right_on=['package_id'], how='left')
+    df_merged = pd.merge(df_yml,df_profiles,on=['package_id'], how='right')
 
 
     # Write merged to markdown

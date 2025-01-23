@@ -1,14 +1,11 @@
 from app import app
 from flask import render_template
-from flask_assets import Environment, Bundle
 from markupsafe import Markup
 import markdown2
 import pandas as pd
 import yaml
 
-assets = Environment(app)
-css = Bundle("custom/css/custom.css", "assets/plugins/pygments/pygments.css", output="bundled/style.css")
-assets.register("site_css", css)
+
 
 with open('app/meta.yml') as metadata:
     meta = yaml.safe_load(metadata)

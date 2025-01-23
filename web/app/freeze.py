@@ -1,7 +1,6 @@
 
 from flask import Flask, render_template
 from flask_frozen import Freezer
-from flask_assets import Environment, Bundle
 from markupsafe import Markup
 import sys
 import markdown2
@@ -15,9 +14,6 @@ build_dir = str(root_dir) + 'web/app/build'
 app = Flask(__name__, template_folder='templates')
 freezer = Freezer(app)
 
-assets = Environment(app)
-css = Bundle("custom/css/custom.css", "assets/plugins/pygments/pygments.css", output="bundled/style.css")
-assets.register("site_css", css)
 
 #app.config['TEMPLATES_AUTO_RELOAD'] = True
 app.config['FREEZER_DESTINATION'] = 'build'
