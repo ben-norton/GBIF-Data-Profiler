@@ -14,8 +14,13 @@ GBIF Data Parsing Utilities, Profilers, and Web-based publishing site
 ```
 
 # Source Data
-The source data directory contains the source occurrence datasets downloaded using the [Dataset Search](https://www.gbif.org/dataset/search) in the GBIF Portal
+All source datasets downloaded from [Dataset Search](https://www.gbif.org/dataset/search) in the GBIF Portal are extracted and stored in the source-datasets folder. Many occurrence datasets
+are very large > 1GB, which can exceed the allocation provided by certain GitHub plans. Therefore, a simple example is included with the repo. Except for the example dataset, the contents of 
+the source-datasets are set to ignore in order to prevent exceeding the GitHub limitations.
+
 Datasets are organized by package ID, the identifier assigned by GBIF when a dataset is selected for download. See the source--data-inventory.md document for a tabulated summary.
+Please see the README file in the source-datasets folder and the README.md file in the project-docs for more information including procedures for downloading your own datasets.
+
 
 ## Datset Profiler Libraries
 | Library | PIP                                         | URL                                       | Description                                                                                                                                                                                                                                                           | 
