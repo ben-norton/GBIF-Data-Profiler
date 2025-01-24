@@ -2,7 +2,7 @@
 GBIF Data Parsing Utilities, Profilers, and Web-based publishing site
 
 ## Website
-You can explore an existing inventory of interactive profiles by visiting the repository website: [https://ben-norton.github.io/GBIF-Data-Profiling/](https://ben-norton.github.io/GBIF-Data-Profiling/)
+You can explore an existing inventory of interactive profiles by visiting the repository website: [https://ben-norton.github.io/GBIF-Data-Profiling/](https://ben-norton.github.io/GBIF-Data-Profiler/)
 
 ## Project Directory Structure
 ```
