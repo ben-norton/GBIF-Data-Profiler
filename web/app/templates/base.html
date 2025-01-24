@@ -14,16 +14,19 @@
 </head>
 <body id="page-top" >
     {% include 'includes/global/nav.html' %}
-    <div class="wrapper container d-flex flex-row min-vh-100">
-        <aside class="sidebar" id="sidebar">
-            {% include 'includes/global/sidebar.html' %}
-        </aside>
-        <main class="main main-content">
-            {% block main %}
+    <div class="wrapper container">
+        <div class="row">
+            <div class="col-md-2">
+                <aside class="sidebar sidebar-expanded d-none d-md-block">
+                    {% include 'includes/global/sidebar.html' %}
+                </aside>
+            </div>
+            <main class="main main-content col-md-10">
+                {% block main %}
 
-            {% endblock %}
-        </main>
-
+                {% endblock %}
+            </main>
+        </div>
     </div>
     {% include 'includes/global/footer.html' %}
 
@@ -32,6 +35,9 @@
     <script>
         $('th.th-collapser').click(function(){
             $('th.th-collapser i').toggleClass('ti-chevron-up ti-chevron-down');
+        });
+        $('[data-toggle=sidebar-colapse]').click(function() {
+            SidebarCollapse();
         });
     </script>
 </body>

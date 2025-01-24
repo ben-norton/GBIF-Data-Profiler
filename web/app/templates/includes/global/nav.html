@@ -1,23 +1,23 @@
     <nav class="navbar  navbar-expand-lg">
-        <div class="container justify-content-end align-items-center">
-            <a href="#" class="navbar-brand">Docs.</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-                    aria-controls="navbarSupportedContent"
-                    aria-expanded="false"
-                    aria-label="Toggle navigation">
-                  <span class="navbar-toggler-icon"></span>
+        <div class="container">
+            <a href="#" class="navbar-brand">GBIF Profiler Docs.</a>
+            <button class="navbar-toggler navbar-toggler-right"
+                     type="button"
+                     data-bs-toggle="collapse"
+                     data-bs-target="#navbarNavDropdown"
+                     aria-controls="navbarNavDropdown"
+                     aria-expanded="false">
+                <span class="navbar-toggler-icon"></span>
             </button>
-                <div class="d-flex">
-                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                            <li class="nav-item">
-                                <a class="nav-link active" aria-current="page" href="#">Home</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="https://github.com/ben-norton/gbif-data-utils"><i class="ti ti-brand-github"></i></a>
-                            </li>
-                        </ul>
-                    </div>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav mr-auto d-md-none">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="{{ url_for('home') }}">Home</a>
+                    </li>
+                     <li class="nav-item active">
+                        <a class="nav-link" href="{{ url_for('datasets') }}">Datasets</a>
+                    </li>
+                </ul>
             </div>
         </div>
     </nav>

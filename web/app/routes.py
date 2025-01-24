@@ -5,7 +5,7 @@ import markdown2
 import pandas as pd
 import yaml
 
-
+app.debug = True
 
 with open('app/meta.yml') as metadata:
     meta = yaml.safe_load(metadata)
@@ -34,7 +34,7 @@ def home():
                            slug='home'
                            )
 @app.route('/datasets')
-def source_datasets():
+def datasets():
     datasets_mdfile = 'app/md/datasets-content.md'
     with open(datasets_mdfile, encoding="utf-8") as f:
         marked_text = markdown2.markdown(f.read(), extras=["tables", "fenced-code-blocks"])

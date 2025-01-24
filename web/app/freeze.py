@@ -18,7 +18,8 @@ freezer = Freezer(app)
 #app.config['TEMPLATES_AUTO_RELOAD'] = True
 app.config['FREEZER_DESTINATION'] = 'build'
 app.config['FREEZER_RELATIVE_URLS'] = True
-#app.config['FREEZER_IGNORE_MIMETYPE_WARNINGS'] = True
+app.config['FREEZER_RELATIVE_URLS_PRETTY'] = True
+app.config['FREEZER_IGNORE_MIMETYPE_WARNINGS'] = True
 
 with open('meta.yml') as metadata:
     meta = yaml.safe_load(metadata)
@@ -47,7 +48,7 @@ def home():
                            slug='home'
                            )
 @app.route('/datasets/')
-def source_datasets():
+def datasets():
     datasets_mdfile = 'md/datasets-content.md'
     with open(datasets_mdfile, encoding="utf-8") as f:
         marked_text = markdown2.markdown(f.read(), extras=["tables", "fenced-code-blocks"])
@@ -74,5 +75,8 @@ if __name__ == "__main__":
     if len(sys.argv) > 1 and sys.argv[1] == "build":
         freezer.freeze()
         print("Written to: " + build_dir)
+    elif len(sys.argv) > 1 and sys.argv[1] == "test":
+        freezer.run(debug=True)
+        print("Test run")
     else:
         app.run(port=8000)

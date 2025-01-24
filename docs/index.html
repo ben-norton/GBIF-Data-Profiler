@@ -14,37 +14,40 @@
 </head>
 <body id="page-top" >
         <nav class="navbar  navbar-expand-lg">
-        <div class="container justify-content-end align-items-center">
-            <a href="#" class="navbar-brand">Docs.</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-                    aria-controls="navbarSupportedContent"
-                    aria-expanded="false"
-                    aria-label="Toggle navigation">
-                  <span class="navbar-toggler-icon"></span>
+        <div class="container">
+            <a href="#" class="navbar-brand">GBIF Profiler Docs.</a>
+            <button class="navbar-toggler navbar-toggler-right"
+                     type="button"
+                     data-bs-toggle="collapse"
+                     data-bs-target="#navbarNavDropdown"
+                     aria-controls="navbarNavDropdown"
+                     aria-expanded="false">
+                <span class="navbar-toggler-icon"></span>
             </button>
-                <div class="d-flex">
-                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                            <li class="nav-item">
-                                <a class="nav-link active" aria-current="page" href="#">Home</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="https://github.com/ben-norton/gbif-data-utils"><i class="ti ti-brand-github"></i></a>
-                            </li>
-                        </ul>
-                    </div>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav mr-auto d-md-none">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                     <li class="nav-item active">
+                        <a class="nav-link" href="datasets/index.html">Datasets</a>
+                    </li>
+                </ul>
             </div>
         </div>
     </nav>
-    <div class="wrapper container d-flex flex-row min-vh-100">
-        <aside class="sidebar" id="sidebar">
-                <ul class="sidebar-nav">
-        <li class="nav-btn"><a href="/">Home</a></li>
-        <li class="nav-btn"><a href="/datasets">Datasets</a></li>
+    <div class="wrapper container">
+        <div class="row">
+            <div class="col-md-2">
+                <aside class="sidebar sidebar-expanded d-none d-md-block">
+                        <ul class="sidebar-nav">
+        <li class="nav-btn"><a href="index.html">Home</a></li>
+        <li class="nav-btn"><a href="datasets/index.html">Datasets</a></li>
     </ul>
-        </aside>
-        <main class="main main-content">
-            
+                </aside>
+            </div>
+            <main class="main main-content col-md-10">
+                
  <div class="row">
     <div class="col">
         <h1 class="page-title">Home</h1>
@@ -92,8 +95,8 @@ Datasets are organized by package ID, the identifier assigned by GBIF when a dat
     </div>
 </div>
 
-        </main>
-
+            </main>
+        </div>
     </div>
     <footer class="footer mt-auto py-3 bg-light">
   <div class="container">
@@ -106,6 +109,9 @@ Datasets are organized by package ID, the identifier assigned by GBIF when a dat
     <script>
         $('th.th-collapser').click(function(){
             $('th.th-collapser i').toggleClass('ti-chevron-up ti-chevron-down');
+        });
+        $('[data-toggle=sidebar-colapse]').click(function() {
+            SidebarCollapse();
         });
     </script>
 </body>
