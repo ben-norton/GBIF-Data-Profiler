@@ -1,5 +1,6 @@
 # Inventory of Source Data
-All datasets are occurrence-based and defined at the collection dataset level
+All datasets are occurrence-based and defined at the collection dataset level.
+Due to GitHub size constraints, the datasets listed below are not included in the repository. They must be downloaded separately. The datasets listed below correspond to the profiles currently posted on the GBIF Data Profiler dataset page.
 
 | Dataset                 | Title                                                                              | Count     | Date     | DOI                                                                    |
 | ----------------------- | ---------------------------------------------------------------------------------- |-----------| -------- |------------------------------------------------------------------------|
