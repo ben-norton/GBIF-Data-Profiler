@@ -2,11 +2,10 @@
 /.data-utils-venv
 /__pycache__
 *.zip
-/web/node_modules/
 /deprecated/
-/node_modules/
 /web/deprecated/
 /web/app/build/*
+
 
 /source-data/*
 !/source-data/0000571-250121130708018
