@@ -11,7 +11,6 @@ bucket_name = 'gbif-occurrence-media'
 os.environ['AWS_SHARED_CREDENTIALS_FILE'] = str(root_dir) + '/.aws/credentials'
 os.environ['AWS_CONFIG_FILE'] = str(root_dir) + '/.aws/config'
 
-
 datasets = cfg.get_datasets(dataset_code)
 session = boto3.Session(profile_name='default')
 s3 = session.client('s3',region_name='us-east-1')

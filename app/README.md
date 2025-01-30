@@ -10,6 +10,7 @@
 │   │   └───parameter-counts
 ├───media
 │   │   get-multimedia.py       | Download all media in the multimedia.txt to a local directory
+│   │   upload-media.py         | Upload images to cloud storage device
 ├───profilers
 │   │   sweetviz-profiler.py    | Generate Sweetviz profiles
 │   │   ydata-profiler.py       | Generate YData profiles
