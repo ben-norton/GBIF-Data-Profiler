@@ -7,3 +7,5 @@ pip install awscli
 aws configure
 pip install boto3
 ```
+
+Scripts

@@ -4,6 +4,8 @@ from pathlib import Path
 
 PROJECT_ROOT = os.path.abspath(os.path.dirname(__file__))
 
+def get_media_directory() -> Path:
+    return Path('H:/media')
 
 def get_project_root() -> Path:
     return os.path.dirname(os.path.abspath(__file__))
@@ -42,6 +44,7 @@ def get_datasets(str):
             '0000214-250121130708018',
             '0000571-250121130708018',
             '0001383-250121130708018',
+            '0002582-250127130748423',
             '0049391-241126133413365',
             '0049394-241126133413365',
             '0049395-241126133413365',
@@ -57,9 +60,10 @@ def get_datasets(str):
             '0061686-241126133413365',
             '0061690-241126133413365',
         ]
-    elif (str == 'fm'):
+    elif (str == 'fmnh'):
         datasets = [
-            '0000214-250121130708018'
+            '0000214-250121130708018',
+            '0002582-250127130748423'
         ]
     elif (str == 'ncsm'):
         datasets = [
@@ -74,7 +78,13 @@ def get_datasets(str):
             '0000214-250121130708018',
             '0000571-250121130708018',
             '0001383-250121130708018',
+            '0002582-250127130748423'
         ]
+    elif (str == 'media'):
+        datasets = [
+            '0000214-250121130708018'
+        ]
+
     else:
         datasets = []
 

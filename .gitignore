@@ -11,7 +11,7 @@
 !/source-data/0000571-250121130708018
 !/source-data/archive/0000571-250121130708018.zip
 
-/.auth
-/.auth/*
+/.gbif-data-profiler-venv/
 /.aws
+/.aws/
 /.aws/*

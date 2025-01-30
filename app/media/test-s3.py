@@ -1,21 +1,36 @@
 import globals as cfg
 import yaml
 import boto3
-from botocore.retries import bucket
+from botocore.exceptions import ClientError
+from boto3.s3.transfer import S3UploadFailedError
+import os
+import json
 
 root_dir = cfg.get_project_root()
+os.environ['AWS_SHARED_CREDENTIALS_FILE'] = str(root_dir) + '/.aws/credentials'
+os.environ['AWS_CONFIG_FILE'] = str(root_dir) + '/.aws/config'
 
-config_yaml = str(root_dir) + '/.aws/config.yml'
-with open(config_yaml, 'r') as f:
-	config = yaml.safe_load(f)
+bucket_name = 'gbif-occurrence-media'
 
-s3 = boto3.client(
-    's3',
-	region_name=config['region'],
-    aws_access_key_id=config['aws_access_key_id'],
-    aws_secret_access_key=config['aws_secret_access_key']
-)
+session = boto3.Session(profile_name='default')
+s3_session = session.client('s3',region_name='us-east-2')
 
+s3 = boto3.client('s3')
 response = s3.list_buckets()
-for b in response.get("Buckets",None):
-    print(b.get("Name",None))
+
+def list_contents(bucket):
+    s3_resource = boto3.resource('s3')
+    my_bucket = s3_resource.Bucket(bucket)
+    summaries = my_bucket.objects.all()
+    print(summaries)
+    files = []
+    for file in summaries:
+        files.append(file.key)
+    return json.dumps({"files": files})
+
+#list_contents(bucket_name)
+response = s3.list_objects_v2(
+    Bucket=bucket_name)
+
+
+# s3.Object(bucket_name, object_key).upload_file(file_path)

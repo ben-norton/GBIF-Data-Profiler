@@ -13,7 +13,7 @@ dataset_code = 'media'        # Dataset Filter. See globals.py
 
 datasets = cfg.get_datasets(dataset_code)
 
-def create_dir(package_id, filename):
+def create_dir(package_id):
 	target_dir = str(media_dir) + '/' + package_id + '_media'
 	if not os.path.isdir(target_dir):
 		os.mkdir(target_dir)

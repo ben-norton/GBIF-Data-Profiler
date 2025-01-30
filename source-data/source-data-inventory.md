@@ -2,19 +2,19 @@
 All datasets are occurrence-based and defined at the collection dataset level.
 Due to GitHub size constraints, the datasets listed below are not included in the repository. They must be downloaded separately. The datasets listed below correspond to the profiles currently posted on the GBIF Data Profiler dataset page.
 
-| Dataset                 | Title                                                                              | Count     | Date     | DOI                                                                    |
-| ----------------------- | ---------------------------------------------------------------------------------- |-----------| -------- |------------------------------------------------------------------------|
-| 0000214-250121130708018 | Field Museum of Natural History (Zoology) Insect, Arachnid and Myriapod Collection | 478,711   | 20250121 | [https://doi.org/10.15468/0ywfpc](https://doi.org/10.15468/0ywfpc)  |
-| 0000571-250121130708018 | CUMV Amphibian and Reptile Collection                                              | 26,789    | 20240122 | [https://doi.org/10.15468/emivh3](https://doi.org/10.15468/emivh3) |
-| 0001383-250121130708018 | NCSM Herpetology Collection                                                        | 103,916   | 20250122 | [https://doi.org/10.15468/enivwl](https://doi.org/10.15468/enivwl) |
-| 0049391-241126133413365 | NMNH Paleobiology Specimen Records (USNM)                                          | 724,508   | 20241226 | [https://doi.org/10.15468/7m0fvd](https://doi.org/10.15468/7m0fvd) |
+| Dataset                 | Title                                                                              | Count     | Date     | DOI                                                                      |
+| ----------------------- | ---------------------------------------------------------------------------------- |-----------|----------|--------------------------------------------------------------------------|
+| 0000214-250121130708018 | Field Museum of Natural History (Zoology) Insect, Arachnid and Myriapod Collection | 478,711   | 20250121 | [https://doi.org/10.15468/0ywfpc](https://doi.org/10.15468/0ywfpc)       |
+| 0000571-250121130708018 | CUMV Amphibian and Reptile Collection                                              | 26,789    | 20240122 | [https://doi.org/10.15468/emivh3](https://doi.org/10.15468/emivh3)       |
+| 0001383-250121130708018 | NCSM Herpetology Collection                                                        | 103,916   | 20250122 | [https://doi.org/10.15468/enivwl](https://doi.org/10.15468/enivwl)       |
+| 0049391-241126133413365 | NMNH Paleobiology Specimen Records (USNM)                                          | 724,508   | 20241226 | [https://doi.org/10.15468/7m0fvd](https://doi.org/10.15468/7m0fvd)       |
 | 0049394-241126133413365 | NMNH Material Samples (USNM)                                                       | 338,887   | 20241226 | [https://doi.org/10.15468/dl.ycwxgd](https://doi.org/10.15468/dl.ycwxgd) |
 | 0049395-241126133413365 | NMNH Extant Specimen Records (USNM, US)                                            | 9,277,970 | 20241226 | [https://doi.org/10.15468/dl.42mnjx](https://doi.org/10.15468/dl.42mnjx) |
 | 0061682-241126133413365 | Botany Division, Yale Peabody Museum                                               | 186,529   | 20250108 | [https://doi.org/10.15468/dl.twf535](https://doi.org/10.15468/dl.twf535) |
 | 0061684-241126133413365 | Vertebrate Zoology Division - Mammalogy, Yale Peabody Museum                       | 18,866    | 20250108 | [https://doi.org/10.15468/dl.shrths](https://doi.org/10.15468/dl.shrths) |
 | 0061686-241126133413365 | Naturalis Biodiversity Center (NL) - Aves                                          | 290,930   | 20240108 | [https://doi.org/10.15468/dl.u5tv27](https://doi.org/10.15468/dl.u5tv27) |
 | 0061690-241126133413365 | Naturalis Biodiversity Center (NL) - Botany                                        | 5,030,692 | 20240108 | [https://doi.org/10.15468/dl.4ze7ns](https://doi.org/10.15468/dl.4ze7ns) |
-
+| 0002582-250127130748423 | Field Museum of Natural History (Botany) Lichen Collection | 60,042 | 20250128 | [https://doi.org/10.15468/dl.mn87bp](https://doi.org/10.15468/dl.mn87bp) |
 
 | Dataset                 | Title                                 | Count     | Date     | Filter         | Value | DOI                                |
 | ----------------------- | ------------------------------------- |-----------| -------- | -------------- | ----- | ---------------------------------- |

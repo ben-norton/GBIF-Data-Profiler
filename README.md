@@ -8,6 +8,7 @@ You can explore an existing inventory of interactive profiles by visiting the re
 ```
 ├───app
 |   ├───analysis    | A collection of scripts for running basic structural analysis of source data files
+|   ├───media       | Utilities to download, migrate, and inventory multimedia files in occurrence datasets
 |   ├───profilers   | Scripts to generate interactive dataset profiles, see dataset profiler libraries
 |   ├───schemas     | Tabular schemas and CSV file statistics generated from the source dataset files
 |   └───utils       | General support utility scripts for performing specific tasks such as converting tab-delimited to comma-separated

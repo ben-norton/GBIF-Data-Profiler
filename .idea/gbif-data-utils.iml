@@ -4,8 +4,10 @@
     <content url="file://$MODULE_DIR$">
       <excludeFolder url="file://$MODULE_DIR$/.data-utils-venv" />
       <excludeFolder url="file://$MODULE_DIR$/.gbif-data-utils-venv" />
+      <excludeFolder url="file://$MODULE_DIR$/.auth" />
+      <excludeFolder url="file://$MODULE_DIR$/.gbif-data-profiler-venv" />
     </content>
-    <orderEntry type="jdk" jdkName="Python 3.12 virtualenv at G:\repos\util-projects\gbif-data-utils\.data-utils-venv" jdkType="Python SDK" />
+    <orderEntry type="jdk" jdkName="Python 3.12 virtualenv at G:\repos\util-projects\GBIF-Data-Profiler\.gbif-data-profiler-venv" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
   </component>
 </module>

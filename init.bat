@@ -1,2 +1,2 @@
 @echo off
-.\.data-utils-venv\Scripts\activate
+.\.gbif-data-profiler-venv\Scripts\activate
