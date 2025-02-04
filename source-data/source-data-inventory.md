@@ -15,6 +15,8 @@ Due to GitHub size constraints, the datasets listed below are not included in th
 | 0061686-241126133413365 | Naturalis Biodiversity Center (NL) - Aves                                          | 290,930   | 20240108 | [https://doi.org/10.15468/dl.u5tv27](https://doi.org/10.15468/dl.u5tv27) |
 | 0061690-241126133413365 | Naturalis Biodiversity Center (NL) - Botany                                        | 5,030,692 | 20240108 | [https://doi.org/10.15468/dl.4ze7ns](https://doi.org/10.15468/dl.4ze7ns) |
 | 0002582-250127130748423 | Field Museum of Natural History (Botany) Lichen Collection | 60,042 | 20250128 | [https://doi.org/10.15468/dl.mn87bp](https://doi.org/10.15468/dl.mn87bp) |
+| 0011504-250127130748423 | Field Museum of Natural History (Zoology) Mammal Collection | 236,488 | 20250204 | [https://doi.org/10.15468/dl.8cjh4u](https://doi.org/10.15468/dl.8cjh4u) |
+
 
 | Dataset                 | Title                                 | Count     | Date     | Filter         | Value | DOI                                |
 | ----------------------- | ------------------------------------- |-----------| -------- | -------------- | ----- | ---------------------------------- |
@@ -35,6 +37,7 @@ Datasets with more than 223 columns indicates a parsing error, most likely due t
 | 0000214-250121130708018 |  478707 |       190 | verbatim.txt |
 | 0000571-250121130708018 |   26789 |       190 | verbatim.txt |
 | 0001383-250121130708018 |  103736 |       190 | verbatim.txt |
+| 0011504-250127130748423 | 236488 | 190 | verbatim.txt |
 | 0049391-241126133413365 |  724508 |       190 | verbatim.txt |
 | 0049394-241126133413365 |  338440 |       190 | verbatim.txt |
 | 0049395-241126133413365 | 3814088 |       190 | verbatim.txt |
