@@ -17,7 +17,7 @@ def create_dir(package_id):
 	target_dir = str(media_dir) + '/' + package_id + '_media'
 	if not os.path.isdir(target_dir):
 		os.mkdir(target_dir)
-	return target_path
+	return target_dir
 
 for dataset in datasets:
     package_id = dataset
@@ -26,7 +26,7 @@ for dataset in datasets:
     df = pd.read_csv(source_file, sep='\t', lineterminator='\n', encoding='utf-8', encoding_errors='ignore', on_bad_lines='skip', dtype=object)
     length = len(df.index)
     if(length > 0):
-	    print('Number of Images: ' + length)
+	    print('Number of Images: ' + str(length))
 	    media_lst = df['identifier'].tolist()
 	    target_path = create_dir(package_id)
 	    shutil.copy(source_file, target_path)
@@ -35,7 +35,7 @@ for dataset in datasets:
 		    a = urlparse(url)
 		    filename = os.path.basename(a.path)
 		    target_file = str(target_path) + '/' + filename
-		    urllib.request.urlretrieve(url, target_path)
+		    urllib.request.urlretrieve(url, target_file)
 		    count += 1
 
 print("Number of images downloaded: " + count)

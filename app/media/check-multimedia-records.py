@@ -16,9 +16,6 @@ for dataset in datasets:
     source_file = str(root_dir) + '/source-data/' + package_id + '/multimedia.txt'
     df_package_media = pd.read_csv(source_file, sep='\t', lineterminator='\n', encoding='utf-8', encoding_errors='ignore',dtype=object)
     df_package_dict = {}
-    if(len(df_package_media.index) > 0):
-        examples = df_package_media.iloc[1].dropna()
-        df_package_dict['examples'] = examples
     df_package_dict['length'] = len(df_package_media)
     df_package_dict['shape'] = df_package_media.shape
     media_dict[package_id] = df_package_dict

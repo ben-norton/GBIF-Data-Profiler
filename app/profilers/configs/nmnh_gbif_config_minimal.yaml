@@ -1,9 +1,9 @@
 # Title of the document
-title: NMNH GBIF YData Profiling Report
+title: USNM GBIF YData Profiling Report
 
 # Metadata
 dataset:
-  description: "NMNH GBIF Dataset Profiles"
+  description: "USNM GBIF Dataset Profiles"
   creator: "Ben Norton"
   author: "Ben Norton"
   copyright_holder: ""

@@ -12,7 +12,7 @@ import yaml
 # Output is placed in the output directory, which is copied to the flask application using a script under utils
 # Sweetviz allows for customized configuration files. The configuration for this project is sweetviz_gbif.ini located under configs
 
-dataset_code = 'ncsm'
+dataset_code = 'usnm'
 package_file_stem = 'verbatim'
 
 today = date.today()
@@ -32,7 +32,8 @@ for dataset in datasets:
     source_path = str(root_dir) + '/source-data/' + archive_code
     source_file = str(source_path) + '/' + source_filename
     target_path = str(root_dir) + '/app/profilers/output'
-    target_report = str(target_path) + '/' + str(ts) + '-' + archive_code + '-' + package_file_stem + '-' + dataset_code + '-yd.html'
+    target_reportname = archive_code + '-' + package_file_stem + '-' + dataset_code + '-yd.html'
+    target_report = str(target_path) + '/' + target_reportname
 
     # Metadata
     meta_yaml = str(source_path) + '/meta.yml'
@@ -71,3 +72,15 @@ for dataset in datasets:
                             minimal=True
                             )
     profile.to_file(target_report)
+
+    log_dict = {}
+    log_dict['archive_code'] = archive_code
+    log_dict['package_file_stem'] = package_file_stem
+    log_dict['dataset_code'] = dataset_code
+    log_dict['timestamp'] = ts
+    log_dict['target_file'] = target_reportname
+    log_dict['profiler'] = 'ydata'
+
+    file = open("profiler_log.yml", "a")
+    yaml.dump(log_dict, file)
+    file.close()

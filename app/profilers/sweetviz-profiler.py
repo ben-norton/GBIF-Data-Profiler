@@ -1,9 +1,11 @@
+import os
 import sweetviz as sv
 import pandas as pd
 from datetime import date
 import schemas as sch
 import globals as cfg
 import yaml
+import json
 
 # This script generates Sweetviz interactive profiles of source datasets
 # Datasets are specified by dataset_code (see globals.py) and package filename (without the extension)
@@ -11,7 +13,7 @@ import yaml
 # Sweetviz allows for customized configuration files. The configuration for this project is sweetviz_gbif.ini located under configs
 
 package_file_stem = 'verbatim'
-dataset_code = 'ncsm'
+dataset_code = 'naturalis'
 
 today = date.today()
 ts = today.strftime("%Y%m%d")
@@ -34,7 +36,8 @@ for dataset in datasets:
     source_file = str(source_path) + '/' + source_filename
     # Target
     target_path = str(root_dir) + '/app/profilers/output'
-    target_report = str(target_path) + '/' + str(ts) + '-' + archive_code + '-' + package_file_stem + '-' + dataset_code + '-sv.html'
+    target_file = archive_code + '-' + package_file_stem + '-' + dataset_code + '-sv.html'
+    target_report = str(target_path) + '/' + target_file
 
     # Metadata
     meta_yaml = str(source_path) + '/meta.yml'
@@ -69,4 +72,16 @@ for dataset in datasets:
         open_browser=False,
         layout='widescreen',
         scale=None)
+
+    log_dict = {}
+    log_dict['archive_code'] = archive_code
+    log_dict['package_file_stem'] = package_file_stem
+    log_dict['dataset_code'] = dataset_code
+    log_dict['timestamp'] = ts
+    log_dict['target_file'] = target_file
+    log_dict['profiler'] = 'sweetviz'
+
+    file = open("profiler_log.yml", "a")
+    yaml.dump(log_dict, file)
+    file.close()
 

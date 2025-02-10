@@ -17,7 +17,6 @@ Due to GitHub size constraints, the datasets listed below are not included in th
 | 0002582-250127130748423 | Field Museum of Natural History (Botany) Lichen Collection | 60,042 | 20250128 | [https://doi.org/10.15468/dl.mn87bp](https://doi.org/10.15468/dl.mn87bp) |
 | 0011504-250127130748423 | Field Museum of Natural History (Zoology) Mammal Collection | 236,488 | 20250204 | [https://doi.org/10.15468/dl.8cjh4u](https://doi.org/10.15468/dl.8cjh4u) |
 
-
 | Dataset                 | Title                                 | Count     | Date     | Filter         | Value | DOI                                |
 | ----------------------- | ------------------------------------- |-----------| -------- | -------------- | ----- | ---------------------------------- |
 | 0052484-241126133413365 | Entomology Extant Specimen Records    | 606,772   | 20241231 | collectionCode | ent   | https://doi.org/10.15468/dl.ptewed |
