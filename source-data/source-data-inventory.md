@@ -6,7 +6,6 @@ Due to GitHub size constraints, the datasets listed below are not included in th
 |-------------------------| ---------------------------------------------------------------------------------- |---------|----------|--------------------------------------------------------------------------|
 | 0000214-250121130708018 | Field Museum of Natural History (Zoology) Insect, Arachnid and Myriapod Collection | 478,711 | 20250121 | [https://doi.org/10.15468/0ywfpc](https://doi.org/10.15468/0ywfpc)       |
 | 0000571-250121130708018 | CUMV Amphibian and Reptile Collection                                              | 26,789  | 20240122 | [https://doi.org/10.15468/emivh3](https://doi.org/10.15468/emivh3)       |
-| 0001383-250121130708018 | NCSM Herpetology Collection                                                        | 103,916 | 20250122 | [https://doi.org/10.15468/enivwl](https://doi.org/10.15468/enivwl)       |
 | 0049391-241126133413365 | NMNH Paleobiology Specimen Records (USNM)                                          | 724,508 | 20241226 | [https://doi.org/10.15468/7m0fvd](https://doi.org/10.15468/7m0fvd)       |
 | 0049394-241126133413365 | NMNH Material Samples (USNM)                                                       | 338,887 | 20241226 | [https://doi.org/10.15468/dl.ycwxgd](https://doi.org/10.15468/dl.ycwxgd) |
 | 0049395-241126133413365 | NMNH Extant Specimen Records (USNM, US)                                            | 9,277,970 | 20241226 | [https://doi.org/10.15468/dl.42mnjx](https://doi.org/10.15468/dl.42mnjx) |
