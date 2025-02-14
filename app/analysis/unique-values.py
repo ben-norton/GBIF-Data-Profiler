@@ -1,11 +1,7 @@
 import pandas as pd
 import globals as cfg
-import schemas as sch
-import numpy as np
 from datetime import date
-import os
-from openpyxl import Workbook
-from openpyxl.styles import Alignment
+
 
 today = date.today()
 ts = today.strftime("%Y%m%d")

@@ -79,10 +79,10 @@ def generate_web_sources(target, source):
                 # Split filename by hyphen and remove extension
                 name_split = path.stem.split("-")
                 # Get Institution Code and add to Dict
-                data_dict['source_file'] = name_split[3] + '.txt'
-                data_dict['institution_code'] = name_split[4]
+                data_dict['source_file'] = name_split[2] + '.txt'
+                data_dict['institution_code'] = name_split[3]
                 # Get Profiler Library and add to Dict
-                profiler_notation = name_split[5]
+                profiler_notation = name_split[4]
                 if (profiler_notation == 'yd'):
                     profiler = 'YData'
                 elif (profiler_notation == 'sv'):

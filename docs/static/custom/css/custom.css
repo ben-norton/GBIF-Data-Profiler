@@ -137,6 +137,9 @@ p {
 }
 
 /* Tables ------------------------------------------ */
+.dataset-table-wrapper table.table.accordian:nth-child(n+2) thead {
+    background-color: #D2E1F0;
+}
 table {
     border-collapse: collapse;
     width: 100%;

@@ -39,13 +39,13 @@ def datasets():
     with open(datasets_mdfile, encoding="utf-8") as f:
         marked_text = markdown2.markdown(f.read(), extras=["tables", "fenced-code-blocks"])
 
-    datasets_csv = 'app/data/web-source.csv'
+    datasets_csv = 'app/data/web_source.csv'
     df = pd.read_csv(datasets_csv, encoding='utf-8')
     df_datasets = df.sort_values(by=['package_id', 'profile_library'])
 
-    df_datasets_index = df[['package_id','title','institution_code_x']]
+    df_datasets_index = df[['package_id','title','institution_code']]
     df_datasets_index = df_datasets_index.drop_duplicates()
-    df_datasets_index = df_datasets_index.sort_values(by=['institution_code_x','title'])
+    df_datasets_index = df_datasets_index.sort_values(by=['institution_code','title'], inplace=True)
 
     return render_template('datasets.html',
                            datasets_markdown=Markup(marked_text),

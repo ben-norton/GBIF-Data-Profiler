@@ -5,7 +5,7 @@ This directory contains a small website for publishing data profiles.
 ### Testing
 * Open the command line window and navigate to the instance root directory (e.g. (root)/web)
 * Make sure the virtual environment is activated (conda activate .data-utils-venv or .\.data-utils-venv\Scripts\activate)
-* At the commend line, enter $flask run
+* At the command line, enter $flask run
 * Open a browser to localhost:5000
 * To end testing and stop the development server, press CTRL+C in the command line window
 
