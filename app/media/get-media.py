@@ -7,6 +7,8 @@ from urllib.parse import urlparse
 import urllib.request
 import shutil
 
+# Download all files listed in multimedia.txt files and save locally to the specified media directory
+
 root_dir = cfg.get_project_root()
 media_dir = cfg.get_media_directory()
 dataset_code = 'media'        # Dataset Filter. See globals.py

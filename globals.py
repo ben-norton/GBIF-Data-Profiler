@@ -88,6 +88,10 @@ def get_datasets(str):
         datasets = [
             '0011504-250127130748423'
         ]
+    elif (str == 'test'):
+        datasets = [
+            '0055081-241126133413365'
+        ]
 
     else:
         datasets = []
