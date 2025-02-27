@@ -18,6 +18,7 @@ Due to GitHub size constraints, the datasets listed below are not included in th
 | 0000320-250213122211068 | Edinburgh (E) Herbarium Specimens | 1,474,154 | 20250213 | [https://doi.org/10.15468/dl.7zm5y7](https://doi.org/10.15468/dl.7zm5y7) |
 | 0000644-250214102907787 | Invertebrate Paleontology Division, Yale Peabody Museum | 558,416 | 20250214 | [https://doi.org/10.15468/dl.6ea98x](https://doi.org/10.15468/dl.6ea98x) |
 | 0000647-250214102907787 | University of Florida Vertebrate Paleontology | 540,064 | 20250214 | [https://doi.org/10.15468/dl.xj3kbv](https://doi.org/10.15468/dl.xj3kbv) |
+| | Carnegie Museum of Natural History Herbarium | 548,293 | 20250226 | [https://doi.org/10.15468/dl.pk7er3](https://doi.org/10.15468/dl.pk7er3) |
 
 | Dataset                 | Title                                 | Count     | Date     | Filter         | Value | DOI                                |
 | ----------------------- | ------------------------------------- |-----------| -------- | -------------- | ----- | ---------------------------------- |
