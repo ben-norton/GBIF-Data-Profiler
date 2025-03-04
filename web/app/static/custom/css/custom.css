@@ -25,14 +25,13 @@ html, body {
     font-family: 'Nunito Sans', sans-serif;
     background-color: white;
 }
-nav.navbar {
-    background-color: rgba(200,200,200,0.2);
+nav.navbar.bg-body-tertiary {
+    background-color: rgba(200,200,200,0.3) !important;
 }
 .navbar-brand {
     padding-left: 5px;
     color: var(--primary-color-dark);
     font-weight: 600;
-
 }
 .container.wrapper {
 }
@@ -51,6 +50,7 @@ footer.footer {
 .sidebar {
     font-weight: 200;
 }
+/*
 .sidebar ul.sidebar-nav {
     width: 100%;
     display: block;
@@ -68,14 +68,15 @@ footer.footer {
     line-height: 2;
      border-left: 5px solid transparent;
 }
+*/
 .sidebar ul.sidebar-nav li a {
 
     width: 100%;
     display: block;
     text-decoration: none;
     font-weight: 300;
-    color: var(--text-color);
     border-right: 5px solid transparent;
+    text-decoration: none;
 }
 .sidebar ul.sidebar-nav li a:hover {
     padding: 0;
@@ -83,7 +84,6 @@ footer.footer {
 .sidebar ul.sidebar-nav li:hover {
     background: rgba(220,220,220,0.2);
     border-right: 5px solid var(--primary-color);
-
 }
 /* Typography ----------------------------------- */
 
@@ -130,7 +130,6 @@ h4 {
     font-weight: bold;
     unicode-bidi: isolate;
 }
-
 p {
     font-weight: 300;
     color: #4A4A4A;
@@ -152,7 +151,8 @@ table th {
     border-color: white;
     border-bottom-color: #F0E8E8;
 }
-table td, table th {
+table td,
+table th {
     border: 1px solid #F0E8E8;
     padding: 0.8rem;
     font-weight: 300;
@@ -161,14 +161,11 @@ table td:first-child {
     background-color: #F8F8FA;
     font-weight: 600;
 }
-table td, table th {
-    border: 1px solid #F0E8E8;
-    padding: 0.8rem;
-    font-weight: 300;
-}
 table.table-dataset {
     margin-bottom: 20px;
 }
+
+
 table.table-dataset tbody th {
     font-weight: 600;
 }
@@ -216,7 +213,35 @@ table thead th i {
     padding-top: 4px;
     color: #2C2E4D;
 }
-
+table.table-dataset thead tr th,
+table.table-dataset tbody tr td,
+table.table-dataset tbody tr th {
+    padding: 8px;
+}
+table.table-dataset tbody tr td,
+table.table-dataset tbody tr th {
+    font-size: 13px;
+}
+/* Collapser --------------------------------------------------- */
+.card.card-dataset .card-header {
+    border-top: 2px solid var(--primary-color);
+    padding-top: 12px;
+    background: #FFFFFF;
+    font-weight: 700;
+}
+.card.card-dataset .card-header:hover,
+.card.card-dataset .card-header:active {
+    background-color: var(--light-gray-color);
+}
+.card.card-dataset .card-header span.show-message {
+  font-style: italic;
+  color: var(--dark-gray-color);
+  opacity: 0.8;
+  font-weight: 300;
+}
+.card-body .btn.btn-sm {
+    padding: 0.25rem 0.5rem;
+}
 /* Datsset Index -------------------- */
 ul.dataset-index-list {
     list-style-type: none;
@@ -229,6 +254,40 @@ ul.list-2-col {
 ul.dataset-index-list li {
     line-height: 1.6;
 }
+
+
+/* LUX Overrides --------------------------------------------------- */
+h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2 {
+    margin-top: 2rem;
+    margin-bottom: 0.25rem;
+}
+h1, .h1 {
+    margin-top: 0.25rem;
+    margin-bottom: 0.25rem;
+}
+a {
+    color: rgb(13, 110, 253);
+}
+table.table-dataset tbody,
+table.table-dataset tbody tr,
+table.table-dataset tbody td,
+table.table-dataset tbody th {
+    background: rgba(225,225,225,0.1) !important;
+}
+table.table-dataset tbody tr {
+    border-top: 1px solid rgba(225,225,225,0.8);
+}
+table.table-dataset {
+    margin: 0;
+}
+table.table-dataset:nth-of-type(2n+1) {
+    border-top: 2px solid green;
+    padding-top: 5px;
+}
+
+
+
+
 
 /* Responsive ----------- */
 

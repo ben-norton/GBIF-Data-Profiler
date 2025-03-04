@@ -1,69 +1,48 @@
     <div class="dataset-table-wrapper">
-        <div class="table-responsive print-avoid">
-        {% for k,v in datasets.iterrows() %}
-            <table class="table accordian table-compact table-terms table-bordered table-dataset" id="{{ v['package_id'] }}">
-                <thead>
-                    <tr data-bs-toggle="collapse" data-bs-target="#r{{ loop.index }}" class="tr-collapse-trigger" aria-expanded="false">
-                        <th class="table-title th-collapser" colspan="2">
-                            <span class="float-start">
-                                {{ v['title'] }}
-                            </span>
-                            <div class="float-end">
-                                <span class="show-message">Show</span>
-                                <i class="ti ti-chevron-down"></i>
-                            </div>
-                            <div class="clearfix"></div>
-                        </th>
-                    </tr>
-                </thead>
-                <tbody class="collapse accordion-collapse" id="r{{ loop.index }}" data-bs-parent=".table">
-                        <tr>
-                            <th>Package ID:</th>
-                            <td>{{ v['package_id'] }}</td>
-                        </tr>
-                        <tr>
-                            <th>Institution Code:</th>
-                            <td>{{ v['institution_code_x'] }}</td>
-                        </tr>
-                        <tr>
-                            <th>Record Count</th>
-                            <td>{{ v['record_count'] }}</td>
-                        </tr>
-                        <tr>
-                            <th>Download Date</th>
-                            <td>{{ v['download_date'] }}</td>
-                        </tr>
+        {% for item in grouped_datasets|sort(attribute='institution_code,package_id') %}
+            <div class="card card-dataset mb-10" id="{{ item['package_id'] }}">
+                <div class="card-header"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#r{{ item['package_id'] }}"
+                    aria-expanded="false"
+                    aria-controls="r{{ item['package_id'] }}">
+                        {{ item['title'] }}
+                     <div class="float-end">
+                        <span class="show-message">Show</span>
+                        <i class="ti ti-chevron-down"></i>
+                     </div>
 
-                        {% if v['filter_parameter'] is number %}
-                        {% else %}
-                            <tr>
-                                <th>Filter Parameter</th>
-                                <td>{{ v['filter_parameter'] }}</td>
-                            </tr>
-                        {% endif %}
-
-                        {% if v['filter_value'] is number %}
-                        {% else %}
-                            <tr>
-                                <th>Filter Value</th>
-                                <td>{{ v['filter_value'] }}</td>
-                            </tr>
-                        {% endif %}
-
-                        <tr>
-                            <th>DOI</th>
-                            <td>{{ v['doi']|urlize }}</td>
-                        </tr>
-                        <tr>
-                            <th>Profile Library</th>
-                            <td>{{ v['profile_library'] }}</td>
-                        </tr>
-                        <tr>
-                            <th>Profile Link</th>
-                            <td><a href="{{ url_for('static', filename= v['profile_link']) }}">{{ v['profile_link'] }}</a></td>
-                        </tr>
-                </tbody>
-            </table>
+                </div>
+                <div class="card-body collapse" id="r{{ item['package_id'] }}">
+                    {% for k in item.profiles %}
+                        <div class="table-responsive print-avoid">
+                            <table class="table table-compact table-terms table-bordered table-dataset">
+                                <tbody>
+                                   <tr>
+                                        <th class="col-md-2">Record Count</th>
+                                        <td class="col-md-10">{{ k[0] }}</td>
+                                    </tr>
+                                    <tr>
+                                        <th>Download Date</th>
+                                        <td>{{ k[1] }}</td>
+                                    </tr>
+                                    <tr>
+                                        <th>DOI</th>
+                                        <td>{{ k[2]|urlize }}</td>
+                                    </tr>
+                                    <tr>
+                                        <th>Profile Library</th>
+                                        <td>{{ k[3] }}</td>
+                                    </tr>
+                                    <tr>
+                                        <th>Profile Link</th>
+                                        <td><a href="{{ url_for('static', filename=k[4]) }}" class="btn btn-outline-primary btn-sm">View Profile</a></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    {% endfor %}
+                </div>
+            </div>
         {% endfor %}
-        </div>
     </div>
