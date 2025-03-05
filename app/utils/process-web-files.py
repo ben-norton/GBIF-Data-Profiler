@@ -26,7 +26,7 @@ md_file = str(root_dir) + '/web/app/md/dataset-profiles-table.md'
 source_datasets_ymlfile = str(root_dir) + '/web/app/md/source-datasets.yaml'
 web_source_csv = str(root_dir) + '/web/app/data/web_source.csv'
 
-# Copy Files
+# Copy Files from source_dir to target_dir
 def copy(src, dest):
     for name in os.listdir(src):
         pathname = os.path.join(src, name)
@@ -95,7 +95,7 @@ def generate_web_sources(target, source):
 
     df_profiles = pd.DataFrame.from_dict(master_list)
     df_profiles = df_profiles[['package_id','profile_link','last_modified','source_file','profile_library']]
-    df_profiles = df_profiles.sort_values(by=['package_id'])
+    df_profiles = df_profiles.sort_values(by=['package_id','profile_library'])
     print(df_profiles)
     md_file = 'dataset_profiles.md'
     md = df_profiles.to_markdown()

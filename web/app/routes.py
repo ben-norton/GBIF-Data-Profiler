@@ -41,7 +41,8 @@ def datasets():
 
     datasets_csv = 'app/data/web_source.csv'
     df = pd.read_csv(datasets_csv, encoding='utf-8')
-    df_datasets = df.sort_values(by=['package_id', 'profile_library'])
+    #df_datasets = df.sort_values(by=['package_id', 'profile_library'])
+    df_datasets = df.sort_values(by=['institution_code','title'])
 
     df_datasets_index = df[['package_id','title','institution_code']]
     df_datasets_index = df_datasets_index.drop_duplicates()
