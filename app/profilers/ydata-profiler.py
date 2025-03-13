@@ -12,7 +12,7 @@ import yaml
 # Output is placed in the output directory, which is copied to the flask application using a script under utils
 # Sweetviz allows for customized configuration files. The configuration for this project is sweetviz_gbif.ini located under configs
 
-dataset_code = 'fix'
+dataset_code = 'br'
 package_file_stem = 'verbatim'
 
 today = date.today()
