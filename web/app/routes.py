@@ -4,6 +4,7 @@ from markupsafe import Markup
 import markdown2
 import pandas as pd
 import yaml
+import numpy as np
 
 app.debug = True
 
@@ -46,6 +47,8 @@ def datasets():
 
     df_datasets_index = df[['package_id','title','institution_code']]
     df_datasets_index = df_datasets_index.drop_duplicates()
+    df_datasets['profiler_abbreviation'] = np.where(df_datasets['profile_library'] == 'Sweetviz', 'sw', 'yd')
+
     df_datasets_index = df_datasets_index.sort_values(by=['institution_code','title'])
 
     grpdict = df.groupby(['package_id','title','institution_code'])[

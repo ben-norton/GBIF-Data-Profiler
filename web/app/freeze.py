@@ -7,6 +7,7 @@ import markdown2
 import pandas as pd
 import yaml
 from pathlib import Path
+import numpy as np
 
 current_dir = Path.cwd()
 root_dir = current_dir.parent.parent
@@ -56,6 +57,7 @@ def datasets():
     datasets_csv = 'data/web_source.csv'
     df = pd.read_csv(datasets_csv, encoding='utf-8')
     df_datasets = df.sort_values(by=['package_id', 'profile_library'])
+    df_datasets['profiler_abbreviation'] = np.where(df_datasets['profile_library'] == 'Sweetviz', 'sw', 'yd')
 
     df_datasets_index = df[['package_id', 'title', 'institution_code']]
     df_datasets_index = df_datasets_index.drop_duplicates()
