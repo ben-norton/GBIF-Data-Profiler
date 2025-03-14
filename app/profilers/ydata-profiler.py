@@ -12,14 +12,16 @@ import yaml
 # Output is placed in the output directory, which is copied to the flask application using a script under utils
 # Sweetviz allows for customized configuration files. The configuration for this project is sweetviz_gbif.ini located under configs
 
+# Set source files
 dataset_code = 'br'
 package_file_stem = 'verbatim'
 
 today = date.today()
 ts = today.strftime("%Y%m%d")
-
+# Set Paths
 datasets = cfg.get_datasets(dataset_code)
 root_dir = cfg.get_project_root()
+# Set Column Sets
 occurrence_cols = sch.get_gbif_columns()
 verbatim_cols = sch.get_verbatim_gbif_columns()
 
@@ -40,6 +42,7 @@ for dataset in datasets:
     with open(meta_yaml, 'r') as f:
         meta = yaml.safe_load(f)
 
+    # Check type of file than designate columns accordingly
     if (package_file_stem == 'occurrence'):
         cols = occurrence_cols
     elif (package_file_stem == 'verbatim'):
@@ -47,6 +50,7 @@ for dataset in datasets:
     else:
         cols = sch.get_gbif_columns()
 
+    # Read source file
     df = pd.read_csv(source_file, sep='\t', lineterminator='\n', encoding='utf-8', usecols=cols, dtype=object, quoting=3)
 
     # Drop columnns with no values
@@ -65,14 +69,13 @@ for dataset in datasets:
         "description": title + ' ' + archive_code,
         "url": doi
     }
-
     profile = ProfileReport(df,
                             title=title,
                             dataset=dataset_dict,
                             minimal=True
                             )
     profile.to_file(target_report)
-
+# Log Process to Profiler Log
     log_dict = {}
     log_dict['archive_code'] = archive_code
     log_dict['package_file_stem'] = package_file_stem

@@ -12,17 +12,22 @@ import json
 # Output is placed in the output directory, which is copied to the flask application using a script under utils
 # Sweetviz allows for customized configuration files. The configuration for this project is sweetviz_gbif.ini located under configs
 
+# Set Source Files
 package_file_stem = 'verbatim'
 dataset_code = 'br'
 
 today = date.today()
 ts = today.strftime("%Y%m%d")
 
+# Set Paths
 datasets = cfg.get_datasets(dataset_code)
 root_dir = cfg.get_project_root()
+
+# Set Column Sets
 occurrence_cols = sch.get_gbif_columns()
 verbatim_cols = sch.get_verbatim_gbif_columns()
 
+# Get Profiler Configuration
 sv_config = str(root_dir) + '/app/profilers/configs/sweetviz_gbif.ini'
 sv.config_parser.read(sv_config)
 
@@ -31,7 +36,7 @@ for dataset in datasets:
     print(archive_code)
     source_filename = package_file_stem + '.txt'
 
-    # Paths
+    # Source
     source_path = str(root_dir) + '/source-data/' + archive_code
     source_file = str(source_path) + '/' + source_filename
     # Target
@@ -73,6 +78,7 @@ for dataset in datasets:
         layout='widescreen',
         scale=None)
 
+# Log Process to Profiler Log
     log_dict = {}
     log_dict['archive_code'] = archive_code
     log_dict['package_file_stem'] = package_file_stem

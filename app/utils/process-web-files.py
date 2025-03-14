@@ -22,12 +22,14 @@ root_dir = cfg.get_project_root()
 source_dir = str(root_dir) + '/app/profilers/output'
 target_dir = str(root_dir) + '/web/app/static/components/dataset-profiles'
 source_data_dir = str(root_dir) + '/source-data'
-md_file = str(root_dir) + '/web/app/md/dataset-profiles-table.md'
+md_target_dir = str(root_dir) + '/web/app/md'
 source_datasets_ymlfile = str(root_dir) + '/web/app/md/source-datasets.yaml'
 web_source_csv = str(root_dir) + '/web/app/data/web_source.csv'
 
+
 # Copy Files from source_dir to target_dir
 def copy(src, dest):
+    print("Copying Files")
     for name in os.listdir(src):
         pathname = os.path.join(src, name)
         if os.path.isfile(pathname):
@@ -41,6 +43,7 @@ def copy(src, dest):
 
 
 def generate_yaml(target):
+    print("Generating YAML")
     # Output yaml file
     output_yaml = str(source_data_dir) + '/source-datasets-meta.yml'
     # Create meta.yml dictionary and dataframe from meta.yml files
@@ -62,7 +65,7 @@ def generate_yaml(target):
 
 # Generate Web Source Data
 def generate_web_sources(target, source):
-
+    print("Generating Web Source Data")
     # Create dataframe from dataset profiles
     master_list = list()
     for name in os.listdir(target):
@@ -96,11 +99,13 @@ def generate_web_sources(target, source):
     df_profiles = pd.DataFrame.from_dict(master_list)
     df_profiles = df_profiles[['package_id','profile_link','last_modified','source_file','profile_library']]
     df_profiles = df_profiles.sort_values(by=['package_id','profile_library'])
-    print(df_profiles)
-    md_file = 'dataset_profiles.md'
+
+    # Generate Dataset Profiles Table and copy the markdown file to the web directory
+    profiles_table = 'dataset-profiles-table.md'
     md = df_profiles.to_markdown()
-    with open(md_file, 'w') as f:
+    with open(profiles_table, 'w') as f:
         f.write(md)
+    shutil.copy2(md, md_target_dir)
 
     # Create meta.yml dataframe from meta.yml files in source-datasets directory
     yml_dict = []
@@ -108,29 +113,39 @@ def generate_web_sources(target, source):
         with open(yf, 'r') as f:
             meta_dict = yaml.load(f, Loader=yaml.FullLoader)
             yml_dict.append(meta_dict)
-    df_yml = pd.DataFrame.from_dict(yml_dict)
 
-    mdyml_file = 'dataset_yml.md'
+    df_yml = pd.DataFrame.from_dict(yml_dict)
+    datasets_file = 'datasets_table.md'
     md_yml = df_yml.to_markdown()
-    with open(mdyml_file, 'w') as f:
+    with open(datasets_file, 'w') as f:
         f.write(md_yml)
+
 
 
     # Merge Dataframes on package_id
     df_merged = pd.merge(df_yml,df_profiles,on=['package_id'], how='right')
-
-
     # Write merged to markdown
     md_table = df_merged.to_markdown(index=False)
     with open(md_file, 'w') as f:
         f.write(md_table)
-
     # Write merged to new YAML file
     df_merged.to_csv(web_source_csv, index=False, encoding='utf-8')
 
 # Function Calls
-#copy(source_dir, target_dir)
-#generate_yaml(source_data_dir)
-generate_web_sources(target_dir, source_data_dir)
+def run_functions():
+    funcs = [
+        copy(source_dir, target_dir),
+        generate_yaml(source_data_dir),
+        generate_web_sources(target_dir, source_data_dir)
+    ]
+    exc = Exception('Function failed!')
+    for func in funcs:
+        try:
+            func()
+            return
+        except Exception as e:
+            print(str(e))
+            break
 
-
+if __name__ == '__main__':
+    run_functions()
