@@ -51,7 +51,7 @@ for dataset in datasets:
         cols = verbatim_cols
     else:
         cols = sch.get_gbif_columns()
-    df = pd.read_csv(source_file, sep='\t', lineterminator='\n', encoding='utf-8', usecols=cols, dtype=object)
+    df = pd.read_csv(source_file, sep='\t', lineterminator='\n', encoding='utf-8', usecols=cols, dtype=object, quoting=3)
 
     # Drop columnns with no values
     df.dropna(how='all', axis=1, inplace=True)
