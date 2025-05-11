@@ -14,7 +14,7 @@ import json
 
 # Set Source Files
 package_file_stem = 'verbatim'
-dataset_code = 'br'
+dataset_code = 'usnm'
 
 today = date.today()
 ts = today.strftime("%Y%m%d")

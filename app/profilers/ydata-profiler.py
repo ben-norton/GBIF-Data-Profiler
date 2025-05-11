@@ -13,7 +13,7 @@ import yaml
 # Sweetviz allows for customized configuration files. The configuration for this project is sweetviz_gbif.ini located under configs
 
 # Set source files
-dataset_code = 'br'
+dataset_code = 'usnm'
 package_file_stem = 'verbatim'
 
 today = date.today()

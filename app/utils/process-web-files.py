@@ -52,12 +52,12 @@ def generate_yaml(target):
     for ymlfile in files:
         with open(ymlfile, 'r') as f:
             meta_dict = yaml.load(f, Loader=yaml.FullLoader)
-            yml_dict.append(meta_dict)
-
+            if("deprecated" in meta_dict and meta_dict['deprecated'] != True):
+                print(meta_dict['package_id'] + ' added to YAML')
+                yml_dict.append(meta_dict)
     # Write merged yaml to file
     with open(output_yaml, 'w') as of:
         yaml.dump(yml_dict, of, default_flow_style=False)
-
     # meta.yml dataframe
     df_yml = pd.DataFrame.from_dict(yml_dict)
 
