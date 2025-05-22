@@ -16,3 +16,4 @@
 /.aws/
 /.aws/*
 /web/deprecated/
+/__pycache__/
