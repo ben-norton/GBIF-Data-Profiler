@@ -6,8 +6,7 @@ The source data directory contains the source occurrence datasets downloaded usi
 Datasets are organized by package ID, the identifier assigned by GBIF when a dataset is selected for download. See the source--data-inventory.md document for a tabulated summary.
 
 ## Contact
-Designed and Developed by Ben Norton   
-[ben.norton@yale.edu](mailto:ben.norton@yale.edu)
+Designed and Developed by **Ben Norton**   [ben.norton@yale.edu](mailto:ben.norton@yale.edu)
 
 ## GitHub Repository
 The project repository contains a collection of analysis and profiling tools with the documentation generator.  
